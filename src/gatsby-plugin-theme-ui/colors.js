@@ -9,9 +9,9 @@ export default {
     dark: {
       text: "#fff",
       background: "#182952",
-      primary: "#f638dc",
-      secondary: "#ff7976",
-      sidebar: "#101d3c",
+      primary: "#d64000",
+      secondary: "#da1b60",
+      sidebar: "#1d1d1d",
       borderColor: "rgba(255, 255, 255, 0.15)"
     },
     cool: {
