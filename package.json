@@ -1,0 +1,22 @@
+{
+  "name": "bibwoe.com",
+  "author": "Donald Boulton",
+  "repository": "https://github.com/donaldboulton/bibwoe.com",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build"
+  },
+  "dependencies": {
+    "gatsby": "^2.15.28",
+    "gatsby-plugin-mailchimp": "^5.1.2",
+    "gatsby-plugin-netlify": "^2.1.17",
+    "gatsby-plugin-netlify-cache": "^1.2.0",
+    "gatsby-plugin-offline": "^3.0.11",
+    "gatsby-plugin-robots-txt": "^1.5.0",
+    "gatsby-theme-document": "1.0.9",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  }
+}
