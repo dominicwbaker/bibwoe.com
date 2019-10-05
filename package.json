@@ -9,7 +9,10 @@
     "build": "gatsby build"
   },
   "dependencies": {
+    "algoliasearch": "^3.35.0",
+    "dotenv": "^8.1.0",
     "gatsby": "^2.15.28",
+    "gatsby-plugin-algolia": "^0.3.4",
     "gatsby-plugin-mailchimp": "^5.1.2",
     "gatsby-plugin-netlify": "^2.1.17",
     "gatsby-plugin-netlify-cache": "^1.2.0",
@@ -17,7 +20,9 @@
     "gatsby-plugin-robots-txt": "^1.5.0",
     "gatsby-plugin-sitemap": "^2.2.16",
     "gatsby-theme-document": "1.0.9",
+    "polished": "^3.4.1",
     "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "react-dom": "^16.10.2",
+    "react-instantsearch-dom": "^5.7.0"
   }
 }
