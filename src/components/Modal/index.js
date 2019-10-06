@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { transparentize } from 'polished'
-import { COLORS, FONTS } from '../constants'
-import { bs } from './shevy'
-import Container from './Container'
+import { COLORS, FONTS } from '../Constants'
+import { bs } from '../Shevy'
+import Container from '../Container'
 
 export default function Modal({
   ariaLabel,

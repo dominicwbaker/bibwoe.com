@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { css } from '@emotion/core'
 import { lighten } from 'polished'
-import { COLORS, FONTS } from '../constants'
-import { bs } from './shevy'
+import { COLORS, FONTS } from '../Constants'
+import { bs } from '../Shevy'
 
 export const baseItemStyles = css`
   display: inline-block;

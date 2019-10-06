@@ -1,6 +1,6 @@
 import React from 'react'
-import { BREAKPOINTS } from '../constants'
-import { createMediaQuery } from '../utils'
+import { BREAKPOINTS } from '../Constants'
+import { createMediaQuery } from '../../utils'
 
 const Container = ({ children }) => (
   <div

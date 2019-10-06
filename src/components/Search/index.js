@@ -11,11 +11,11 @@ import {
 import algoliasearch from 'algoliasearch/lite'
 import { Link } from 'gatsby'
 import { COLORS, FONTS } from '../constants'
-import Container from './Container'
-import Modal from './Modal'
-import SearchIcon from './icons/Search'
-import CloseIcon from './icons/Close'
-import * as PaginationStyles from './Pagination'
+import Container from '../Container'
+import Modal from '../Modal'
+import SearchIcon from '../icons/Search'
+import CloseIcon from '../icons/Close'
+import * as PaginationStyles from '../Pagination'
 
 const SearchBox = connectSearchBox(({ currentRefinement, refine }) => {
   return (
