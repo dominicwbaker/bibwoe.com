@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import { css } from '@emotion/core'
 import { lighten } from 'polished'
 import { COLORS, FONTS } from '../constants'
-import { bs } from '../shevy'
+import { bs } from './shevy'
 
 export const baseItemStyles = css`
   display: inline-block;

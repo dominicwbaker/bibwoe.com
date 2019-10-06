@@ -11,6 +11,9 @@
   "dependencies": {
     "algoliasearch": "^3.35.0",
     "dotenv": "^8.1.0",
+    "emotion": "^10.0.17",
+    "emotion-icons": "^1.0.0",
+    "eslint-plugin-flowtype": "^4.3.0",
     "gatsby": "^2.15.28",
     "gatsby-plugin-algolia": "^0.3.4",
     "gatsby-plugin-mailchimp": "^5.1.2",
@@ -20,9 +23,18 @@
     "gatsby-plugin-robots-txt": "^1.5.0",
     "gatsby-plugin-sitemap": "^2.2.16",
     "gatsby-theme-document": "1.0.9",
+    "github-buttons": "^2.3.4",
+    "mailgun-js": "^0.22.0",
+    "modali": "^1.2.0",
+    "node-fetch": "^2.6.0",
     "polished": "^3.4.1",
     "react": "^16.10.2",
+    "react-adsense": "^0.1.0",
     "react-dom": "^16.10.2",
-    "react-instantsearch-dom": "^5.7.0"
+    "react-emotion": "^10.0.0",
+    "react-github-btn": "^1.0.5",
+    "react-instantsearch-dom": "^5.7.0",
+    "shevyjs": "^1.1.0",
+    "with-utterances": "^1.4.1"
   }
 }

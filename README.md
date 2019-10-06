@@ -1,6 +1,8 @@
-# Gatsby Theme Document
+# Bibwoe Gatsby Theme Document
 
 Welcome to Document, a Gatsby.js theme by [Code Bushi](https://codebushi.com/gatsby-starters-and-themes/). Quickly and easily create documentation for anything using MDX or Markdown.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/acf70a7a-da9a-4472-a599-1cb6fa6a301a/deploy-status)](https://app.netlify.com/sites/bibwoe/deploys)
 
 👀 [View the Live Demo](https://gatsby-theme-document.netlify.com/)
 

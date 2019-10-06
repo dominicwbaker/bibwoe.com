@@ -10,6 +10,7 @@ import {
 } from 'react-instantsearch-dom'
 import algoliasearch from 'algoliasearch/lite'
 import { Link } from 'gatsby'
+import { COLORS, FONTS } from '../constants'
 import Container from './Container'
 import Modal from './Modal'
 import SearchIcon from './icons/Search'
