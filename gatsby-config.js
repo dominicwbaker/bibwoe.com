@@ -21,7 +21,7 @@ module.exports = {
       }
     ],
     sidebarConfig: {
-      forcedNavOrder: ["/search", "/enoch", "/posts"],
+      forcedNavOrder: ["/contact", "/enoch", "/posts"],
       ignoreIndex: true
     }
   },

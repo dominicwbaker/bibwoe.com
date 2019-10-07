@@ -3,7 +3,8 @@ import GithubButtonFollow from './follow'
 import GithubButtonWatch from './watch'
 import GithubButtonStar from './star'
 import GithubButtonFork from './fork'
-import { ThemeProvider } from 'styled-components'
+import ThemeProvider from "theme-ui";
+
 import theme from './buttons.css'
 
 require('octicons/index')

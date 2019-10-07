@@ -13,6 +13,7 @@ import fetch from 'node-fetch'
 
 const Form = styled.form`
 `
+
 const Name = styled.input`
   padding:10px;
   color:#ccc;

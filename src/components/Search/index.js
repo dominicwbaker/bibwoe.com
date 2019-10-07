@@ -10,39 +10,29 @@ import {
 } from 'react-instantsearch-dom'
 import algoliasearch from 'algoliasearch/lite'
 import { Link } from 'gatsby'
-import { COLORS, FONTS } from '../constants'
+import styled from "theme-ui"
 import Container from '../Container'
 import Modal from '../Modal'
+import { COLORS, FONTS } from '../Constants'
 import SearchIcon from '../icons/Search'
 import CloseIcon from '../icons/Close'
 import * as PaginationStyles from '../Pagination'
 
+const Search = styled.input`
+  padding:10px;
+  color:#ccc;
+  background: #1d1d1d;
+  border: 1px solid #434040;
+  margin:0 0 20px;
+  border-radius: 6px;
+  width:100%;
+  box-sizing: border-box;
+`
+
 const SearchBox = connectSearchBox(({ currentRefinement, refine }) => {
   return (
-    <div css={{ marginBottom: bs(0.5) }}>
-      {/* Regarding the lint error below, it has htmlFor, don't know what it's yelling about */}
-      {/* eslint-disable-next-line jsx-a11y/label-has-for */}
-      <label
-        css={{
-          ...shevy.h5,
-          display: 'block',
-          fontFamily: FONTS.catamaran,
-          fontWeight: 'bold',
-          marginBottom: bs(0.125)
-        }}
-        htmlFor="search"
-      >
-        Search Query
-      </label>
-      <input
-        css={{
-          border: `1px solid ${COLORS.gray}`,
-          borderRadius: 4,
-          display: 'block',
-          fontFamily: FONTS.catamaran,
-          padding: `${bs(0.25)} ${bs(0.5)}`,
-          width: '100%'
-        }}
+    <div css={{ marginBottom: "0.5em" }}>      
+      <Search
         id="search"
         name="search"
         onChange={event => refine(event.currentTarget.value)}
@@ -59,7 +49,7 @@ const Hits = connectHits(({ closeModal, hits }) => (
       css={{
         fontSize: '.85rem',
         fontStyle: 'italic',
-        marginBottom: bs(),
+        marginBottom: ".025em",
         maxWidth: '30rem'
       }}
     >
@@ -75,11 +65,11 @@ const Hits = connectHits(({ closeModal, hits }) => (
             onClick={closeModal}
             to={hit.slug}
           >
-            <h4 css={{ marginBottom: 0 }}>
+            <h4 css={{ marginBottom: ".025em" }}>
               <Highlight attribute="title" hit={hit} tagName="strong" />
             </h4>
             {hit.subtitle ? (
-              <h5 css={{ marginBottom: 0 }}>
+              <h5 css={{ marginBottom: ".025em" }}>
                 <Highlight attribute="subtitle" hit={hit} tagName="strong" />
               </h5>
             ) : null}
@@ -181,7 +171,6 @@ export default function Search() {
         css={{
           backgroundColor: 'transparent',
           border: 'none',
-          fontFamily: FONTS.catamaran
         }}
         onClick={() => {
           setIsModalOpen(true)

@@ -8,11 +8,13 @@ export default {
   modes: {
     dark: {
       text: "#fff",
-      background: "#182952",
+      background: "#171717",
       primary: "#d64000",
       secondary: "#da1b60",
       sidebar: "#1d1d1d",
-      borderColor: "rgba(255, 255, 255, 0.15)"
+      borderColor: "rgba(255, 255, 255, 0.15)",
+      transition: "opacity 500ms linear 250ms",
+      opacity: "1"
     },
     cool: {
       text: "#fff",
