@@ -1,40 +1,27 @@
-import React, { Component, Fragment } from 'react'
+import styled from '@emotion/styled'
+import React, { Component } from 'react'
 import GithubButtonFollow from './follow'
 import GithubButtonWatch from './watch'
 import GithubButtonStar from './star'
 import GithubButtonFork from './fork'
-import ThemeProvider from "theme-ui";
 
-import theme from './buttons.css'
+require('@primer/octicons-react')
 
-require('octicons/index')
-class GitHubRepo extends Component {
+const Section = styled.div`
+  display: flex;
+  align-items: center;
+`;
+class GitHubButtonsRepo extends Component {
   render () {
     return (
-      <ThemeProvider theme={theme}>
-        <>
-          <>
-            <div className='column'>
-              <div className='field is-grouped'>
-                <p className='control'>
-                  <GithubButtonFollow />
-                </p>
-                <p className='control'>
-                  <GithubButtonWatch />
-                </p>
-                <p className='control'>
-                  <GithubButtonStar />
-                </p>
-                <p className='control'>
-                  <GithubButtonFork />
-                </p>
-              </div>
-            </div>
-          </>
-        </>
-      </ThemeProvider>
+      <Section>
+          <GithubButtonFollow />
+          <GithubButtonWatch />
+          <GithubButtonStar />
+          <GithubButtonFork />
+      </Section>
     )
   }
 }
 
-export default GitHubRepo
+export default GitHubButtonsRepo

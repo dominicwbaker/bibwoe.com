@@ -10,7 +10,7 @@ import {
 } from 'react-instantsearch-dom'
 import algoliasearch from 'algoliasearch/lite'
 import { Link } from 'gatsby'
-import styled from "theme-ui"
+import styled from '@emotion/styled'
 import Container from '../Container'
 import Modal from '../Modal'
 import { COLORS, FONTS } from '../Constants'
