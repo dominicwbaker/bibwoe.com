@@ -1,16 +1,43 @@
-import React from 'react'
-import config from '../../../data/config'
+import { graphql, useStaticQuery } from 'gatsby';
+import PropTypes from 'prop-types';
+import React from 'react';
 import styled from '@emotion/styled'
 import { Twitter } from 'emotion-icons/fa-brands/Twitter'
+
+const socialQuery = graphql`
+  {
+    allSite {
+      edges {
+        node {
+          siteMetadata {
+            title
+            name
+            siteUrl
+            description
+            social {
+              name
+              url
+            }
+          }
+        }
+      }
+    }
+  }
+`;
 
 const TwitterSection = styled.div`
   display: flex;
   align-items: center;
 `;
 
-const WebIntents = ({ slug, tweet_id }) => {
-  const title = config.userTwitter
-  const url = config.siteUrl + slug
+const WebIntents = ({ title, description, url, pathname }) => {
+  const results = useStaticQuery(socialQuery);
+  const site = results.allSite.edges[0].node.siteMetadata;
+  const twitter = site.social.find(option => option.name === 'twitter') || {};
+  const fullURL = path => (path ? `${site.siteUrl}${path}` : site.siteUrl);
+
+  // const pageTitle = title ? `${title} | ${site.title}` : site.title;
+  const pageTitle = title || site.title;
 
   return (
     <TwitterSection>
@@ -18,10 +45,10 @@ const WebIntents = ({ slug, tweet_id }) => {
       <a
         itemProp='url'
         rel='me'
-        title={title}
+        title={pageTitle}
         key={tweet_id}
-        url={url}
-        data-screen-name='@donboulton'
+        url='fullURL(pathname)'
+        data-screen-name={twitter}
         data-show-count='true'
         data-screen-data-show-count='true'
         className='twitter-share-button'
@@ -37,12 +64,12 @@ const WebIntents = ({ slug, tweet_id }) => {
         itemProp='url'
         rel='no-follow'
         target='_blank'
-        data-screen-name='donboulton'
+        data-screen-name={twitter}
         data-screen-data-show-count='true'
         data-show-count='true'
-        title={title}
-        key={url}
-        url={url}
+        title={pageTitle}
+        key={fullURL}
+        url='fullURL(pathname)'
         className='twitter-follow-button'
         data-related='donboulton'
         data-show-screen-name='false'
@@ -59,12 +86,12 @@ const WebIntents = ({ slug, tweet_id }) => {
         itemProp='url'
         rel='no-follow'
         aria-label='Message'
-        title={title}
-        url={url}
-        key={url}
+        title={pageTitle}
+        key={fullURL}
+        url='fullURL(pathname)'
         href='https://twitter.com/messages/compose?recipient_id=105217183'
         className='twitter-dm-button'
-        data-screen-name='@donboulton'
+        data-screen-name={twitter}
         data-show-count='true'
         target='_blank'
       >
@@ -77,5 +104,12 @@ const WebIntents = ({ slug, tweet_id }) => {
     </TwitterSection>
   )
 }
+
+WebIntents.defaultProps = {
+  title: '',
+  description: '',
+  url: '',
+  pathname: ''
+};
 
 export default WebIntents

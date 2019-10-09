@@ -11,4 +11,4 @@ class Comments extends React.Component {
   }
 }
 
-export default withUtterances(Comments, 'donaldboulton/publiuslogic', 'github-dark', 'og:title')
+export default withUtterances(Comments, 'donaldboulton/bibwoe.com', 'github-dark', 'og:title')

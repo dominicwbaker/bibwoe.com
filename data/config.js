@@ -33,14 +33,14 @@ const config = {
   themeColor: '#d64000', // Used for setting manifest and progress theme colors.
   backgroundColor: '#363636', // Used for setting manifest background color.
   siteSocialUrls: [
-    'https://github.com/donaldboulton/bibwoe',
+    'https://github.com/donaldboulton/bibwoe.com',
     'https://twitter.com/donboulton',
     'mailto:donaldboulton@gmail.com',
   ],
   userLinks: [
     {
       label: 'GitHub',
-      url: 'https://github.com/donaldboulton/bibwoe',
+      url: 'https://github.com/donaldboulton/bibwoe.com',
       iconClassName: 'fa fa-github',
     },
     {
