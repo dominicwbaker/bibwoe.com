@@ -1,19 +1,15 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import Helmet from 'react-helmet'
 
 const AddsSection = styled.div`
   display: flex;
   align-items: center;
+  text-align: right
 `;
 
 const Adds = () => {
   return (
-    <Helmet>
-      <script async='async' src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'></script>
-    </Helmet>
-    <AddsSection>
-      <div role='note' className='add-block clear-both' itemScope='itemScope' itemType='https://schema.org/WPAdBlock'>
+    <AddsSection role='note' className='add-block clear-both' itemScope='itemScope' itemType='https://schema.org/WPAdBlock'>
         <ins class='adsbygoogle'
            style='display:block'
            data-ad-format='autorelaxed'
@@ -22,10 +18,9 @@ const Adds = () => {
            layout='in-article'
            responsive='true'
            format='fluid'></ins>
-    <script>
+        <script>
          (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-      </div>
+        </script>
     </AddsSection>
   )
 }
