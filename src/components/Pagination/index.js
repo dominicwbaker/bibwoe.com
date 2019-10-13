@@ -1,9 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { css } from '@emotion/core'
-import { lighten } from 'polished'
-import { COLORS, FONTS } from '../Constants'
-import { bs } from '../Shevy'
 
 export const baseItemStyles = css`
   display: inline-block;
@@ -16,19 +13,19 @@ export const baseItemStyles = css`
 
 export const itemStyles = css`
   ${baseItemStyles};
-  background-color: ${COLORS.teal};
-  color: ${COLORS.white};
+  background-color: "#1d1d1d";
+  color: "#cccccc";
 
   &:hover {
-    background-color: ${lighten(0.1, COLORS.teal)};
-    color: ${COLORS.white};
+    background-color: "#1d1d1d";
+    color: "#cccccc";
   }
 `
 
 export const nonLinkItemStyles = css`
   ${baseItemStyles};
-  background-color: ${COLORS.lightGray};
-  color: ${COLORS.teal};
+  background-color: "#1d1d1d";
+  color: "#cccccc";
 `
 
 const Pagination = ({ index: currentPageIndex, totalPages }) => {
@@ -39,8 +36,8 @@ const Pagination = ({ index: currentPageIndex, totalPages }) => {
   return (
     <div
       css={{
-        fontFamily: FONTS.catamaran,
-        marginBottom: bs(2)
+        fontFamily: "roboto",
+        marginBottom: ".05em"
       }}
     >
       {currentPageIndex !== 0 ? (

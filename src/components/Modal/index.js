@@ -1,8 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { transparentize } from 'polished'
-import { COLORS, FONTS } from '../Constants'
-import { bs } from '../Shevy'
 import Container from '../Container'
 
 export default function Modal({
@@ -34,26 +31,26 @@ export default function Modal({
       aria-label={ariaLabel}
       aria-modal
       css={{
-        backgroundColor: transparentize(0.05, COLORS.white),
+        backgroundColor: "#1d1d1d",
         position: 'absolute',
         top: 0,
         right: 0,
         bottom: 0,
         left: 0,
-        paddingTop: bs(),
-        paddingBottom: bs()
+        paddingTop: ".05em",
+        paddingBottom: ".05em"
       }}
       role="dialog"
       tabIndex={-1}
     >
       <Container>
-        <div css={{ display: 'flex', marginBottom: bs() }}>
+        <div css={{ display: 'flex', marginBottom: ".05em" }}>
           <button
             aria-label="Close Modal"
             css={{
-              backgroundColor: 'transparent',
+              backgroundColor: '#d64000',
               border: 'none',
-              fontFamily: FONTS.catamaran,
+              fontFamily: roboto,
               marginLeft: 'auto'
             }}
             onClick={onClick}

@@ -14,7 +14,7 @@ export const COLORS = {
 };
 
 export const FONTS = {
-  catamaran: 'Catamaran, sans-serif'
+  catamaran: 'Roboto, Catamaran, sans-serif'
 };
 
 export const CONTAINER ={

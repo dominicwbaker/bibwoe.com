@@ -9,7 +9,7 @@ require('@primer/octicons-react')
 
 const Section = styled.div`
   display: flex;
-  align-items: center;
+  align-items: right;
 `;
 class GitHubButtonsRepo extends Component {
   render () {
