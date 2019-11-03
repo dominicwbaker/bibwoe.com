@@ -1,11 +1,12 @@
 import React from "react";
 import Header from "gatsby-theme-document/src/components/header";
+import Search from "../../src/components/Search";
 
 export default props => {
 
   return (
-    <Header {...props}>
-      <div style={{ color: "white"}}> Cool</div>
-    </Header>
+    <Search>
+      <Header {...props} />
+    </Search>
   );
 };

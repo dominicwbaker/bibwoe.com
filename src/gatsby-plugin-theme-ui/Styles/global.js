@@ -9,18 +9,18 @@ export default merge({}, globalStyles, {
     color: "#fff",
     overflowX: "hidden",
   },
-  html::-webkit-scrollbar {
+  "html"::-webkit-scrollbar {
     width: "10px",
     height: "10px",
   },
-  ::-webkit-scrollbar-thumb {
+  "html"::-webkit-scrollbar-thumb {
     background: -webkit-gradient(linear,left top,left bottom,from(#d64000),to(#da1b60));
     background: linear-gradient(to bottom,#1d1d1d,#171717);
     border-radius: 10px;
     -webkit-box-shadow: inset 2px 2px 2px rgba(255,255,255,.25),inset -2px -2px 2px rgba(0,0,0,.25);
     box-shadow: inset 2px 2px 2px rgba(255,255,255,.25),inset -2px -2px 2px rgba(0,0,0,.25);
     }
-  ::-webkit-scrollbar-track {
+  "html"::-webkit-scrollbar-track {
     background: linear-gradient(to right,#201c29,#201c29 1px,#100e17 1px,#100e17)
   }
 })
