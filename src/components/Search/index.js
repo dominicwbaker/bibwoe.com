@@ -10,7 +10,7 @@ import { css } from "@emotion/core";
 import styled from '@emotion/styled'
 import Input from "./Input"
 import * as hitComps from "./hitComps"
-import { Search } from "emotion-icons/fa-solid/Search"
+import { SearchIcon } from "emotion-icons/fa-solid/Search"
 import { Algolia } from "emotion-icons/fa-brands/Algolia"
 
 const Results = connectStateResults(
