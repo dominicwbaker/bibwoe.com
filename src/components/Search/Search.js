@@ -17,7 +17,7 @@ import SearchIcon from '../icons/Search'
 import CloseIcon from '../icons/Close'
 import * as PaginationStyles from '../Pagination'
 
-const Search = styled.input`
+const SearchDiv = styled.input`
   padding:10px;
   color:#ccc;
   background: #1d1d1d;
@@ -31,7 +31,7 @@ const Search = styled.input`
 const SearchBox = connectSearchBox(({ currentRefinement, refine }) => {
   return (
     <div css={{ marginBottom: "0.5em" }}>      
-      <Search
+      <SearchDiv
         id="search"
         name="search"
         onChange={event => refine(event.currentTarget.value)}

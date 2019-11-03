@@ -36,7 +36,7 @@
     "react-dom": "^16.10.2",
     "react-emotion": "^10.0.0",
     "react-github-btn": "^1.0.5",
-    "react-instantsearch-dom": "^5.7.0",
+    "react-instantsearch-dom": "^6.0.0",
     "react-share": "^3.0.1",
     "snyk": "^1.241.0",
     "typeface-kaushan-script": "0.0.72",

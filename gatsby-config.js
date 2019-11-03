@@ -9,6 +9,7 @@ module.exports = {
     title: `Bibwoe.com`,
     name: `Bibwoe`,
     siteUrl: `https://bibwoe.com`,
+    language: `en-US`,
     description: `Basic Instructions Books While On Earth`,
     social: [
       {
