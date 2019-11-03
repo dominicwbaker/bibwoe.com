@@ -1,6 +1,6 @@
 import React from "react"
-import { Root } from "./styles"
-import Search from "./SearchForm"
+import Search from "./index"
+import styled from '@emotion/styled'
 
 const searchIndices = [
   { name: `Posts`, title: `Blog Posts`, hitComp: `PostHit` },
@@ -11,5 +11,11 @@ const SearchHeader = ({ transparent }) => (
     <Search collapse indices={searchIndices} />
   </Root>
 )
+
+export const Root = styled.div`
+  position: relative;
+  display: grid;
+  grid-gap: 1em;
+`
 
 export default SearchHeader

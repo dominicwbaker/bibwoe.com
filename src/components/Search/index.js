@@ -1,15 +1,82 @@
-import React from "react"
+import React, { useState, useEffect, createRef } from "react"
+import {
+  InstantSearch,
+  Index,
+  Hits,
+  connectStateResults,
+} from "react-instantsearch-dom"
+import algoliasearch from "algoliasearch/lite"
 import { css } from "@emotion/core";
 import styled from '@emotion/styled'
+import Input from "./Input"
+import * as hitComps from "./hitComps"
 import { Search } from "emotion-icons/fa-solid/Search"
 import { Algolia } from "emotion-icons/fa-brands/Algolia"
+
+const Results = connectStateResults(
+  ({ searchState: state, searchResults: res, children }) =>
+    res && res.nbHits > 0 ? children : `No results for '${state.query}'`
+)
+
+const Stats = connectStateResults(
+  ({ searchResults: res }) =>
+    res && res.nbHits > 0 && `${res.nbHits} result${res.nbHits > 1 ? `s` : ``}`
+)
+
+const useClickOutside = (ref, handler, events) => {
+  if (!events) events = [`mousedown`, `touchstart`]
+  const detectClickOutside = event =>
+    !ref.current.contains(event.target) && handler()
+  useEffect(() => {
+    for (const event of events)
+      document.addEventListener(event, detectClickOutside)
+    return () => {
+      for (const event of events)
+        document.removeEventListener(event, detectClickOutside)
+    }
+  })
+}
+
+export default function Search({ indices, collapse, hitsAsGrid }) {
+  const ref = createRef()
+  const [query, setQuery] = useState(``)
+  const [focus, setFocus] = useState(false)
+  const searchClient = algoliasearch(
+    process.env.GATSBY_ALGOLIA_APP_ID,
+    process.env.GATSBY_ALGOLIA_SEARCH_KEY
+  )
+  useClickOutside(ref, () => setFocus(false))
+  return (
+    <InstantSearch
+      searchClient={searchClient}
+      indexName={indices[0].name}
+      onSearchStateChange={({ query }) => setQuery(query)}
+      root={{ Root, props: { ref } }}
+    >
+      <Input onFocus={() => setFocus(true)} {...{ collapse, focus }} />
+      <HitsWrapper show={query.length > 0 && focus} asGrid={hitsAsGrid}>
+        {indices.map(({ name, title, hitComp }) => (
+          <Index key={name} indexName={name}>
+            <header>
+              <h3>{title}</h3>
+              <Stats />
+            </header>
+            <Results>
+              <Hits hitComponent={hitComps[hitComp](() => setFocus(false))} />
+            </Results>
+          </Index>
+        ))}
+        <PoweredBy />
+      </HitsWrapper>
+    </InstantSearch>
+  )
+}
 
 export const Root = styled.div`
   position: relative;
   display: grid;
   grid-gap: 1em;
 `
-
 export const SearchIcon = styled(Search)`
   width: 1em;
   pointer-events: none;
@@ -49,23 +116,6 @@ const expand = css`
   + ${SearchIcon} {
     margin: 0.3em;
   }
-`
-
-export const Input = styled.input`
-  outline: none;
-  border: none;
-  font-size: 1em;
-  background: transparent;
-  transition: color ${p => p.theme.transition};
-  border-radius: 5px;
-  {highlight-next-line}
-  ${props => (props.collapse ? collapse : expand)};
-`
-
-export const Form = styled.form`
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
 `
 
 export const HitsWrapper = styled.div`
