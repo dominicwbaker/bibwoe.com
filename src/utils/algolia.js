@@ -1,13 +1,13 @@
-const mdxQuery = `{
+const mdxQuery = `
   allMdx(filter: {fileAbsolutePath: {regex: "/content/posts/"}}) {
     edges {
       node {
         excerpt
-        frontmatter 
-          title
-          slug
+        frontmatter {
+          categories
           description
           tags
+          title
         }
         rawBody
       }
