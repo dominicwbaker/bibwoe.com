@@ -1,5 +1,5 @@
 import React from "react"
-import Search from "./index"
+import Search from "./Search"
 import styled from '@emotion/styled'
 
 const searchIndices = [

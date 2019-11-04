@@ -2,15 +2,14 @@ const mdxQuery = `{
   allMdx(filter: {fileAbsolutePath: {regex: "/content/posts/"}}) {
     edges {
       node {
-        objectID: id
+        excerpt
         frontmatter 
           title
           slug
-          date(formatString: "MMM D, YYYY")
+          description
           tags
         }
         rawBody
-        excerpt(pruneLength: 5000)
       }
     }
   }

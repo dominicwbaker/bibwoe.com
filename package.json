@@ -6,10 +6,7 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "gatsby build",
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect",
-    "test": "remark . --quiet --frail && node test.js"
+    "build": "gatsby build"
   },
   "dependencies": {
     "@primer/octicons-react": "^9.1.1",
@@ -38,14 +35,11 @@
     "react-github-btn": "^1.0.5",
     "react-instantsearch-dom": "^6.0.0",
     "react-share": "^3.0.1",
-    "snyk": "^1.241.0",
     "typeface-kaushan-script": "0.0.72",
     "typeface-roboto": "^0.0.75",
     "with-utterances": "^1.5.0"
   },
-  "snyk": true,
   "devDependencies": {
-    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
-    "babel-plugin-emotion": "^10.0.23"
+    "babel-preset-gatsby": "^0.2.20"
   }
 }
