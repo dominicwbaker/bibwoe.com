@@ -1,0 +1,6 @@
+{
+  "presets": [
+    "@emotion/babel-preset-css-prop",
+    "@babel/plugin-syntax-dynamic-import"
+  ]
+}

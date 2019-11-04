@@ -1,6 +1,7 @@
 import React from "react"
 import { connectSearchBox } from "react-instantsearch-dom"
 import styled from '@emotion/styled'
+import { SearchIcon } from "emotion-icons/fa-solid/Search"
 
 export default connectSearchBox(({ refine, ...rest }) => (
   <Form>
@@ -11,7 +12,9 @@ export default connectSearchBox(({ refine, ...rest }) => (
       onChange={e => refine(e.target.value)}
       {...rest}
     />
-    <SearchIcon />
+    <SearchIconBox>
+      <SearchIcon />
+    </SearchIconBox>
   </Form>
 ))
 
@@ -25,7 +28,7 @@ export const Input = styled.input`
   {highlight-next-line}
   ${props => (props.collapse ? collapse : expand)};
 `
-export const SearchIcon = styled(Search)`
+export const SearchIconBox = styled.div`
   width: 1em;
   pointer-events: none;
 `

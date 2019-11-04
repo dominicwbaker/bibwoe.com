@@ -43,5 +43,9 @@
     "typeface-roboto": "^0.0.75",
     "with-utterances": "^1.5.0"
   },
-  "snyk": true
+  "snyk": true,
+  "devDependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "babel-plugin-emotion": "^10.0.23"
+  }
 }
