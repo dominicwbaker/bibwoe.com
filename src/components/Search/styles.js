@@ -1,14 +1,8 @@
-import React from "react"
-import { css } from "@emotion/core";
+import React from 'react'
+import { css } from 'theme-ui'
 import styled from '@emotion/styled'
-import { Search } from "emotion-icons/fa-solid/Search"
-import { Algolia } from "emotion-icons/fa-brands/Algolia"
-
-export const Root = styled.div`
-  position: relative;
-  display: grid;
-  grid-gap: 1em;
-`
+import { Algolia } from 'emotion-icons/fa-brands/Algolia'
+import { Search } from 'emotion-icons/fa-solid/Search'
 
 export const SearchIcon = styled(Search)`
   width: 1em;
@@ -16,12 +10,12 @@ export const SearchIcon = styled(Search)`
 `
 
 const focus = css`
-  background: black;
-  color: ${p => p.theme.colors.primary};
+  background: white;
+  color: ${props => props.theme.darkGray};
   cursor: text;
   width: 5em;
   + ${SearchIcon} {
-    color: ${p => p.theme.colors.text};
+    color: ${props => props.theme.lightGray};
     margin: 0.3em;
   }
 `
@@ -29,7 +23,7 @@ const focus = css`
 const collapse = css`
   width: 0;
   cursor: pointer;
-  color: ${p => p.theme.colors.text};
+  color: ${props => props.theme.lightGray};
   + ${SearchIcon} {
     color: white;
   }
@@ -37,12 +31,12 @@ const collapse = css`
   margin-left: ${props => (props.focus ? `-1.6em` : `-1em`)};
   padding-left: ${props => (props.focus ? `1.6em` : `1em`)};
   ::placeholder {
-    color: ${p => p.theme.colors.primary};
+    color: ${props => props.theme.gray};
   }
 `
 
 const expand = css`
-  background: ${p => p.theme.colors.text};
+  background: ${props => props.theme.lightGray};
   width: 6em;
   margin-left: -1.6em;
   padding-left: 1.6em;
@@ -56,9 +50,8 @@ export const Input = styled.input`
   border: none;
   font-size: 1em;
   background: transparent;
-  transition: color ${p => p.theme.transition};
-  border-radius: 5px;
-  {highlight-next-line}
+  transition: ${props => props.theme.shortTrans};
+  border-radius: ${props => props.theme.smallBorderRadius};
   ${props => (props.collapse ? collapse : expand)};
 `
 
@@ -70,6 +63,7 @@ export const Form = styled.form`
 
 export const HitsWrapper = styled.div`
   display: ${props => (props.show ? `grid` : `none`)};
+  background: ${props => props.theme.background};
   max-height: 80vh;
   overflow: scroll;
   z-index: 2;
@@ -79,43 +73,37 @@ export const HitsWrapper = styled.div`
   top: calc(100% + 0.5em);
   width: 80vw;
   max-width: 30em;
-  box-shadow: 0 0 5px 0;
+  box-shadow: 0 0 5px 0 black;
   padding: 0.7em 1em 0.4em;
-  background: white;
-  border-radius: 5px};
-  > * + * {
-    padding-top: 1em !important;
-    border-top: 2px solid ${p => p.theme.colors.primary};
-  }
-  li + li {
-    margin-top: 0.7em;
-    padding-top: 0.7em;
-    border-top: 1px solid ${p => p.theme.colors.secondary};
-  }
+  border-radius: ${props => props.theme.smallBorderRadius};
   * {
     margin-top: 0;
-    padding: 0;
   }
-  ul {
-    list-style: none;
+  > div {
+    padding-top: 0.6em;
+  }
+  div + div {
+    margin-top: 0.6em;
+    border-top: 1px solid ${props => props.theme.lightGray};
   }
   mark {
-    color: ${p => p.theme.colors.text};
-    background: ${p => p.theme.colors.primary};
+    color: ${props => props.theme.lightOrange};
+    background: ${props => props.theme.darkOrange};
   }
   header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 0.3em;
+    border-bottom: 2px solid ${props => props.theme.darkGray};
     h3 {
-      color: ${p => p.theme.colors.text};
-      background: ${p => p.theme.colors.primary};
+      color: white;
+      background: ${props => props.theme.gray};
       padding: 0.1em 0.4em;
-      border-radius: 5px;
+      border-radius: ${props => props.theme.smallBorderRadius};
+      margin-bottom: 0.3em;
     }
   }
-  h3 {
-    margin: 0 0 0.5em;
+  * + header {
+    padding-top: 1em;
   }
   h4 {
     margin-bottom: 0.3em;

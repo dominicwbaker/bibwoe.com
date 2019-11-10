@@ -1,20 +1,66 @@
-import React from 'react'
 import algoliasearch from 'algoliasearch/lite'
-import { InstantSearch, SearchBox, Hits } from 'react-instantsearch-dom'
+import React, { createRef, useMemo, useState } from 'react'
+import { connectStateResults, Index, InstantSearch } from 'react-instantsearch-dom'
+import { useOnClickOutside } from 'hooks'
+import Hits from './Hits'
+import Input from './Input'
+import { jsx } from 'theme-ui'
+import { HitsWrapper, PoweredBy } from './styles'
 
-const searchClient = algoliasearch(
-  process.env.GATSBY_ALGOLIA_APP_ID,
-  process.env.GATSBY_ALGOLIA_SEARCH_KEY
+const Results = connectStateResults(
+  ({ searching, searchState: state, searchResults: res }) =>
+    (searching && <div>Searching...</div>) ||
+    (res && res.nbHits === 0 && <div>No results for &apos;{state.query}&apos;</div>)
 )
 
-export default function Search() {
+const Stats = connectStateResults(
+  ({ searchResults: res }) =>
+    res && res.nbHits > 0 && `${res.nbHits} result${res.nbHits > 1 ? `s` : ``}`
+)
+
+export default function Search({ indices, collapse, hitsAsGrid }) {
+  const ref = createRef()
+  const [query, setQuery] = useState(``)
+  const [focus, setFocus] = useState(false)
+  const appId = process.env.GATSBY_ALGOLIA_APP_ID
+  const searchKey = process.env.GATSBY_ALGOLIA_SEARCH_KEY
+  // useMemo prevents the searchClient from being recreated on every render.
+  // Avoids unnecessary XHR requests (see https://tinyurl.com/yyj93r2s).
+  const searchClient = useMemo(() => algoliasearch(appId, searchKey), [
+    appId,
+    searchKey,
+  ])
+  useOnClickOutside(ref, () => setFocus(false))
   return (
-    <InstantSearch
-      indexName={process.env.GATSBY_ALGOLIA_INDEX_NAME}
-      searchClient={searchClient}
-    >
-      <SearchBox />
-      <Hits />
-    </InstantSearch>
+    <div
+    {...props}
+    sx={{
+      color: 'primary',
+      position: 'relative',
+      display: 'grid',
+      padding: '1em',
+    }}
+    ref={ref}>
+      <InstantSearch
+        searchClient={searchClient}
+        indexName={indices[0].name}
+        onSearchStateChange={({ query }) => setQuery(query)}
+      >
+        <Input onFocus={() => setFocus(true)} {...{ collapse, focus }} />
+        <HitsWrapper show={query.length > 0 && focus} asGrid={hitsAsGrid}>
+          {indices.map(({ name, title, type }) => (
+            <Index key={name} indexName={name}>
+              <header>
+                <h3>{title}</h3>
+                <Stats />
+              </header>
+              <Results />
+              <Hits type={type} onClick={() => setFocus(false)} />
+            </Index>
+          ))}
+          <PoweredBy />
+        </HitsWrapper>
+      </InstantSearch>
+    </div>
   )
 }

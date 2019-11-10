@@ -35,6 +35,7 @@
     "react-github-btn": "^1.0.5",
     "react-instantsearch-dom": "^6.0.0",
     "react-share": "^3.0.1",
+    "styled-components": "^4.4.1",
     "typeface-kaushan-script": "0.0.72",
     "typeface-roboto": "^0.0.75",
     "with-utterances": "^1.5.0"

@@ -1,58 +1,62 @@
-const mdxQuery = `
-  allMdx(filter: {fileAbsolutePath: {regex: "/content/posts/"}}) {
+const pageQuery = `{
+  pages: allMdx(
+    filter: {
+      fileAbsolutePath: { regex: "/content/pages/" },
+      frontmatter: {purpose: {eq: "page"}}
+    }
+  ) {
     edges {
       node {
-        excerpt
+        objectID: id
         frontmatter {
-          categories
-          description
-          tags
           title
+          description
         }
-        rawBody
+        excerpt(pruneLength: 5000)
       }
     }
   }
-}
-`
+}`
 
-const unnestFrontmatter = node => {
-  const { frontmatter, ...rest } = node
-
-  return {
-    ...frontmatter,
-    ...rest
+const postQuery = `{
+  posts: allMdx(
+    filter: { fileAbsolutePath: { regex: "/content/posts/" } }
+  ) {
+    edges {
+      node {
+        objectID: id
+        frontmatter {
+          title
+          description
+          date(formatString: "MMM D, YYYY")
+          tags
+        }
+        excerpt(pruneLength: 5000)
+      }
+    }
   }
-}
+}`
 
-const handleRawBody = node => {
-  const { rawBody, ...rest } = node
-
-  // To improve search with smaller record sizes, we will divide all
-  // blog posts into sections (essentially by paragraph).
-  const sections = rawBody.split('\n\n')
-  const records = sections.map(section => ({
+const flatten = arr =>
+  arr.map(({ node: { frontmatter, ...rest } }) => ({
+    ...frontmatter,
     ...rest,
-    content: section
   }))
-
-  return records
-}
+const settings = { attributesToSnippet: [`excerpt:20`] }
 
 const queries = [
   {
-    query: mdxQuery,
-    settings: {
-      attributeForDistinct: 'title',
-      distinct: true
-    },
-    transformer: ({ data }) =>
-      data.allMdx.edges
-        .map(edge => edge.node)
-        .map(unnestFrontmatter)
-        .map(handleRawBody)
-        .reduce((acc, cur) => [...acc, ...cur], [])
-  }
+    query: pageQuery,
+    transformer: ({ data }) => flatten(data.pages.edges),
+    indexName: `Pages`,
+    settings,
+  },
+  {
+    query: postQuery,
+    transformer: ({ data }) => flatten(data.posts.edges),
+    indexName: `Posts`,
+    settings,
+  },
 ]
 
 module.exports = queries
