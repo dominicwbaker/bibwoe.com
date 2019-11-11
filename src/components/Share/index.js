@@ -1,17 +1,14 @@
 import React, { Component } from 'react'
 import {
   FacebookShareButton,
-  LinkedinShareButton,
   TwitterShareButton,
   PinterestShareButton,
   RedditShareButton,
   FacebookShareCount,
-  LinkedinShareCount,
   RedditShareCount,
   FacebookIcon,
   TwitterIcon,
   PinterestIcon,
-  LinkedinIcon,
   RedditIcon,
 } from 'react-share'
 import config from '../../../data/config'
@@ -25,7 +22,7 @@ const ShareSection = styled.div`
   justify-content: center;
   align-content: center;
   align-items: center;
-  margin: 15px 0;
+  margin: 15px 5px;
 `;
 
 const Count = styled.div`
@@ -35,8 +32,7 @@ const Count = styled.div`
 class Share extends Component {
   render () {
     const { title, slug, excerpt, mobile } = this.props
-    const realPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
-    const url = config.siteUrl + realPrefix + slug
+    const url = config.siteUrl + slug
 
     const iconSize = mobile ? 36 : 48
     const filter = count => (count > 0 ? count : '')
@@ -58,16 +54,6 @@ class Share extends Component {
             {count => <Count>{filter(count)}</Count>}
           </FacebookShareCount>
         </FacebookShareButton>
-        <LinkedinShareButton
-          url={url}
-          title={title}
-          description={excerpt}
-        >
-          <LinkedinIcon round size={iconSize} />
-          <LinkedinShareCount url={url}>
-            {count => <Count>{filter(count)}</Count>}
-          </LinkedinShareCount>
-        </LinkedinShareButton>
         <PinterestShareButton url={url}>
           <PinterestIcon round size={iconSize} />
         </PinterestShareButton>
