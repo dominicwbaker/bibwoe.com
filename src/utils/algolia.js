@@ -1,62 +1,58 @@
-const pageQuery = `{
-  pages: allMdx(
-    filter: {
-      fileAbsolutePath: { regex: "/content/pages/" },
-      frontmatter: {purpose: {eq: "page"}}
-    }
-  ) {
+const mdxQuery = `{
+  allMdx(filter: {fileAbsolutePath: {regex: "/content/posts/"}}) {
     edges {
       node {
-        objectID: id
+        excerpt
         frontmatter {
-          title
+          category
           description
-        }
-        excerpt(pruneLength: 5000)
-      }
-    }
-  }
-}`
-
-const postQuery = `{
-  posts: allMdx(
-    filter: { fileAbsolutePath: { regex: "/content/posts/" } }
-  ) {
-    edges {
-      node {
-        objectID: id
-        frontmatter {
-          title
-          description
-          date(formatString: "MMM D, YYYY")
           tags
+          title
         }
-        excerpt(pruneLength: 5000)
+        rawBody
       }
     }
   }
-}`
+}
+`
 
-const flatten = arr =>
-  arr.map(({ node: { frontmatter, ...rest } }) => ({
+const unnestFrontmatter = node => {
+  const { frontmatter, ...rest } = node
+
+  return {
     ...frontmatter,
+    ...rest
+  }
+}
+
+const handleRawBody = node => {
+  const { rawBody, ...rest } = node
+
+  // To improve search with smaller record sizes, we will divide all
+  // blog posts into sections (essentially by paragraph).
+  const sections = rawBody.split('\n\n')
+  const records = sections.map(section => ({
     ...rest,
+    content: section
   }))
-const settings = { attributesToSnippet: [`excerpt:20`] }
+
+  return records
+}
 
 const queries = [
   {
-    query: pageQuery,
-    transformer: ({ data }) => flatten(data.pages.edges),
-    indexName: `Pages`,
-    settings,
-  },
-  {
-    query: postQuery,
-    transformer: ({ data }) => flatten(data.posts.edges),
-    indexName: `Posts`,
-    settings,
-  },
+    query: mdxQuery,
+    settings: {
+      attributeForDistinct: 'title',
+      distinct: true
+    },
+    transformer: ({ data }) =>
+      data.allMdx.edges
+        .map(edge => edge.node)
+        .map(unnestFrontmatter)
+        .map(handleRawBody)
+        .reduce((acc, cur) => [...acc, ...cur], [])
+  }
 ]
 
 module.exports = queries

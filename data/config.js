@@ -2,10 +2,10 @@ const config = {
   siteTitle: 'Bibwoe', // Site title.
   locale: 'en-US',
   siteTitleShort: 'Bibwoe', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: 'To Publish Logic', // Alternative site title for SEO.
-  siteLogo: '/img/logo.png', // Logo used for SEO and manifest.
-  siteCover: '/img/sunset-kitzeberg-fjord.jpg', // Logo used for SEO and manifest.
-  siteHomeCover: 'https://bibwoe.com/static/sunset-kitzeberg-fjord.jpg', // Logo used for SEO and manifest.
+  siteTitleAlt: 'Basic Instructions Books While On earth', // Alternative site title for SEO.
+  siteLogo: '../site-icon.png', // Logo used for SEO and manifest.
+  siteCover: '../site-icon.png', // Logo used for SEO and manifest.
+  siteHomeCover: 'https://bibwoe.com/site-icon.png', // Logo used for SEO and manifest.
   siteUrl: 'https://bibwoe.com', // Domain of your website without pathPrefix.
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: 'Bibwoe to publish common sense.', // Website description used for RSS feeds/meta description tag.
@@ -25,10 +25,10 @@ const config = {
   userEmail: 'donaldboulton@gmail.com', // Email used for RSS feed's author segment
   userTwitter: 'donboulton', // Optionally renders 'Follow Me' in the UserInfo segment.
   userLocation: 'OKC, Oklahoma', // User location to display in the author segment.
-  userAvatar: 'https://donboulton.com/assets/images/donald-boulton.jpg', // User avatar to display in the author segment.
+  userAvatar: 'https://bibwoe.com/assets/img/donald-boulton.jpg', // User avatar to display in the author segment.
   userDescription: 'Donald Boulton a Frontend Developer since Windows 3.1',
   recaptchaKey: '6Le3cZMUAAAAAEAXmN6cDoJGVUVZ0RzuJlLAj6a-',
-  copyright: 'Copyright © 2019. Publius Logic', // Copyright string for the footer of the website and RSS feed.
+  copyright: 'Copyright © 2019. Bibwoe', // Copyright string for the footer of the website and RSS feed.
   copyrightYear: '2019', // Copyright string for the footer of the website and RSS feed.
   themeColor: '#d64000', // Used for setting manifest and progress theme colors.
   backgroundColor: '#363636', // Used for setting manifest background color.
