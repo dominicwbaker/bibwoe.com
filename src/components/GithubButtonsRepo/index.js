@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 import GithubButtonFollow from './follow'
 import GithubButtonWatch from './watch'
 import GithubButtonStar from './star'
-import GithubButtonFork from './fork'
 
 require('@primer/octicons-react')
 
@@ -18,7 +17,6 @@ class GitHubButtonsRepo extends Component {
           <GithubButtonFollow />
           <GithubButtonWatch />
           <GithubButtonStar />
-          <GithubButtonFork />
       </Section>
     )
   }

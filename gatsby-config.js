@@ -23,8 +23,9 @@ module.exports = {
       }
     ],
     sidebarConfig: {
-      forcedNavOrder: ["/contact", "/enoch", "/posts"],
-      ignoreIndex: true
+      forcedNavOrder: ["/enoch", "/posts"],
+      ignoreIndex: true,
+      navOpen: false
     }
   },
   plugins: [

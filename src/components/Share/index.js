@@ -22,7 +22,8 @@ const ShareSection = styled.div`
   justify-content: center;
   align-content: center;
   align-items: center;
-  margin: 15px 5px;
+  margin: 15px 15px;
+  padding: 15px;
 `;
 
 const Count = styled.div`
@@ -31,9 +32,8 @@ const Count = styled.div`
 
 class Share extends Component {
   render () {
-    const { title, slug, excerpt, mobile } = this.props
-    const url = config.siteUrl + slug
-
+    const { title, excerpt, mobile } = this.props
+    const url = path => (path ? `${config.site.siteUrl}${path}` : config.site.siteUrl);
     const iconSize = mobile ? 36 : 48
     const filter = count => (count > 0 ? count : '')
 
