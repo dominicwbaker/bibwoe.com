@@ -10,6 +10,7 @@ module.exports = {
     name: `Bibwoe`,
     author: `Donald Boulton`,
     siteUrl: `https://bibwoe.com`,
+    pathPrefix: `/`,
     language: `en-US`,
     description: `Basic Instructions Books While On Earth`,
     social: [
