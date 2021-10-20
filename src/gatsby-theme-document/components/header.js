@@ -8,7 +8,6 @@ import IconButton from 'gatsby-theme-document/src/components/icons/IconButton';
 import Menu from 'gatsby-theme-document/src/components/icons/Menu';
 import LogoWrapper from 'gatsby-theme-document/src/components/LogoWrapper';
 import SocialIcons from 'gatsby-theme-document/src/components/SocialIcons';
-import Search from "../../src/components/Search";
 
 const Header = ({ navOpen, setNavOpen }) => {
   const { cycleColorMode } = useCycleColor();
@@ -28,7 +27,6 @@ const Header = ({ navOpen, setNavOpen }) => {
         <LogoWrapper />
       </HeaderSection>
       <HeaderSection>
-        <Search />
         <SocialIcons />
         <IconButton
           label="Change Theme Color"

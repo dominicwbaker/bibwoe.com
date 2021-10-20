@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from '@emotion/styled'
-import fetch from 'node-fetch'
 
 /*
   ⚠️ This is an example of a contact form powered with Netlify form handling.
@@ -170,7 +169,7 @@ class ContactForm extends React.Component {
     })
   }
 
-  closeModal = () => {
+  handleCloseModal = () => {
     this.setState({ showModal: false })
   }
 

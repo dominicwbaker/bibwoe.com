@@ -14,9 +14,9 @@ class GitHubButtonsRepo extends Component {
   render () {
     return (
       <Section>
-          <GithubButtonFollow />
-          <GithubButtonWatch />
-          <GithubButtonStar />
+        <GithubButtonFollow />
+        <GithubButtonWatch />
+        <GithubButtonStar />
       </Section>
     )
   }

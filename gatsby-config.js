@@ -1,9 +1,3 @@
-require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV}`,
-})
-
-const queries = require('./src/utils/algolia')
-
 module.exports = {
   siteMetadata: {
     title: `Bibwoe.com`,
@@ -24,7 +18,7 @@ module.exports = {
       }
     ],
     sidebarConfig: {
-      forcedNavOrder: ["/enoch", "/posts"],
+      forcedNavOrder: ["/posts", "/enoch"],
       ignoreIndex: true,
       navOpen: false
     }
@@ -33,26 +27,10 @@ module.exports = {
     { 
       resolve: `gatsby-theme-document` 
     },
-    {
-      resolve: `gatsby-plugin-mailchimp`,
-      options: {
-        endpoint: 'https://donboulton.us4.list-manage.com/subscribe/post?u=946962f91a21100144db815b9&amp;id=c2a27bdd5f', // see instructions at official plugin page
-      },
-    },
     'gatsby-plugin-robots-txt',
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-remove-trailing-slashes`,
-    {
-      resolve: 'gatsby-plugin-algolia',
-      options: {
-        appId: process.env.GATSBY_ALGOLIA_APP_ID,
-        apiKey: process.env.GATSBY_ALGOLIA_API_KEY,
-        indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
-        queries,
-        chunkSize: 10000
-      }
-    },
     {
       resolve: `gatsby-plugin-netlify`,
       options: {
@@ -69,6 +47,5 @@ module.exports = {
         },
       },
     },
-    'gatsby-plugin-netlify-cache',
   ]
 };
