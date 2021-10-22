@@ -3,43 +3,20 @@ title: 'Posts'
 description: 'Bibwoe Posts'
 ---
 
-Syntax Highlighting
+# Posts Links
 
-```jsx
-import React, { useReducer } from 'react';
+[Creation of all](https://bibwoe.com/posts/creation-of-all)
 
-export const GlobalStateContext = React.createContext();
-export const GlobalDispatchContext = React.createContext();
+[Commandments](https://bibwoe.com/posts/commandments)
 
-const initialState = {
-  collapsed: {}
-};
+[Experiments](https://bibwoe.com/posts/exparments)
 
-function reducer(state, action) {
-  switch (action.type) {
-    case 'TOGGLE_NAV_COLLAPSED':
-      return {
-        ...state,
-        collapsed: {
-          ...state.collapsed,
-          [action.url]: !state.collapsed[action.url]
-        }
-      };
-    default:
-      return {
-        ...state
-      };
-  }
-}
+[Jew Who](https://bibwoe.com/posts/jew-who)
 
-const GlobalContextProvider = ({ children }) => {
-  const [state, dispatch] = useReducer(reducer, initialState);
-  return (
-    <GlobalStateContext.Provider value={state}>
-      <GlobalDispatchContext.Provider value={dispatch}>{children}</GlobalDispatchContext.Provider>
-    </GlobalStateContext.Provider>
-  );
-};
+[Trinity of Angles](https://bibwoe.com/posts/trinity-of-angles)
 
-export default GlobalContextProvider;
-```
+[Song](https://bibwoe.com/posts/song)
+
+[Virtue](https://bibwoe.com/posts/virtue)
+
+[Works Of Flesh](https://bibwoe.com/posts/works)
