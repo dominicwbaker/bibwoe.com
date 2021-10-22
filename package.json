@@ -31,6 +31,7 @@
     "typeface-roboto": "^1.1.13"
   },
   "devDependencies": {
+    "@netlify/plugin-gatsby": "^1.0.3",
     "babel-preset-gatsby": "^1.14.0",
     "gatsby-plugin-remove-trailing-slashes": "^2.1.13"
   }
