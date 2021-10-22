@@ -178,13 +178,14 @@ class ContactForm extends React.Component {
       <Form
         name='contact-form'
         onSubmit={this.handleSubmit}
-        data-netlify='true'
+        method="POST" 
+        data-netlify="true"
         data-netlify-honeypot='bot'
         overlay={this.state.showModal}
         onClick={this.handleCloseModal}
         netlify-recaptcha
       >
-        <input type='hidden' name='form-name' value='contact' />
+        <input type='hidden' name='form-name' value='contact-form' />
         <p hidden>
           <label>
             Don’t fill this out:{' '}
