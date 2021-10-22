@@ -27,6 +27,20 @@ module.exports = {
     { 
       resolve: `gatsby-theme-document` 
     },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+        {
+          resolve: "gatsby-remark-external-links",
+          options: {
+            target: "_blank",
+            rel: "nofollow"
+          }
+        }
+        ]
+      }
+    },
     'gatsby-plugin-robots-txt',
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
