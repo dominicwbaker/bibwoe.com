@@ -61,6 +61,7 @@
       https://api.github.com
       https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js 
       https://d33wubrfki0l68.cloudfront.net/bundles/52d880b853a39c3dccfb6ac0e9f1f3bbbba3bd2f.js
+      https://d33wubrfki0l68.cloudfront.net/bundles/52d880b853a39c3dccfb6ac0e9f1f3bbbba3bd2f.js
     '''      
     Access-Control-Allow-Methods = '''
       POST, 
