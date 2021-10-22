@@ -22,7 +22,7 @@ const Layout = ({ children, tableOfContents, location }) => {
         <LeftSidebar navOpen={navOpen} />
         <SiteContentWrapper>
           <SiteContent navOpen={navOpen}>{children}</SiteContent>
-          <ShareWrapper></ShareWrapper>
+          <ShareWrapper><Share /></ShareWrapper>
         </SiteContentWrapper>
         {tableOfContents.items && (
           <RightSidebar tableOfContents={tableOfContents} location={location} />
