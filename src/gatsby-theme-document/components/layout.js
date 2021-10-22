@@ -8,7 +8,6 @@ import mediaqueries from 'gatsby-theme-document/src/styles/media';
 import Header from 'gatsby-theme-document/src/components/Header';
 import LeftSidebar from 'gatsby-theme-document/src/components/LeftSidebar';
 import RightSidebar from 'gatsby-theme-document/src/components/RightSidebar';
-import Share from '../../components/Share'
 
 require('typeface-kaushan-script')
 require('typeface-roboto')
