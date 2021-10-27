@@ -154,8 +154,10 @@
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
   border-radius: 12px;
   transition: box-shadow 0.3s linear;
-  .featured-image {
-    border-radius: 12px;
+  .cover {
+    border-radius: 12px 12px 0 0;
+    width: 100%;
+    object-fit: cover;
     img {
       display: block;
       margin: 0;
@@ -217,7 +219,7 @@
   }
 }
 article figure {
-  margin: 40px 0;
+  margin: 15px 0;
   text-align: center;
   figcaption {
     font-size: var(--font-size-small);
@@ -247,7 +249,7 @@ article img {
 
 .blog-post {
   .featured-image {
-    border-radius: 12px;
+    border-radius: 12px 12px 0 0;
     display: block;
     margin-left: auto;
     margin-right: auto;

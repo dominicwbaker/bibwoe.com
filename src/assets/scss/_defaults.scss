@@ -67,6 +67,13 @@ input:-webkit-autofill
 {
  -webkit-text-fill-color: #fe7299 !important;
 }
+.cover {
+  margin-bottom: 1em;
+  border-radius: 12px 12px 0 0;
+  border: thin black;  
+  width: 100%;
+  object-fit: cover;
+}
 body {
   margin: 0;
   padding: 0;

@@ -20,10 +20,12 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
+  "browserslist": [
+    "Edge 15"
+  ],
   "dependencies": {
     "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^3.0.2",
     "@theme-ui/color": "^0.11.3",
-    "babel-core": "^6.26.3",
     "gatsby": "^3.14.3",
     "gatsby-plugin-google-analytics": "^3.1.0",
     "gatsby-plugin-image": "^1.1.2",
@@ -51,5 +53,10 @@
     "react-icons": "^3.11.0",
     "theme-ui": "^0.11.3"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "caniuse-lite": "1.0.30001271",
+    "postcss-preset-env": "^6.7.0"
+  }
 }
