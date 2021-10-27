@@ -1,6 +1,6 @@
 {
-    "cSpell.words": [
-        "Bibwoe",
-        "seperated"
-    ]
+  "prettier.useTabs": true,
+  "editor.tabSize": 2,
+  "html.format.wrapLineLength": 80,
+  "editor.wordWrap": "on"
 }

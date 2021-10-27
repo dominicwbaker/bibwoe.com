@@ -1,0 +1,24 @@
+{
+  "socialIcons": [
+    {
+      "icon": "facebook",
+      "url": "https://www.facebook.com/donboulton"
+    },
+    {
+      "icon": "instagram",
+      "url": "https://www.instagram.com/donboulton/"
+    },
+    {
+      "icon": "linkedin",
+      "url": "https://in.linkedin.com/company/donboulton"
+    },
+    {
+      "icon": "youtube",
+      "url": "https://www.youtube.com/channel/UCHED4RFSxXXNGDDvWpgzHXg"
+    },
+    {
+      "icon": "dribbble",
+      "url": "https://dribbble.com/donboulton"
+    }
+  ]
+}

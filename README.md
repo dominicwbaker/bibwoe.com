@@ -1,80 +1,169 @@
-# Bibwoe Gatsby Theme Document
+> **Update** Foundation is now built with Gatsby V3, this include many performance update
 
-Welcome to Document, a Gatsby.js theme by [Code Bushi](https://codebushi.com/gatsby-starters-and-themes/). Quickly and easily create documentation for anything using MDX or Markdown.
+---
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/acf70a7a-da9a-4472-a599-1cb6fa6a301a/deploy-status)](https://app.netlify.com/sites/bibwoe/deploys)
 
-👀 [View the Live Demo](https://gatsby-theme-document.netlify.com/)
 
-## Getting Started
+# Foundation
 
-Using the Gatsby CLI
+A starter to launch your blazing fast personal website and a blog, Built with [Gatsby][gatsby] and [Netlify CMS][netlifycms].
+
+
+
+Need help launching your website? My DM's are open on <a href="https://twitter.com/stackrole">twitter</a>
+
+
+## 👌 Features
+
+- A Blog and Personal website with Netlify CMS.
+- Responsive Web Design
+- Dark / Light Mode
+- Customize theme color from CMS
+
+
+- Search bar
+- Customize content of Homepage, About and Contact page.
+- Customize content of Homepage, About and Contact page.
+- Add / Modify / Delete blog posts.
+- Edit website settings, Add Google Analytics and make it your own all with in the CMS.
+- SEO Optimized
+- Social media icons
+- OpenGraph structured data
+- Twitter Cards meta
+- Beautiful XML Sitemaps
+- Netlify Contact Form, Works right out of the box after deployment.
+- Invite collaborators into Netlify CMS, without giving access to your Github account via Git Gateway
+- Gatsby Incremental Builds with Netlify.
+
+## 🚀 Quick Deploy
+
+Just click on the **Deploy to Netlify** button.
+
+
+This would fork `gatsby-starter-foundation` to your Github account and start building your website on [Netlify](https://netlify.com). Once the deployment is done. Your website will be live and website address would look like **site-name.netlify.app**
+
+### Further Instructions
+
+- [Access to Netlify CMS](#access-to-netlify-cms)
+- [Editing content and Adding posts](#editing-content-and-adding-posts)
+- [Customing Site details](#customing-site-details)
+- [Adding Custom domain to netlify website](#adding-custom-domain-to-netlify-website)
+- [Install Locally](#install-locally)
+- [Folder Structure](#folder-structure)
+- [Learning Gatsby](#learning-gatsby)
+- [Thank you from Stackrole](#thank-you)
+
+## ⚙ Access to Netlify CMS
+
+- Goto app.netlify.com > select your website from the list
+- Goto identity and Click **Enable Identiy**
+- Click on **Invite Users** and invite yourself. You will receive an email and you need to accept the invitation to set the password.
+- Now headover to Settings > Identity > Services and **Enable Git Gateway**
+- You can also manage who can register and log in to your CMS. Goto Settings > Identity > Registration >Registration Preferences. I would prefer to keep it to **Invite Only**, if i am the only one using it.
+- Now, goto to **site-name.netlify.app/admin/**, and login with your credentials.
+
+## 📝 Editing content and Adding posts
+
+Once you are in your Netlify CMS, you can navigate to Posts and Pages. Here you will find a list of existing pages and posts.
+
+You can select any existing post or page to start editing or add a **New Post**. Have fun :)
+
+## ⚙ Customize Site details
+
+You can find all the website settings such website Site title, Website URL, Google anlaytics etc,.. in your Netlify CMS `Admin > Settings > General`
+
+## 🌐 Adding Custom domain to netlify website
+
+We have written a short article on [Custom domain with Netlify website](custom-domain)
+
+## 🖥 Install Locally
+
+Use the Gatsby CLI to create a new site, specifying the `gatsby-starter-foundation` starter.
 
 ```bash
-gatsby new document-site https://github.com/codebushi/gatsby-theme-document-example
-cd document-site
+gatsby new gatsby-starter-foundation https://github.com/stackrole/gatsby-starter-foundation
+```
+
+> You need Node and Gatsby-CLI installed, check out Gatsby [Setup Instructions](https://www.gatsbyjs.org/tutorial/part-zero/)
+
+### Start developing
+
+Navigate into your new site’s directory and start it up.
+
+```shell
+cd my-hello-world-starter/
 gatsby develop
 ```
 
-Your new site will be up at http://localhost:8000
+**Open the source code and start editing!**
 
-Try changing the logo by editing the file at `src/gatsby-theme-document/logo.mdx`.
+Your site is now running at `http://localhost:8000`!
 
-## Adding Content
+_Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-Document is built with [MDX](https://mdxjs.com/). Content can be added by creating or editing the MDX files in the content folder `content/index.mdx`.
+Open the `gatsby-starter-foundation` directory in your code editor of choice and edit. Save your changes and the browser will update in real time!
 
-With MDX, you can add JSX or even React components to your markdown files. Images can also be added to any `.mdx` file, and will be automatically optimized using [gatsby-remark-images](https://www.gatsbyjs.org/packages/gatsby-remark-images/).
+You can use Netlify CMS in you local just run `npx netlify-cms-proxy-server` and start run `gatsby develop`
 
-### Left Sidebar
+## 📁 Folder Structure
 
-The left sidebar navigation is automatically populated by the pages in the content folder. To sort the top level navigation, edit the `forcedNavOrder` option in the `gatsby-config.js` file.
+A quick look at the top-level files and directories you'll see in a Gatsby project.
 
-The logo will link to the `index.mdx` page. To make the `index.mdx` page visible in the left navigation, set `ignoreIndex` to `false`.
+    .
+    ├── node_modules
+    ├── src
+    ├── .gitignore
+    ├── .prettierrc
+    ├── gatsby-browser.js
+    ├── gatsby-config.js
+    ├── gatsby-node.js
+    ├── LICENSE
+    ├── package-lock.json
+    ├── package.json
+    └── README.md
 
-Sub navigation items are created by making a folder with the same name as the top level `.mdx` file. The sub navigation is ordered alphabetically.
+1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
 
-### Right Sidebar
+2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
 
-The contents of the right sidebar will be automatically populated by any heading tags `h1, h2, h3, etc.` that are added to the page. They will anchor link to the corresponding heading.
+3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
-## Theme Colors
+4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
-Document is also built with [Theme UI](https://theme-ui.com). The icon in the top right of the site will cycle through the various color modes that are available.
+5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
 
-To edit or add colors modes, edit the file at `src/gatsby-plugin-theme-ui/colors.js`. To learn more about color modes, check out the [Theme UI docs](https://theme-ui.com/color-modes).
+6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
 
-The contents of the MDX files are also styled with Theme UI and can be edited at `src/gatsby-plugin-theme-ui/index.js`. The styles for the heading tags are found at `src/gatsby-plugin-theme-ui/headingsjs`. Learn more about [styling MDX](https://theme-ui.com/styling-mdx) from the Theme UI docs.
+7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
-## Syntax Colors
+8.  **`LICENSE`**: Gatsby is licensed under the MIT license.
 
-Document uses [@theme-ui/prism](https://theme-ui.com/prism) for syntax highlighting. Different presets can be used by editing the file at `src/gatsby-plugin-theme-ui/index.js`. The desired preset must be included at the top of the file and spread into the `pre` styles
+9.  **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
-```javascript
-import dracula from '@theme-ui/prism/presets/dracula.json';
+10. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-styles: {
-  pre: {
-    ...dracula,
-  }
-}
-```
+11. **`README.md`**: A text file containing useful reference information about your project.
 
-The code blocks will not change color based on the color modes. For a complete list of all available prism presets, check out the Theme UI [syntax themes](https://theme-ui.com/prism#syntax-themes).
+## 🎓 Learning Gatsby
 
-## Social Media Icons
+Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
 
-The social media icons in the header can be edited in the `gatsby-config.js` file, under social. Currently, you can only add Twitter and Github links.
+- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
-## SEO, Site Image, and Manifest Icons
+- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
-Document uses React Helmet to add meta tags to the website's `<head>` tag. When adding/editing a file in the content folder, be sure to include the Title and Description in the frontmatter. These are automatically used to generate the title and description meta tags for the page.
+## 🙏 Thank you
 
-```md
----
-title: "Document by Code Bushi"
-description: "This is the meta description"
----
-```
+We really appreciate you taking time to build your website with our `gatsby-starter-foundation`.
 
-There is also an image at `src/site-image.jpg` which is used for the Open Graph image tag, as well as the Twitter card. Another image at `src/site-icon.png` is used by the [gatsby-plugin-manifest](https://www.gatsbyjs.org/packages/gatsby-plugin-manifest/) to generate a Favicon and other device icons.
+I would love to get your feedback and contributions.
+
+Feel free to ping [@stackrole](stackrole) for help regarding your JAMstack website, our DM's are open. And do not forget to share you website with me 😊
+
+
+
+[gatsby]: https://gatsbyjs.org
+[netlifycms]: https://www.netlifycms.org
+[stackrole]: https://stackrole.com
+[twitter]: https://twitter.com/stackrole
+[custom-domain]: https://stackrole.com/adding-custom-domain-netlify
