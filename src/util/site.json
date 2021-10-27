@@ -2,11 +2,11 @@
   "meta": {
     "title": "Bibwoe",
     "titleTemplate": "%s",
-    "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by donboulton",
+    "description": "Basic Instructions Books While on Earth, The Last Testament to the Holy Bible",
     "siteUrl": "https://bibwoe.com",
     "image": "/assets/prayer.png",
     "iconimage": "/assets/prayer.png",
     "twitterUsername": "@donboulton"
   },
-  "ga": "UA-XXXXXXXXX-X"
+  "ga": "UA-2378526-1"
 }

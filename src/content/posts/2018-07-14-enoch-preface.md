@@ -433,7 +433,7 @@ The special points of interest that should be studied in seeking to realize the 
 
 [xxvi:1](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_21) _Op. cit._, p. 218.
 
-![Enoch Circle](../assets/chrono-trans.webp)
+![Enoch Circle](/assets/chrono-trans.png)
 
 Enoch Books key's, Books of Enoch 1 and 2 with Preface and symbols tags Book of Enoch, Enoch,[Enoch Symbols](http://bibwoe.com/posts/Enoch-Symbols.md)
 
