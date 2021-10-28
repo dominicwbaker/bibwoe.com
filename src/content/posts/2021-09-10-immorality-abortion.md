@@ -31,7 +31,7 @@ The moment the sperm penetrates the egg is conception and life!
 
 You made the decision of creation, weather intentional or haphazardly. 
 
-> And if conceved out of Wed Lock! Your are just fleshly Devil worshiping Animals, ask any Hollywood Actress they will tell you there just Animals with No Humanity, condoning worshiping the flesh.
+> And if conceived out of Wed Lock! Your are just fleshly Devil worshiping Animals, ask any Hollywood Actress they will tell you there just Animals with No Humanity, condoning worshiping the flesh.
 
 You should be sterilized and separated from the rest of, "US", that seek Father Gods truth's in purity and marriage.
 
@@ -58,18 +58,18 @@ An English version of the first ten verses of the ninety-first chapter,
 ### Qur'an The Sun
 
 
-<interactive-center-span>Consider the sun and its radiance, and the moon reflecting the sun.</interactive-center-span>
+Consider the sun and its radiance, and the moon reflecting the sun.
 
-<interactive-center-span>Consider the day as it reveals the world,
-and the night that veils it in darkness.</interactive-center-span>
+Consider the day as it reveals the world,
+and the night that veils it in darkness.
 
-<interactive-center-span>Consider the sky and its wonderful composition,
-the earth and its expanse.</interactive-center-span>
+Consider the sky and its wonderful composition,
+the earth and its expanse.
 
-<interactive-center-span>Consider the human self and He Who perfected it
+Consider the human self and He Who perfected it
 And how He imbued it with awareness of what is right and wrong.
 The one who helps this self to grow in a clean way attains to happiness.
-The one who buries it in darkness is really lost.</interactive-center-span>
+The one who buries it in darkness is really lost.
 
 ## Sari'ah Law
 

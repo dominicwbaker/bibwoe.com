@@ -67,7 +67,7 @@ My Children of the World; Below and the Following Works is the knowledge of all 
 
 Enclosed is the creation of all, how To Pray to The Holy Trinity, some about the author and Several Love Stories all mixed up, "like my human fleshly life here on earth".
 
-> - From my Love and Truths for your edification, and I would hope some pleasure with the comfort of Knowing Father God As I Know and Love Him.
+> From my Love and Truths for your edification, and I would hope some pleasure with the comfort of Knowing Father God As I Know and Love Him.
 
 ## First Things First
 
@@ -107,15 +107,15 @@ Fragmentation of Father was now He Him; as external and internal realizations we
 
 He Him with chaos now external and internal. Father sought to be as it was in the beginning when he slept, as what he was before. He Created Him from the substance of Chaos internal, his reflection to the past, as, "The Holy Spirit", or the binding force for which to give forth a future of life for this internal chaos.
 
-> - The beginning of time!
+> The beginning of time!
 
 ## Jesus the Future
 
 Now WE, "He and Me", thought of the future and it was now my job to direct the creation of life. My son Jesus was born to oversee all life for the future of the chaotic void within.
 
-> - A Spark of Love to Start All!
+> A Spark of Love to Start All!
 
-> - The We was now a Trinity!
+> The We was now a Trinity!
 
 ## Creation of Heaven and Angels
 
@@ -138,7 +138,7 @@ God and Jesus were a little more forgiving, but God is a jealous God, as the Dev
 
 God had internal chaos as, "the void for the future of life, 'Creation Within", bound and directed by Me, overseen by My Son Jesus, with our Angelic companions and helpers.
 
-> - But what about beyond?
+> But what about beyond?
 
 Thoughts of Mankind were now within father, only conceptions, but of now of reality, without form, but were known to all in Angels in our heavens. Conception is Birth or the beginning of something, or Life.
 
@@ -162,19 +162,19 @@ Testing mankind constantly to see of there works and hearts within there worths 
 
 Re read your Holy Bible where Jesus talks about Father and also about God, not the same, I am his Father the Holy Spirit, God is God. As My Son told you the same thing that no one Gets to the Father, "His Father" except through him, meaning the next level of heaven or middle heaven or Me.
 
-> - Only a Handful have gotten past Me to Father God!
+> Only a Handful have gotten past Me to Father God!
 
 God is the Creator Designer Sustainer. The Holy Spirit binds and directs. Jesus Oversees!
 
 ### Breath Of Life
 
-> - The Creation of the All, was formed through song that started the dance of life from a blank and formless verse, bringing forth life to all. For all to formalize there, "Own Song"!
+> The Creation of the All, was formed through song that started the dance of life from a blank and formless verse, bringing forth life to all. For all to formalize there, "Own Song"!
 
 ### The First Act of Love
 
-> - Special creation through song for a dance of life, giving freedom of evolution to all, so all could be one within self, = no prohibitions, "Freedom to just Be!
+> Special creation through song for a dance of life, giving freedom of evolution to all, so all could be one within self, = no prohibitions, "Freedom to just Be!
 
-> - It's our simple test of life from Fathers love to see what all would become, so we could relish, "Each, "In its Own Design"!
+> It's our simple test of life from Fathers love to see what all would become, so we could relish, "Each, "In its Own Design"!
 
 As you do in your own children; or should!
 
@@ -192,24 +192,24 @@ Verse's 1-4 stand upon there face, "prima facie", as there self explanatory.
 
 5 “And when you pray, do not be like the hypocrites, for they love to pray standing in the synagogues and on the street corners to be seen by others. Truly I tell you, they have received their reward in full.
 
-> - Your connection to the Trinity is individual, it does not have any thing to do with church, religion, a preacher, any of mans books, Tom down the street or the next door neighbor Sally. It's between you and Father God, Jesus and now Me!
+> Your connection to the Trinity is individual, it does not have any thing to do with church, religion, a preacher, any of mans books, Tom down the street or the next door neighbor Sally. It's between you and Father God, Jesus and now Me!
 
 6 But when you pray, go into your room, close the door and pray to your Father, who is unseen. Then your Father, who sees what is done in secret, will reward you.
 
-> - Your room or heart is inside of you, lose out this world and sleep, for only in your sleep is when you can communicate with father in, "A Secret", from you and all others.
+> Your room or heart is inside of you, lose out this world and sleep, for only in your sleep is when you can communicate with father in, "A Secret", from you and all others.
 
 7 And when you pray, do not keep on babbling like pagans, for they think they will be heard because of their many words.
 
-> - And when the pray make your hearts true through responsible works; Old Testament.
-> - Your hearts filled with love of Jesus and for others, having and seeking forgiveness; New Testament.
-> - Have My song of responsibility and truth within you, where all is possible within my song; Last Testament.
+> And when the pray make your hearts true through responsible works; Old Testament.
+> Your hearts filled with love of Jesus and for others, having and seeking forgiveness; New Testament.
+> Have My song of responsibility and truth within you, where all is possible within my song; Last Testament.
 > - For the trinity does not care what is in your minds or what comes out of your mouths; but your truth in your hearts; which can only be determined when its not being swayed by your mind or babbling dribble from your mouths.
-> - To a secret sleep with love and truth in your hearts!
-> - If your heart is true and its, "Needed", for you and/or others, you will be rewarded openly within the flesh as healing, knowledge and truth within and from our love.
+> To a secret sleep with love and truth in your hearts!
+> If your heart is true and its, "Needed", for you and/or others, you will be rewarded openly within the flesh as healing, knowledge and truth within and from our love.
 
 8 Do not be like them, for your Father knows what you need before you ask him.
 
-> - If your heart is true! Prayer is redundant!
+> If your heart is true! Prayer is redundant!
 
 9 This, then, is how you should pray.
 
@@ -256,9 +256,6 @@ The Devil hates me and will do anything to keep me from cleansing the Earth and 
 
 > I already have your souls that She wants and cannot get, for since the Beginning of Time I have held God's Books of Life, and have the power to erase what ever I want to; then, "what ever"; "Never Existed"!
 
-> - So if I have to leave without finishing my job, "Then Guess What"!
+> So if I have to leave without finishing my job, "Then Guess What"!
 
 Stay Tuned to this channel for further updates. As of the verse is in constant evolution.
-
-
-Next Page [Experiments](/posts/experiments)

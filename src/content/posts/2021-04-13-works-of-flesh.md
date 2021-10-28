@@ -54,5 +54,3 @@ Almost instantly went from women chasing me around, and lots of friends, to havi
 I lived about 10 years of my life secluded somewhere up in the Humboldt Ca. mountains, barefooted, away from Ranger Bob, and by my self, no books, music, nothing, except food, beer and weed. Not seeking comfort or even a pillow. Just to tame my mouth and to think with father.
 
 This is what the Old Testaments talk's about, "your truth in works of your flesh", and to be fully responsible for all things interrelated to your works, what do you know of Gods World, and some perspective of self context, being true in your heart and virtuous.
-
-Next Page [Virtue](/blog/virtue) 

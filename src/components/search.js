@@ -75,7 +75,6 @@ export default class Search extends Component {
 const searchStyle = {
   searchResults: {
     borderRadius: "0 0 6px 6px",
-    display: "none",
   },
   searchField: {
     zIndex: "11111",

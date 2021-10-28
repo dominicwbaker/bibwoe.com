@@ -31,9 +31,9 @@ Below is what the consequences will be now for violating My Laws.
 
 This commandment forbids idolatry, the worship of false gods and goddesses, and it excludes polytheism, the belief in many gods, insisting instead on monotheism, the belief in one God. This commandment forbids making golden calves, building temples to Isis, and worshipping statues of Caesar, for example.
 
-> - No Crosses or Rosery or Depictions of the Trinity, for, "We Are All"!
+> * No Crosses or Rosery or Depictions of the Trinity, for, "We Are All"!
 
-> - No Worshiping the Flesh!
+> * No Worshiping the Flesh!
 
 ### Second
 
@@ -47,7 +47,7 @@ The faithful are required to honor the name of God. It makes sense that if youâ€
 
 The Jewish celebration of Sabbath (Shabbat) begins at sundown on Friday evening and lasts until sundown on Saturday. Catholic, Protestant, and Orthodox Christians go to church on Sunday, treating it as the Lordâ€™s Day instead of Saturday to honor the day Christ rose from the dead.
 
-> - Everyday is a Holy Day and of Sabbath, If traditions prevail then the Jewish version is my choice. I do my best work on Sunday!
+> Everyday is a Holy Day and of Sabbath, If traditions prevail then the Jewish version is my choice. I do my best work on Sunday!
 
 ### Fourth
 

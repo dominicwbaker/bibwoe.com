@@ -1,51 +1,41 @@
 ---
 template: about-page
 slug: /about
-title: About Foundation
+title: About Bibwoe
 ---
 
-Thank you! Now say "nuclear wessels"! No! Don't jump! A sexy mistake. Anyone who laughs is a communist!
+![Banner](../assets/creation-header.jpg)
 
-A true inspiration for the children. And when we woke up, we had these bodies. Moving along… Do a flip! Michelle, I don't regret this, but I bth rue and lament it.
+## This New Word Describes All, "Bibwoe".
 
+## Basic Instructions Books While On Earth
 
+### The Last Testament
 
-Nay, I respect and admire Harold Zoid too much to beat him to death with his own Oscar. Well, then good news! It's a suppository. Then we'll go with that data file! **I've been there.** _My folks were always on me to groom myself and wear underpants._ What am I, the pope?
+The We is of all and all is thy Father God, as I is just a lie and of the Devil with only fleshly considerations.
 
-Daddy Bender, we're hungry. We can't compete with Mom! Her company is big and evil! Ours is small and neutral! We're rescuing ya. We'll go deliver this crate like professionals, and then we'll go home.
+Jesus is the Future or We. The We has a purpose and that is the Re-Creation of Man, away from the I to the intended WE, the time Becoming Anew My Children!
 
-I didn't ask for a completely reasonable excuse! I asked you to get busy! I never loved you. OK, this has gotta stop. I'm going to remind Fry of his humanity the way only a woman can. With a warning label this big, you know they gotta be fun!
+Re-patterning to a new becoming, according to thy Father Gods Will, Fathers will be now given to all. 
 
-1. And from now on you're all named Bender Jr.
-2. Ah, computer dating. It's like pimping, but you rarely have to use the phrase "upside your head."
-3. You wouldn't. Ask anyway!
+With the keys to unlock your broken spirit, all can be found within BIBWOE.
 
-Bender, quit destroying the universe! No! The cat shelter's on to me. Enough about your promiscuous mother, Hermes! We have bigger problems. Fatal. I guess if you want children beaten, you have to do it yourself.
+View [Creation Of All](https://bibwoe.com/posts/creation-of-all), Instructions for the Future, and affirmed through the words of Jesus as written in the KJV of the BIBLE. Spoken to the We whom hear and can see, within. As Thy Father God as the Holy Spirit is inside all, as well as all is inside our Father God.
 
-I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money. You mean while I'm sleeping in it? I don't want to be rescued.
+This difference is life within substance, as our Father is of no measure and is the 95.0% of all; as the Holy Spirit, darkness and/or dark matter, those whom think father is of the light think very little, as the light is .5% of the 5% of this universe and the creation Of Father for the illusion of Man, the light is to see beyond. 
 
-- You know the worst thing about being a slave? They make you work, but they don't pay you or let you go.
-- And when we woke up, we had these bodies.
-- Spare me your space age technobabble, Attila the Hun!
+Mankind and all creation is of the .5% or the 5%.
 
-Hi, I'm a naughty nurse, and I really need someone to talk to. \$9.95 a minute. But, like most politicians, he promised more than he could deliver. I don't know what you did, Fry, but once again, you screwed up! Now all the planets are gonna start cracking wise about our mamas.
+where One becomes One thus all is of the I am as We. 
 
-You mean while I'm sleeping in it? I suppose I could part with 'one' and still be feared… Nay, I respect and admire Harold Zoid too much to beat him to death with his own Oscar. Negative, bossy meat creature!
+The connection between the two or 0 to 1 and/or darkness becomes light is thy Fathers past reflection as the Holy Spirit. The Holy Spirit of father is the past of the trinity as -1. Jesus is the future of the trinity as 1 or beyond the point of when 1 becomes 1 and that is of the WE.
 
-Oh God, what have I done? I don't 'need' to drink. I can quit anytime I want! Bender! Ship! Stop bickering or I'm going to come back there and change your opinions manually! Wow! A superpowers drug you can just rub onto your skin? You'd think it would be something you'd have to freebase.
+BIBWOE defines flesh as our test and opens the knowledge and connection to your broken spirit.
 
-Ask her how her day was. In our darkest hour, we can stand erect, with proud upthrust bosoms. Why did you bring us here? I don't know what you did, Fry, but once again, you screwed up! Now all the planets are gonna start cracking wise about our mamas.
+Broken in the sense as it was once turned off, since Adam and Eve sinned, now its turned on, as of 2K. 
 
-Good news, everyone! I've taught the toaster to feel love! This opera's as lousy as it is brilliant! Your lyrics lack subtlety. You can't just have your characters announce how they feel. That makes me feel angry!
+This period of off has patterned mankind to mainly fleshly considerations, as you know not yourself within thy father, lost with external thinking, knowing not self by always affirming self through external considerations and this world. 
 
-Hello Morbo, how's the family? You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Oh Leela! You're the only person I could turn to; you're the only person who ever loved me.
+Not knowing that we are a part of Father as well as Father is within us of eternal glory within the Holy Spirit.
 
-My fellow Earthicans, as I have explained in my book 'Earth in the Balance'', and the much more popular ''Harry Potter and the Balance of Earth', we need to defend our planet against pollution. Also dark wizards. Incidentally, you have a dime up your nose.
-
-You are the last hope of the universe. You know the worst thing about being a slave? They make you work, but they don't pay you or let you go. I meant 'physically'. Look, perhaps you could let me work for a little food? I could clean the floors or paint a fence, or service you sexually?
-
-Hey, guess what you're accessories to. I feel like I was mauled by Jesus. Why would a robot need to drink? What are their names? Fry! Quit doing the right thing, you jerk! Doomsday device? Ah, now the ball's in Farnsworth's court!
-
-I saw you with those two "ladies of the evening" at Elzars. Explain that. Shinier than yours, meatbag. That's the ONLY thing about being a slave. Um, is this the boring, peaceful kind of taking to the streets?
-
-Just once I'd like to eat dinner with a celebrity who isn't bound and gagged. Daddy Bender, we're hungry. Kids don't turn rotten just from watching TV. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense.
+Some descriptions of mankind will be of harsh truths, that will not set right with some and argument is their course, some will not know at all what to think and find themselves in limbo, my children of truth will know and the word will be their course along that narrow path of truth and doing what is right = Righteousness.
