@@ -18,7 +18,7 @@ const styles = {
         color: "text",
       },
       "&:hover": {
-        color: "text",
+        color: "#540229",
       },
     },
   },

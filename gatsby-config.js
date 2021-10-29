@@ -54,13 +54,16 @@ module.exports = {
             resolve: `@gatsby-contrib/gatsby-plugin-elasticlunr-search`,
             options: {
               // Fields to index
-              fields: [`title`, `slug`],
+              fields: [`title`],
               // How to resolve each field`s value for a supported node type
               resolvers: {
-                // For any node of type MarkdownRemark, list how to resolve the fields` values
+                BlogPost : {
+                  title         : node => node.title,
+                  featuredImage : (node, getNode) => getNode(node.featuredImage___NODE)
+                },
                 MarkdownRemark: {
                   title: node => node.frontmatter.title,
-                  slug: node => node.frontmatter.slug,
+                  path: node => node.frontmatter.slug,
                 },
               },
             },
@@ -86,7 +89,12 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     "gatsby-plugin-theme-ui",
-    `gatsby-plugin-netlify-cms`,
+    {
+      resolve: 'gatsby-plugin-netlify-cms',
+      options: {
+        modulePath: `${__dirname}/src/cms/cms.js`,
+      },
+    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {

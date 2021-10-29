@@ -12,12 +12,7 @@ import Theme from "../components/theme"
 import Search from "../components/search"
 
 const query = graphql`
-  query LayoutQuery {
-    site {
-      siteMetadata {
-        siteTitle: title
-      }
-    }
+  query SearchIndexQuery {
     siteSearchIndex {
       index
     }
@@ -25,13 +20,12 @@ const query = graphql`
 `
 
 const Layout = ({ children, className, props }) => {
-  const { site, siteSearchIndex } = useStaticQuery(query)
-  const { siteTitle } = site.siteMetadata
+  const { siteSearchIndex } = useStaticQuery(query)
 
   return (
     <div className="primary-container">
       <Header>
-        <Logo title={siteTitle} />
+        <Logo />
         <div sx={layoutStyle.nav}>
           <div sx={{ display: ["flex", "flex", "flex", "none"] }}>
             <Search searchIndex={siteSearchIndex.index} />
