@@ -12,7 +12,7 @@ const Footer = () => (
   >
     <div className="container">
       <p>
-        Basic Instructions Books While on Earth{" "}
+      © {new Date().getFullYear()} Basic Instructions Books While on Earth{" "}
         <span className="icon -love">
           <RiHeart2Line />
         </span>{" "}

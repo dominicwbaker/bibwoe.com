@@ -40,6 +40,14 @@ const PostCard = ({ data }) => (
       >
         <time>{data.frontmatter.date}</time>
       </p>
+      <p
+        className="excerpt"
+        sx={{
+          color: "muted",
+        }}
+      >
+        {data.excerpt}
+      </p>
     </div>
   </article>
 )
