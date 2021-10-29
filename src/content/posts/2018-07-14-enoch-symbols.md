@@ -3,7 +3,7 @@ template: blog-post
 title: "Enoch Symbols"
 date: 2018-07-14 10:11
 slug: /blog/enoch-symbols
-featuredImage: /assets/enoch-spaceship.jpg
+featuredImage: /assets/enoch-floating.jpg
 description: The Symbols use in Enoch Books 1 and 2
 ---
 

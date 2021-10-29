@@ -1,7 +1,7 @@
 ﻿---
 template: blog-post
 title: "Enoch Preface"
-date: 2018-07-14 10:11
+date: 2018-07-15 10:11
 slug: /blog/enoch-preface
 featuredImage: /assets/enoch-preface.jpg
 description: Preface for Books 1 and 2 Enoch

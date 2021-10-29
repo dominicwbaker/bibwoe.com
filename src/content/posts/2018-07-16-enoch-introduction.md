@@ -1,7 +1,7 @@
 ﻿---
 template: blog-post
 title: Enoch Introduction
-date: 2009-11-09 10:11
+date: 2018-07-16 10:11
 slug: /blog/enoch-introduction
 featuredImage: /assets/enoch-god.jpg
 description: The Original Bible before Jewish - Christian - Muslum Plagerism
