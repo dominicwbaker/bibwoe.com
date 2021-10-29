@@ -53,7 +53,7 @@ This would fork `gatsby-starter-foundation` to your Github account and start bui
 - You can also manage who can register and log in to your CMS. Goto Settings > Identity > Registration >Registration Preferences. I would prefer to keep it to **Invite Only**, if i am the only one using it.
 - Now, goto to **site-name.netlify.app/admin/**, and login with your credentials.
 
-## Installation of CMS
+## ⛭ Installation of CMS
 
 > gatsby-plugin-netlify-cms V 5.14.0
 
@@ -89,6 +89,8 @@ export default {
 ### The Configuration file
 
 Change /static/admin/config.yml file to your site needs. Otherwise its tailored for this Configuration!
+
+* * *
 
 ## 📝 Editing content and Adding posts
 

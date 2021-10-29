@@ -228,7 +228,7 @@ Verse's 1-4 stand upon there face, "prima facie", as there self explanatory.
 
 > In his prayer Jesus really asks Father God for nothing that we were not already Blessed with, and to be filled with forgiveness of others, so he saying if your prayer is not true of need, "whom he was taking to had no true prayers", and so if there is nothing in your prayer, "you need" with truth of heart, then just have thanks in your heart for all the We have given you.
 
-> > Do this every night when you sleep! And your Blessings will be many.
+> > 🙏 Do this every night when you sleep! And your Blessings will be many.
 
 But be careful what ye ask, you might get it, and then have to be responsible for it. Lets say you ask for shoes for the children of somewhere, and then One Of the We reveals to you a way to do just that, then you have a responsibility.
 
