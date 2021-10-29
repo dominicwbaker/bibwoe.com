@@ -61,7 +61,7 @@ Compare this with Enoch 1:9, translated from the Ethiopic (found also in Qumran 
 
 > And behold! He cometh with ten thousands of His Saints To execute judgment upon all.
 
-> * And to destroy all the ungodly: And to convict all flesh Of all the works of their ungodliness which they have ungodly committed, And of all the hard things which ungodly sinners have spoken against Him.
+> And to destroy all the ungodly: And to convict all flesh Of all the works of their ungodliness which they have ungodly committed, And of all the hard things which ungodly sinners have spoken against Him.
 
 Compare this also with what may be the original source of 1 En 1:9 in Deuteronomy 33:2:[15][16][17]
 
@@ -91,7 +91,7 @@ With evil everywhere around, the Apocalyptists saw no hope for the world as it w
 
 It is this thought which underlies the opening words of the Book of Enoch: "The words of the blessing of Enoch, wherewith he blessed the elect and righteous, who will be living in the day of tribulation, when all the wicked and godless are to be removed".
 
-> - Nowhere in this book is the essence of this hope more beautifully expressed than in a short metrical piece in the first chapter:
+> > Nowhere in this book is the essence of this hope more beautifully expressed than in a short metrical piece in the first chapter:
 
 > ## Beautifully Expressed
 >

@@ -174,7 +174,7 @@ God is the Creator Designer Sustainer. The Holy Spirit binds and directs. Jesus 
 
 > Special creation through song for a dance of life, giving freedom of evolution to all, so all could be one within self, = no prohibitions, "Freedom to just Be!
 
-> It's our simple test of life from Fathers love to see what all would become, so we could relish, "Each, "In its Own Design"!
+> > It's our simple test of life from Fathers love to see what all would become, so we could relish, "Each, "In its Own Design"!
 
 As you do in your own children; or should!
 
@@ -203,9 +203,12 @@ Verse's 1-4 stand upon there face, "prima facie", as there self explanatory.
 > And when the pray make your hearts true through responsible works; Old Testament.
 > Your hearts filled with love of Jesus and for others, having and seeking forgiveness; New Testament.
 > Have My song of responsibility and truth within you, where all is possible within my song; Last Testament.
-> - For the trinity does not care what is in your minds or what comes out of your mouths; but your truth in your hearts; which can only be determined when its not being swayed by your mind or babbling dribble from your mouths.
+
+> > For the trinity does not care what is in your minds or what comes out of your mouths; but your truth in your hearts; which can only be determined when its not being swayed by your mind or babbling dribble from your mouths.
+
 > To a secret sleep with love and truth in your hearts!
-> If your heart is true and its, "Needed", for you and/or others, you will be rewarded openly within the flesh as healing, knowledge and truth within and from our love.
+
+> > If your heart is true and its, "Needed", for you and/or others, you will be rewarded openly within the flesh as healing, knowledge and truth within and from our love.
 
 8 Do not be like them, for your Father knows what you need before you ask him.
 
@@ -225,7 +228,7 @@ Verse's 1-4 stand upon there face, "prima facie", as there self explanatory.
 
 > In his prayer Jesus really asks Father God for nothing that we were not already Blessed with, and to be filled with forgiveness of others, so he saying if your prayer is not true of need, "whom he was taking to had no true prayers", and so if there is nothing in your prayer, "you need" with truth of heart, then just have thanks in your heart for all the We have given you.
 
-> Do this every night when you sleep! And your Blessings will be many.
+> > Do this every night when you sleep! And your Blessings will be many.
 
 But be careful what ye ask, you might get it, and then have to be responsible for it. Lets say you ask for shoes for the children of somewhere, and then One Of the We reveals to you a way to do just that, then you have a responsibility.
 

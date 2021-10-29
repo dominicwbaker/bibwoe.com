@@ -1,17 +1,10 @@
-> **Update** Foundation is now built with Gatsby V3, this include many performance update
+> **Update** Bibwoe is now built with Gatsby V3 "3.14.3", this include many performance updates such as React 17.0.2; Gatsby Plugin Image proper usage
 
----
+* * *
 
-
-
-# Foundation
+# Bibwoe is Based on Foundation
 
 A starter to launch your blazing fast personal website and a blog, Built with [Gatsby][gatsby] and [Netlify CMS][netlifycms].
-
-
-
-Need help launching your website? My DM's are open on <a href="https://twitter.com/stackrole">twitter</a>
-
 
 ## 👌 Features
 
@@ -19,10 +12,7 @@ Need help launching your website? My DM's are open on <a href="https://twitter.c
 - Responsive Web Design
 - Dark / Light Mode
 - Customize theme color from CMS
-
-
 - Search bar
-- Customize content of Homepage, About and Contact page.
 - Customize content of Homepage, About and Contact page.
 - Add / Modify / Delete blog posts.
 - Edit website settings, Add Google Analytics and make it your own all with in the CMS.
@@ -34,6 +24,7 @@ Need help launching your website? My DM's are open on <a href="https://twitter.c
 - Netlify Contact Form, Works right out of the box after deployment.
 - Invite collaborators into Netlify CMS, without giving access to your Github account via Git Gateway
 - Gatsby Incremental Builds with Netlify.
+- Images with gatsby-plugin-image
 
 ## 🚀 Quick Deploy
 
@@ -61,6 +52,43 @@ This would fork `gatsby-starter-foundation` to your Github account and start bui
 - Now headover to Settings > Identity > Services and **Enable Git Gateway**
 - You can also manage who can register and log in to your CMS. Goto Settings > Identity > Registration >Registration Preferences. I would prefer to keep it to **Invite Only**, if i am the only one using it.
 - Now, goto to **site-name.netlify.app/admin/**, and login with your credentials.
+
+## Installation of CMS
+
+> gatsby-plugin-netlify-cms V 5.14.0
+
+> netlify-cms-app V @latest
+
+```bash
+yarn add gatsby-plugin-netlify-cms netlify-cms-app
+```
+
+### gatsby.config file add
+
+```bash
+{
+  resolve: 'gatsby-plugin-netlify-cms',
+  options: {
+    modulePath: `${__dirname}/src/cms/cms.js`,
+  },
+},
+```
+
+### CMS file in src
+
+Add to folder under src/cms/cms.js
+
+```js
+import CMS from "netlify-cms-app"
+
+export default {
+  CMS,
+}
+```
+
+### The Configuration file
+
+Change /static/admin/config.yml file to your site needs. Otherwise its tailored for this Configuration!
 
 ## 📝 Editing content and Adding posts
 

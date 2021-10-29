@@ -17,8 +17,8 @@ const styles = {
       "&.is-active": {
         color: "text",
       },
-      "&:hover": {
-        color: "#540229",
+      "&:hover": { 
+        color: "#918080",
       },
     },
   },

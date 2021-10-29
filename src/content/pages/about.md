@@ -10,6 +10,12 @@ title: About Bibwoe
 
 ## Basic Instructions Books While On Earth
 
+God's works should be read in a ascending order as they set precedence for the next.
+
+Been waiting around to prompted for 63 years to start this. Kind of got complacent. Then next thing I know the Trinity was together and I was on my way! 
+
+> So here we go to a new day!
+
 ### The Last Testament
 
 The We is of all and all is thy Father God, as I is just a lie and of the Devil with only fleshly considerations.
@@ -24,9 +30,7 @@ View [Creation Of All](https://bibwoe.com/posts/creation-of-all), Instructions f
 
 This difference is life within substance, as our Father is of no measure and is the 95.0% of all; as the Holy Spirit, darkness and/or dark matter, those whom think father is of the light think very little, as the light is .5% of the 5% of this universe and the creation Of Father for the illusion of Man, the light is to see beyond. 
 
-Mankind and all creation is of the .5% or the 5%.
-
-where One becomes One thus all is of the I am as We. 
+Mankind and all creation is of the .5% or the 5%; where One becomes One thus all is of the I am as We. 
 
 The connection between the two or 0 to 1 and/or darkness becomes light is thy Fathers past reflection as the Holy Spirit. The Holy Spirit of father is the past of the trinity as -1. Jesus is the future of the trinity as 1 or beyond the point of when 1 becomes 1 and that is of the WE.
 

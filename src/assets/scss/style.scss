@@ -20,12 +20,15 @@
 .site-navigation {
   ul {
     list-style: none;
+    list-style-type: none;
     margin: 0;
     padding: 0;
   }
   ul li {
     display: inline-block;
     margin-left: 20px;
+    list-style: none;
+    list-style-type: none;
   }
   a {
     color: rgba(255, 255, 255, 0.6);
@@ -76,10 +79,12 @@
       max-width: 320px;
       border-radius: 0 0 0 12px;
       overflow: hidden;
+      list-style-type: none;
     }
     ul li {
       display: block;
       margin-left: 0;
+      list-style-type: none;
     }
     a {
       display: block;
@@ -155,7 +160,7 @@
   border-radius: 12px;
   transition: box-shadow 0.3s linear;
   .cover {
-    border-radius: 12px 12px 0 0;
+    border-radius: 12px;
     width: 100%;
     object-fit: cover;
     img {
@@ -193,7 +198,7 @@
       margin-top: 0;
     }
     .featured-image {
-      border-radius: 12px 12px 0 0;
+      border-radius: 12px;
     }
   }
 }
@@ -231,8 +236,10 @@ article blockquote {
   margin-left: 0;
   padding: 5px 5px 5px 20px;
   border-left: 5px solid #540229;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  border-radius: 8px;
+  border-top: solid 1px #540229;
+  border-right: solid 1px #540229;
+  border-bottom: solid 1px #540229;
 }
 article iframe {
   border: 2px solid black;
@@ -240,6 +247,10 @@ article iframe {
 }
 article img {
   max-width: 100%;
+  border-radius: 12px;
+}
+article a {
+  color: var(--button-alternate-color);
 }
 .blog-post-content {
   max-width: 70ch;
@@ -251,7 +262,7 @@ article img {
 
 .blog-post {
   .featured-image {
-    border-radius: 12px 12px 0 0;
+    border-radius: 12px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -274,10 +285,10 @@ article img {
   &.-outline {
     color: var(--primary-color);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
-    background: #fff;
+    background: var(--button-alternate-color);
     &:hover {
       box-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
-      background: #f2f2f2;
+      background: gray;
     }
   }
   & + .button {
@@ -363,11 +374,13 @@ article img {
   padding: 50px 0;
   ul {
     list-style: none;
+    list-style-type: none;
     margin: 0;
     padding: 0;
   }
   ul li {
     display: inline-block;
+    list-style-type: none;
     margin: 0 5px;
   }
   a {
@@ -385,6 +398,7 @@ article img {
     padding: 20px 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     margin: 50px 0 0;
+
     ul {
       display: flex;
       justify-content: space-between;
@@ -398,7 +412,7 @@ article img {
     p {
       font-size: 14px;
       margin: 0 0 5px;
-      color: #3c3539;
+      color: #918080;
     }
     a {
       font-weight: normal;

@@ -11,7 +11,8 @@ description: Preface for Books 1 and 2 Enoch
 
 The book of Enoch consists of multiple parts that were put together as one book by a later editor.
 
-![Enoch](/assets/enoch-1-60.png)
+![Enoch](/assets/enoch-1-60.png "Enoch Papyrus Fragment")
+_[`Enoch Papyrus Fragment`](https://bibwoe.com/assets/enoch-1-60.png)_
 
 The book consists of the following parts:
 
@@ -56,7 +57,7 @@ W. O. E. OESTERLEY.
 
 G. H. Box.
 
-![Preface Intro](../assets/enoch-preface-intro.jpg)
+![Enoch Calendar](/assets/enoch-preface-intro.jpg)
 
 ## INTRODUCTION
 
@@ -389,53 +390,99 @@ The special points of interest that should be studied in seeking to realize the 
 
 ### Footnotes
 
-[viii:1](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_0) _Jewish and Christian Apocalypses_, pp. 15, 16 (1913).
+[viii:1](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_0)
 
-[xi:1](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_1) G. H. Box, _The Ezra Apocalypse_, pp. 35, 36 (1912).
+> Jewish and Christian Apocalypses_, pp. 15, 16 (1913).
 
-[xiii:1](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_2) The general Pharisaic point of view regarding this may be gathered from Matt. iii. 7-10.
+[xi:1](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_1) 
 
-[xv:1](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_3) Burkitt rightly insists that we should speak of the collection as the books. not the book, of Enoch.
+> G. H. Box, _The Ezra Apocalypse_, pp. 35, 36 (1912).
 
-[xv:2](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_4) Burkitt, op. cit., 28-30.
+[xiii:1](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_2) 
 
-[xvi:1](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_5) _i.e._ the " Pious ones." or " Saints."
+> The general Pharisaic point of view regarding this may be gathered from Matt. iii. 7-10.
 
-[xvi:2](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_6) _Die Saddurder_ (1912).
+[xv:1](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_3) 
 
-[xvi:3](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_7) i.e., according to him, i.-xxxvi., lxxii.-lxxxii., lxxxiii.-xc., xci. 12-17, xciii.
+> Burkitt rightly insists that we should speak of the collection as the books. not the book, of Enoch.
 
-[xvi:4](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_8) See Gen. v. 21-23.
+[xv:2](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_4) 
 
-[xvi:5](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_9) _Op. cit._, p. 18.
+> Burkitt, op. cit., 28-30.
 
-[xvi:6](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_10) Gen. v. 24.
+[xvi:1](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_5) 
 
-[xvii:1](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_11) _i.e._ "The Book of the Heavenly Luminaries." as Charles calls it.
+> Example the " Pious ones." or " Saints."
 
-[xvii:2](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_12) _i.e._ "the righteous"; a play on the word _Zaddûkîm_, the "sons of Zadok," _i.e._ the Sadducees.
+[xvi:2](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_6)
 
-[xvii:3](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_13) Leszynsky, _op cit._, pp. 253 ff.
+> Die Saddurder_ (1912).
 
-[xviii:1](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_14) Chaps. i.-xxxii. 6\. and xix. 3-xxi. 9 in a duplicate form were discovered at Akhmîm in 1886-1887; vi.-x. 14\. xv. 8-xvi. x, and viii. 4-ix. 4 in a duplicate form, have been preserved in Syncellus; lxxxix. 42-49 occurs in a Greek Vatican MS. (No. 1809); there are also a few quotations in early Greek ecclesiastical writings; and i. 9, v. 4\. xxvii. 2 are quoted in the Epistle of St. Jude 14, 15.
+[xvi:3](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_7) 
 
-[xix:1](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_15) _Op. cit._, p. 27.
+> i.e., according to him, i.-xxxvi., lxxii.-lxxxii., lxxxiii.-xc., xci. 12-17, xciii.
 
-[xix:2](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_16) It is a great pity that one system of chapter-enumeration runs through the whole volume; if each separate book began with chap. i. it would be much better. For obvious reasons this cannot be done here; see Editors' General Preface.
+[xvi:4](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_8) 
 
-[xxiii:1](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_17) See also lxxxii. 4-6\. it.
+> See Gen. v. 21-23.
 
-[xxiii:2](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_18) Charles, _The Book of Enoch_, p. 147 (1912).
+[xvi:5](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_9)
 
-[xxiv:1](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_19) _Op. cit._ p. 150.
+> Op. cit._, p. 18.
 
-[xxiv:2](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_20) for the points of difference between the Pharisees and Sadducees see the present writer's _The Books of the Apocrypha, their Origin, Teaching, and Contents_, chap. vii. (1914).
+[xvi:6](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_10)
 
-[xxvi:1](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_21) _Op. cit._, p. 218.
+> Gen. v. 24.
 
-![Enoch Circle](/assets/chrono-trans.png)
+[xvii:1](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_11)
 
-Enoch Books key's, Books of Enoch 1 and 2 with Preface and symbols tags Book of Enoch, Enoch,[Enoch Symbols](http://bibwoe.com/posts/Enoch-Symbols.md)
+> Example "The Book of the Heavenly Luminaries." as Charles calls it.
+
+[xvii:2](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_12)
+
+> Example "the righteous"; a play on the word _Zaddûkîm_, the "sons of Zadok," _i.e._ the Sadducees.
+
+[xvii:3](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_13) 
+
+>Leszynsky, _op cit._, pp. 253 ff.
+
+[xviii:1](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_14)
+
+> Chaps. i.-xxxii. 6\. and xix. 3-xxi. 9 in a duplicate form were discovered at Akhmîm in 1886-1887; vi.-x. 14\. xv. 8-xvi. x, and viii. 4-ix. 4 in a duplicate form, have been preserved in Syncellus; lxxxix. 42-49 occurs in a Greek Vatican MS. (No. 1809); there are also a few quotations in early Greek ecclesiastical writings; and i. 9, v. 4\. xxvii. 2 are quoted in the Epistle of St. Jude 14, 15.
+
+[xix:1](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_15)
+
+> Op. cit, p. 27.
+
+[xix:2](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_16) 
+
+> It is a great pity that one system of chapter-enumeration runs through the whole volume; if each separate book began with chap. i. it would be much better. For obvious reasons this cannot be done here; see Editors' General Preface.
+
+[xxiii:1](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_17) 
+
+> See also lxxxii. 4-6\. it.
+
+[xxiii:2](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_18) 
+
+> Charles, _The Book of Enoch_, p. 147 (1912).
+
+[xxiv:1](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_19) 
+
+> Op. cit. p. 150.
+
+[xxiv:2](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_20) 
+
+> for the points of difference between the Pharisees and Sadducees see the present writer's _The Books of the Apocrypha, their Origin, Teaching, and Contents_, chap. vii. (1914).
+
+[xxvi:1](http://www.sacred-texts.com/bib/boe/boe002.htm#fr_21) 
+
+> Op. cit, p. 218.
+
+* * *
+
+Enoch Books key's, Books of Enoch 1 and 2 with Preface and symbols tags Book of Enoch, 2 Enoch.
+
+[Enoch Symbols](http://bibwoe.com/posts/enoch-symbols.md)
 
 
 
