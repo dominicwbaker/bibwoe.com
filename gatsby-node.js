@@ -12,10 +12,14 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         edges {
           node {
             id
+            fields {
+              slug
+            }
             frontmatter {
               slug
               template
               title
+              description
             }
           }
         }

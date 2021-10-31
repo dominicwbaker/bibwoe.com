@@ -1,74 +1,50 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import { Component } from "react"
-import { Index } from "elasticlunr"
-import { Link } from "gatsby"
-import { RiSearchLine } from "react-icons/ri"
+import Highlighter from "react-highlight-words"
 
-export default class Search extends Component {
-  constructor(props) {
-    super(props)
-    this.state = { showSearch: false }
-    this.handleToggleClick = this.handleToggleClick.bind(this)
-    this.state = {
-      query: ``,
-      results: [],
-    }
-  }
+const SearchResults = ({ query, results }) => (
+  <section aria-label="Search results for all posts">
+    {!!results.length && query && (
+      <h2
+        id="search-results-count"
+        aria-live="assertive"
+      >
+        Found {results.length} posts on "{query}"
+      </h2>
+    )}
+    {!!results.length && (
+      <ul sx={searchResultsStyle.searchResults}>
+        {results.map(({ title, url, date, description }) => (
+          <li key={title}>
+            <h3>
+              <a href={url}>
+                <Highlighter
+                  searchWords={[query]}
+                  autoEscape={true}
+                  textToHighlight={title}
+                />
+              </a>
+            </h3>
+            <small>{new Date(date).toLocaleString("en-GB")}</small>
+            {description && (
+              <p>
+                <Highlighter
+                  searchWords={[query]}
+                  autoEscape={true}
+                  textToHighlight={description}
+                />
+              </p>
+            )}
+          </li>
+        ))}
+      </ul>
+    )}
+  </section>
+)
 
-  handleToggleClick() {
-    this.setState(state => ({
-      showSearch: !state.showSearch,
-    }))
-  }
+export default SearchResults
 
-  render() {
-    return (
-      <div sx={searchStyle.searchField}>
-        <div>
-          <button
-            onClick={this.handleToggleClick}
-            className={this.state.showSearch ? "search is-active" : "search"}
-          >
-            <RiSearchLine />
-          </button>
-          <div sx={searchStyle.search} className="search-container">
-            <input
-              type="text"
-              placeholder="Search"
-              value={this.state.query}
-              onChange={this.search}
-              className="search-input"
-            />
-            <ul sx={searchStyle.searchResults}>
-              {this.state.results.map(page => (
-                <li key={page.id}>
-                  <Link to={"/" + page.slug}>{page.title}</Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </div>
-    )
-  }
-
-  getOrCreateIndex = () =>
-    this.index ? this.index : Index.load(this.props.searchIndex)
-
-  search = evt => {
-    const query = evt.target.value
-    this.index = this.getOrCreateIndex()
-    this.setState({
-      query,
-      results: this.index
-        .search(query, {})
-        .map(({ ref }) => this.index.documentStore.getDoc(ref)),
-    })
-  }
-}
-
-const searchStyle = {
+const searchResultsStyle = {
   searchResults: {
     borderRadius: "0 0 6px 6px",
   },

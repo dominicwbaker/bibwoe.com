@@ -8,8 +8,8 @@ import Navigation from "./navigation"
 
 import "../assets/scss/style.scss"
 import Footer from "./footer"
-import Theme from "../components/theme"
-import Search from "../components/search"
+import Theme from "./theme"
+import Search from "./search"
 
 const query = graphql`
   query SearchIndexQuery {
