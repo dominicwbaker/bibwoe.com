@@ -28,7 +28,12 @@ const TagsPage = ({
       }}
     >
       <h1>Tags</h1>
-      <ul>
+      <ul
+        style={{
+          display: "inline-block",
+          listStyle: "none",
+        }}
+      >
         {group.map(tag => (
           <li key={tag.fieldValue}>
             <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
