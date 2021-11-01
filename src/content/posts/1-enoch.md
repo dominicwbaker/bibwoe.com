@@ -5,7 +5,7 @@ date: 2018-07-13 10:11
 slug: /posts/1-enoch
 tags: [Enoch, 1 Enoch]
 featuredImage: /assets/enoch.jpg
-description: "Ethiopian Enoch" or "1 Enoch", Chapters 1-108, The Original Bible before Jewish - Christian - Muslim Plagiarism
+description: Ethiopian Enoch or 1 Enoch, Chapters 1-108, The Original Bible before Jewish, Christian, Muslim Plagiarism
 ---
 
 ## Chapters 1 - 108

@@ -1,7 +1,6 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
+import { jsx, Box } from "theme-ui"
 import PropTypes from "prop-types"
-import { Badge } from 'theme-ui'
 // Utilities
 import kebabCase from "lodash/kebabCase"
 // Components
@@ -23,30 +22,26 @@ const TagsPage = ({
     <Helmet title={title} />
     <div
       className="wrapper"
-      style={{
-        textAlign: "center",
-      }}
     >
       <h1>Tags</h1>
-      <ul
-        style={{
-          display: "inline-block",
-          listStyle: "none",
-        }}
-      >
-        {group.map(tag => (
-          <li key={tag.fieldValue}>
-            <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-              <Badge variant="primary">
-                {tag.fieldValue}
-              </Badge>
-              <Badge variant="outline" ml={1}>
-                {tag.totalCount}
-              </Badge>
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <Box p={4} bg="primary">
+        <ul className='taglist field is-grouped is-grouped-multiline'>
+          {group.map(tag => (
+            <li key={tag.fieldValue} className='control'>
+              <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+                <div className='tags has-addons is-large'>
+                  <span aria-label='Tag' className='tag is-primary'>
+                    {tag.fieldValue}
+                  </span>
+                  <span aria-label='Tag Count' className='tag .is-dark '>                            
+                    {tag.totalCount}
+                  </span>
+                </div>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </Box>
     </div>
   </Layout>
 )

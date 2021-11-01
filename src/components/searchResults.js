@@ -131,6 +131,7 @@ const searchResultsStyle = {
           "ul > li": {
             listStyle: "none",
             textAlign: "left",
+            marginLeft: "10px",
           },
           "ul > li > a": {
             display: "block",

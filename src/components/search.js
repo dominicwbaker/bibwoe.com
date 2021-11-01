@@ -40,10 +40,11 @@ export default class Search extends Component {
               onChange={this.search}
               className="search-input"
             />
+            <nav className='nav-scroll'>
             <ul sx={searchStyle.searchResults}>
               {this.state.results.map(page => (
                 <li key={page.id}>
-                  <Link to={"/" + page.slug}>{page.title}</Link>
+                  <Link to={"/posts/" + page.slug}>{page.title}</Link>
                   <div
                     className="excerpt"
                     sx={{
@@ -55,6 +56,7 @@ export default class Search extends Component {
                 </li>
               ))}
             </ul>
+            </nav>
           </div>
         </div>
       </div>
@@ -106,8 +108,8 @@ const searchStyle = {
         "0px 0px 50px 0px rgba(0,0,0,.1), 0px 0px 1px 1px rgba(0,0,0,.1)",
     },
     ".search-input": {
-      bg: "#fff",
-      color: "#000",
+      bg: "#000",
+      color: "#fff",
       borderRadius: "0",
       boxShadow: "none",
       border: "none",
