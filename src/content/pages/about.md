@@ -26,7 +26,7 @@ Re-patterning to a new becoming, according to thy Father Gods Will, Fathers will
 
 With the keys to unlock your broken spirit, all can be found within BIBWOE.
 
-View [Creation Of All](https://bibwoe.com/blog/creation-of-all), Instructions for the Future, and affirmed through the words of Jesus as written in the KJV of the BIBLE. Spoken to the We whom hear and can see, within. As Thy Father God as the Holy Spirit is inside all, as well as all is inside our Father God.
+View [Creation Of All](https://bibwoe.com/posts/creation-of-all), Instructions for the Future, and affirmed through the words of Jesus as written in the KJV of the BIBLE. Spoken to the We whom hear and can see, within. As Thy Father God as the Holy Spirit is inside all, as well as all is inside our Father God.
 
 This difference is life within substance, as our Father is of no measure and is the 95.0% of all; as the Holy Spirit, darkness and/or dark matter, those whom think father is of the light think very little, as the light is .5% of the 5% of this universe and the creation Of Father for the illusion of Man, the light is to see beyond. 
 

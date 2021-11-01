@@ -2,7 +2,7 @@
 template: blog-post
 title: Enoch Introduction
 date: 2018-07-16 10:11
-slug: /blog/enoch-introduction
+slug: /posts/enoch-introduction
 tags: [Enoch, Enoch Introduction]
 featuredImage: /assets/enoch-god.jpg
 description: The Original Bible before Jewish - Christian - Muslum Plagerism

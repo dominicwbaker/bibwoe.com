@@ -374,10 +374,9 @@ article a {
 }
 .ul {
   display: flex;
-  justify-content: space-between;
   list-style: none;
   list-style-type: none;
-  margin: 0;
+  margin: 5px;
   padding: 0;
 }
 .ul li {

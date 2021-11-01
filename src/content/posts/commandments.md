@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: Commandments
-slug: /blog/commandments
+slug: /posts/commandments
 tags: [Law, Commandments]
 date: 2021-04-30 01:25
 featuredImage: /assets/commandments.png

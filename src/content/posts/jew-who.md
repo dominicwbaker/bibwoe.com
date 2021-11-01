@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: Jew Who
-slug: /blog/jew-who
+slug: /posts/jew-who
 tags: [Moses, Jews]
 date: 2021-04-11 10:30
 featuredImage: /assets/jew-who.jpg

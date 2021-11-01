@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: Immorality Abortion
-slug: /blog/immorality-abortion
+slug: /posts/immorality-abortion
 tags: [Immorality, Abortion]
 description: Human Immorality leads to Abortion
 date: 2021-09-10 08:40
@@ -38,7 +38,7 @@ You should be sterilized and separated from the rest of, "US", that seek Father 
 
 ## Immorality
 
-See Page [Virtue on Sexual Matters](https://publiuslogic.com/blog/virtue)
+See Page [Virtue on Sexual Matters](https://publiuslogic.com/posts/virtue)
 
 ### Dating and Marriage
 

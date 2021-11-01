@@ -24,7 +24,7 @@ const PostMaker = ({ data }) => (
     <div className="grids col-1 sm-2 lg-3">{data}</div>
     <Link
       className="button"
-      to="/blog"
+      to="/posts"
       sx={{
         variant: "variants.button",
       }}

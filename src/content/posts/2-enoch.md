@@ -1,7 +1,7 @@
 ﻿---
 template: blog-post
 title: 2 Enoch
-slug: /blog/2-enoch
+slug: /posts/2-enoch
 tags: [Enoch, 2 Enoch]
 date: 2018-07-12 10:11
 featuredImage: /assets/enoch-spaceship.jpg

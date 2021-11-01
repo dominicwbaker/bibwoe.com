@@ -53,10 +53,12 @@ const themeStyles = {
   },
   badges: {
     primary: {
+      fontSize: "16px",
       color: 'background',
-      bg: 'primary',
+      bg: 'button',
     },
     outline: {
+      fontSize: "16px",
       color: 'primary',
       bg: 'transparent',
       boxShadow: 'inset 0 0 0 1px',

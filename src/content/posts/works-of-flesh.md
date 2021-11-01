@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: Works Of Flesh
-slug: /blog/works-of-flesh
+slug: /posts/works-of-flesh
 tags: [Responsibility, Works]
 date: 2021-04-13 08:40
 featuredImage: /assets/works.jpg

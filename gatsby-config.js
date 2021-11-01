@@ -123,7 +123,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-offline`,
       options: {
-        precachePages: [`/`, `/about`, `/contact`, `/blog/*`],
+        precachePages: [`/`, `/about`, `/contact`, `/posts/*`],
         workboxConfig: {
           importWorkboxFrom: `cdn`,
         },

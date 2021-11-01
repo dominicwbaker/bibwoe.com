@@ -1,7 +1,7 @@
 ﻿---
 template: blog-post
 title: Creation of All
-slug: /blog/creation-of-all
+slug: /posts/creation-of-all
 tags: [Trinity, Creation, All]
 date: 2021-04-04 09:30
 featuredImage: /assets/creation.jpg

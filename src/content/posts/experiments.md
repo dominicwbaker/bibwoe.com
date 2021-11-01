@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: Experiments
-slug: /blog/experiments
+slug: /posts/experiments
 tags: [Holy Spirit, Experiments]
 date: 2021-04-10 12:25
 featuredImage: /assets/experiments.jpg

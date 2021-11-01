@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: Virtue
-slug: /blog/virtue
+slug: /posts/virtue
 tags: [Spirit, Wed Lock, Virtue]
 date: 2021-04-07 01:30
 featuredImage: /assets/virtue.jpg

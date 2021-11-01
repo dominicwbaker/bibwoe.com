@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: Song
-slug: /blog/song
+slug: /posts/song
 date: 2021-04-17 08:40
 tags: [Lost Song, Our Song]
 featuredImage: /assets/song.jpg

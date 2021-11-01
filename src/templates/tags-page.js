@@ -18,6 +18,7 @@ const Tags = ({ pageContext, data }) => {
         className="wrapper"
       >
         <h1>{tagHeader}</h1>
+        <div>
         <ul className='ul'>
           {edges.map(({ node }) => {
             const { slug } = node.fields
@@ -29,11 +30,14 @@ const Tags = ({ pageContext, data }) => {
             )
           })}
         </ul>
+        </div>
         {/*
               This links to a page that does not yet exist.
               You'll come back to it!
             */}
-        <Link to="/tags">All tags</Link>
+        <div>
+          <Link to="/tags">All tags</Link>
+        </div>
       </div>
     </Layout>
   )

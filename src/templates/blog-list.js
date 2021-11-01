@@ -91,11 +91,12 @@ const Pagination = props => (
     </ul>
   </div>
 )
+
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
     const { currentPage, numPages } = this.props.pageContext
-    const blogSlug = "/blog/"
+    const blogSlug = "/posts/"
     const isFirst = currentPage === 1
     const isLast = currentPage === numPages
     const prevPage =
@@ -118,7 +119,7 @@ class BlogIndex extends React.Component {
     return (
       <Layout className="blog-page">
         <Seo
-          title={"Blog — Page " + currentPage + " of " + numPages}
+          title={"Blog " + currentPage + " of " + numPages}
           description={
             "Bibwoe base blog page " + currentPage + " of " + numPages
           }
