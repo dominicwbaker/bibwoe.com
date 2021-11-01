@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import { FaTags } from "react-icons/fa";
 // Components
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
@@ -36,6 +37,9 @@ const Tags = ({ pageContext, data }) => {
               You'll come back to it!
             */}
         <div>
+            <span className="icon -tags">
+              <FaTags />
+            </span>{" "} 
           <Link to="/tags">All tags</Link>
         </div>
       </div>

@@ -3,7 +3,7 @@ import { jsx } from "theme-ui"
 import { Link, graphql } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
-
+import { FaTags } from "react-icons/fa";
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -109,6 +109,9 @@ const Post = ({ data, pageContext }) => {
                 }}
               >
                 <Link aria-label='Tags' to='/tags/'>
+                  <span className="icon -tags">
+                    <FaTags />
+                  </span>{" "}  
                   <small>{taglist}</small>
                 </Link>
               </div>

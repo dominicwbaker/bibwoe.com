@@ -23,13 +23,16 @@ const TagsPage = ({
     <Helmet title={title} />
     <div
       className="wrapper"
+      style={{
+        textAlign: "center",
+      }}
     >
       <h1>Tags</h1>
       <ul>
         {group.map(tag => (
           <li key={tag.fieldValue}>
             <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-              <Badge variant="accent">
+              <Badge variant="primary">
                 {tag.fieldValue}
               </Badge>
               <Badge variant="outline" ml={1}>
