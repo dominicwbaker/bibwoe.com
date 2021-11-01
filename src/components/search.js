@@ -44,6 +44,14 @@ export default class Search extends Component {
               {this.state.results.map(page => (
                 <li key={page.id}>
                   <Link to={"/" + page.slug}>{page.title}</Link>
+                  <div
+                    className="excerpt"
+                    sx={{
+                      color: "#000",
+                    }}
+                  >
+                    {page.description}
+                  </div>
                 </li>
               ))}
             </ul>

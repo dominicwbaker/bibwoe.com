@@ -81,6 +81,12 @@ const Post = ({ data, pageContext }) => {
     next,
   }
 
+  const tags = frontmatter.tags || [];
+    let taglist = 'Tags: ';
+    if (tags.length > 0) {
+        taglist += tags.join(', ');
+    }
+
   return (
     <Layout className="page">
       <Seo
@@ -96,6 +102,17 @@ const Post = ({ data, pageContext }) => {
           <section className="article-header">
             <h1>{frontmatter.title}</h1>
             <time sx={{color: "muted"}}>{frontmatter.date}</time>
+            {tags.length > 0 && 
+              <div
+                sx={{
+                  color: "muted",
+                }}
+              >
+                <Link aria-label='Tags' to='/tags/'>
+                  <small>{taglist}</small>
+                </Link>
+              </div>
+            }
           </section>
           {Image ? (
             <GatsbyImage
@@ -126,9 +143,11 @@ export const pageQuery = graphql`
       id
       html
       excerpt(pruneLength: 148)
+      timeToRead
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         slug
+        tags
         title
         description
         featuredImage {

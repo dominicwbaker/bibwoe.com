@@ -2,6 +2,7 @@
 template: blog-post
 title: Immorality Abortion
 slug: /blog/immorality-abortion
+tags: [Immorality, Abortion]
 description: Human Immorality leads to Abortion
 date: 2021-09-10 08:40
 featuredImage: /assets/abortion-immorality.jpg

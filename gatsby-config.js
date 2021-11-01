@@ -60,8 +60,8 @@ module.exports = {
                 BlogPost : {
                   title         : node => node.title,
                   description   : node => node.description,
-                  content      :  node => node.rawMarkdownBody,
-                  path         : node => node.slug,
+                  content       : node => node.rawMarkdownBody,
+                  path          : node => node.slug,
                   featuredImage : (node, getNode) => getNode(node.featuredImage___NODE)
                 },
                 MarkdownRemark: {

@@ -33,9 +33,11 @@ export const blogListQuery = graphql`
         node {
           id
           excerpt(pruneLength: 250)
+          timeToRead
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             slug
+            tags
             title
             featuredImage {
               childImageSharp {

@@ -2,6 +2,7 @@
 template: blog-post
 title: Trinity of Angels
 slug: /blog/trinity-of-angels
+tags: [Trinity, Angels]
 date: 2021-04-16 09:30
 featuredImage: /assets/angel.png
 description: "Trinity of Angels"

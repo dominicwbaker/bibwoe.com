@@ -51,4 +51,15 @@ const themeStyles = {
     mt: "-5px",
     letterSpacing: "1px",
   },
+  badges: {
+    primary: {
+      color: 'background',
+      bg: 'primary',
+    },
+    outline: {
+      color: 'primary',
+      bg: 'transparent',
+      boxShadow: 'inset 0 0 0 1px',
+    },
+  },
 }
