@@ -5,7 +5,7 @@ slug: /posts/2-enoch
 tags: [Enoch, 2 Enoch]
 date: 2018-07-12 10:11
 featuredImage: /assets/enoch-spaceship.jpg
-description: Books of 2 Enoch, Greek Version
+description: Greek Version, Also referred to as "Slavonic Enoch" or "2 Enoch". Secrets of Enoch.
 ---
 
 ## Greek Version, Book 2 Enoch
@@ -16,7 +16,7 @@ Also referred to as "Slavonic Enoch" or "2 Enoch"!
 
 ## Chapter 1
 
-Enoch’s encounter with the two angels of God
+Enoch’s encounter with the two angels of God!
 
 1 There was a wise man, a great artificer, and the Lord conceived love for him and received him, that he should behold the uppermost dwellings and be an eye-witness of the wise and great and inconceivable and immutable realm of God Almighty, of the very wonderful and glorious and bright and many-eyed station of the Lord’s servants, and of the inaccessible throne of the Lord, and of the degrees and manifestations of the incorporeal hosts, and of the ineffable ministration of the multitude of the elements, and of the various apparition and inexpressible singing of the host of Cherubim, and of the boundless light.
 

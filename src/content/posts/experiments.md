@@ -5,7 +5,7 @@ slug: /posts/experiments
 tags: [Holy Spirit, Experiments]
 date: 2021-04-10 12:25
 featuredImage: /assets/experiments.jpg
-description: Experiments
+description: Creation in its essence is to extend, to know, or to affirm.
 ---
 
 ## Tests of Substance

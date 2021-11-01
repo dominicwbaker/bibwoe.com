@@ -5,7 +5,7 @@ slug: /posts/commandments
 tags: [Law, Commandments]
 date: 2021-04-30 01:25
 featuredImage: /assets/commandments.png
-description: Commandments
+description: These laws were set way before Moses and were a World standard way of belief in all cultures!
 ---
 
 ## The Law
@@ -14,7 +14,7 @@ Something the USA has forgotten about!
 
 The Catholic Church doesn’t see the Ten Commandments as arbitrary rules and regulations from God but as commandments for protection.
 
-> * Catholic Nonsense gives you an out on obeying them.
+> Catholic Nonsense gives you an out on obeying them.
 
 These laws were set way before Moses and were a World standard way of belief in all cultures!
 

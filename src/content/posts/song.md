@@ -5,7 +5,7 @@ slug: /posts/song
 date: 2021-04-17 08:40
 tags: [Lost Song, Our Song]
 featuredImage: /assets/song.jpg
-description: Song
+description: The Devil will do anything to keep me from talking! Especially singing
 ---
 
 ## My Song

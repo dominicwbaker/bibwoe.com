@@ -5,7 +5,7 @@ date: 2018-07-15 10:11
 slug: /posts/enoch-preface
 tags: [Enoch, Enoch Preface]
 featuredImage: /assets/enoch-preface.jpg
-description: Preface for Books 1 and 2 Enoch
+description: The book of Enoch consists of multiple parts that were put together as one book by a later editor
 ---
 
 ## Enoch Bibwoe Preface

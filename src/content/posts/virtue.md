@@ -5,7 +5,7 @@ slug: /posts/virtue
 tags: [Spirit, Wed Lock, Virtue]
 date: 2021-04-07 01:30
 featuredImage: /assets/virtue.jpg
-description: Virtue
+description: Reflecting on what The Christian Bible, Sufism as Tasawwuf a science of the soul the study of virtue
 ---
 
 ## For My Children Since 2000
