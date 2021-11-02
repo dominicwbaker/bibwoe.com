@@ -41,6 +41,11 @@ export default class Search extends Component {
               className="search-input"
             />
             <nav className='nav-scroll'>
+            <div
+              style={{
+                maxHeight: "70vh",
+              }}
+            >
             <ul sx={searchStyle.searchResults}>
               {this.state.results.map(page => (
                 <li key={page.id}>
@@ -48,7 +53,7 @@ export default class Search extends Component {
                   <div
                     className="excerpt"
                     sx={{
-                      color: "#000",
+                      color: "#fff",
                     }}
                   >
                     {page.description}
@@ -56,6 +61,7 @@ export default class Search extends Component {
                 </li>
               ))}
             </ul>
+            </div>
             </nav>
           </div>
         </div>
@@ -81,6 +87,7 @@ export default class Search extends Component {
 const searchStyle = {
   searchResults: {
     borderRadius: "0 0 6px 6px",
+    color: "fff",
   },
   searchField: {
     zIndex: "11111",
@@ -108,7 +115,7 @@ const searchStyle = {
         "0px 0px 50px 0px rgba(0,0,0,.1), 0px 0px 1px 1px rgba(0,0,0,.1)",
     },
     ".search-input": {
-      bg: "#000",
+      bg: "#222",
       color: "#fff",
       borderRadius: "0",
       boxShadow: "none",
@@ -158,9 +165,9 @@ const searchStyle = {
           },
           ul: {
             display: "block",
-            bg: "#fff",
-            pl: 0,
-            m: 0,
+            bg: "#222",
+            pl: '10px',
+            m: '6px',
           },
           "ul > li": {
             listStyle: "none",
@@ -168,7 +175,7 @@ const searchStyle = {
           },
           "ul > li > a": {
             display: "block",
-            color: "#000",
+            color: "#777",
             p: 3,
             "&:hover": {
               color: "#9b9b9b",
