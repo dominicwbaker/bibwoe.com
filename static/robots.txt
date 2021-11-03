@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /*
+Disallow: /admin/*
+Disallow: /app/*
+Disallow: /cms/*
+Disallow: /tags/*
+Disallow: /categories/*
+Disallow: /static/*
+Disallow: /*.xls$
+
+sitemap: https://bibwoe.com/sitemap.xml

@@ -4,7 +4,7 @@ slug: /about
 title: About Bibwoe
 ---
 
-![Banner](../assets/creation-header.jpg)
+![Banner](/assets/creation-header.jpg)
 
 ## This New Word Describes All, "Bibwoe".
 
