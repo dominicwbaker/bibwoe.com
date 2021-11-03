@@ -66,16 +66,20 @@ export default class Search extends Component {
               onChange={this.search}
               className="search-input"
             />
-            <nav className='nav-scroll'>
+            <nav className='nav-scroll'
+              sx={{
+                background: "#111",
+              }}
+            >
               <div
                 sx={{
                   maxHeight: "70vh",
                   background: "#111",
                 }}
-                >
-                  <ul sx={searchStyle.searchResults}>
-                    {listSearchItems}
-                  </ul>
+              >
+                <ul sx={searchStyle.searchResults}>
+                  {listSearchItems}
+                </ul>
               </div>
             </nav>
           </div>
