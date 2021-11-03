@@ -35,7 +35,15 @@ export default class Search extends Component {
     const listSearchItems = blogPosts.map((blogPosts, index) => (
       <div>
         <SearchListLink key={index} to={blogPosts.path}>
-          {blogPosts.title}               
+          <div>{blogPosts.title}</div>
+          <div
+            sx={{
+              color: "#777",
+              margin: "10px",
+            }}
+          >
+            {blogPosts.date}
+          </div>
         </SearchListLink>
           <div
             className="excerpt"

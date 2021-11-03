@@ -62,6 +62,7 @@ module.exports = {
                   description   : node => node.description,
                   content       : node => node.rawMarkdownBody,
                   path          : node => node.slug,
+                  date          : node => node.date,
                   featuredImage : (node, getNode) => getNode(node.featuredImage___NODE)
                 },
                 MarkdownRemark: {
