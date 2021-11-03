@@ -70,6 +70,7 @@ export default class Search extends Component {
               <div
                 sx={{
                   maxHeight: "70vh",
+                  background: "#111",
                 }}
                 >
                   <ul sx={searchStyle.searchResults}>
