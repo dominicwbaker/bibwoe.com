@@ -54,7 +54,7 @@ module.exports = {
             resolve: `@gatsby-contrib/gatsby-plugin-elasticlunr-search`,
             options: {
               // Fields to index
-              fields: [`title`, `description`, `content`, `slug`, `date`, `featuredImage`],
+              fields: [`title`, `description`, `content`, `path`, `date`, `featuredImage`],
               // How to resolve each field`s value for a supported node type
               resolvers: {
                 BlogPost : {

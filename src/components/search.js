@@ -5,10 +5,18 @@ import { Index } from "elasticlunr"
 import { Link } from "gatsby"
 import { RiSearchLine } from "react-icons/ri"
 
+const SearchListLink = props => (
+  <li>
+    <Link to={props.to}>{props.children}</Link>
+  </li>
+)
+
 export default class Search extends Component {
   constructor(props) {
     super(props)
     this.state = { showSearch: false }
+    this.state = props.to
+    this.state = props.children
     this.handleToggleClick = this.handleToggleClick.bind(this)
     this.state = {
       query: ``,
@@ -23,6 +31,24 @@ export default class Search extends Component {
   }
 
   render() {
+    const blogPosts = this.state.results
+    const listSearchItems = blogPosts.map((blogPosts, index) => (
+      <div>
+        <SearchListLink key={index} to={blogPosts.path}>
+          {blogPosts.title}               
+        </SearchListLink>
+          <div
+            className="excerpt"
+            sx={{
+              color: "#fff",
+              textAlign: "left",
+              margin: "10px",
+            }}
+          >
+            {blogPosts.description}
+          </div> 
+      </div>
+    ))
     return (
       <div sx={searchStyle.searchField}>
         <div>
@@ -41,27 +67,15 @@ export default class Search extends Component {
               className="search-input"
             />
             <nav className='nav-scroll'>
-            <div
-              style={{
-                maxHeight: "70vh",
-              }}
-            >
-            <ul sx={searchStyle.searchResults}>
-              {this.state.results.map(page => (
-                <li key={page.id}>
-                  <Link to={"/posts/" + page.slug}>{page.title}</Link>
-                  <div
-                    className="excerpt"
-                    sx={{
-                      color: "#fff",
-                    }}
-                  >
-                    {page.description}
-                  </div>
-                </li>
-              ))}
-            </ul>
-            </div>
+              <div
+                sx={{
+                  maxHeight: "70vh",
+                }}
+                >
+                  <ul sx={searchStyle.searchResults}>
+                    {listSearchItems}
+                  </ul>
+              </div>
             </nav>
           </div>
         </div>
@@ -88,6 +102,9 @@ const searchStyle = {
   searchResults: {
     borderRadius: "0 0 6px 6px",
     color: "fff",
+    bg: "#111",
+    listStyle: "none",
+    textAlign: "left",
   },
   searchField: {
     zIndex: "11111",
