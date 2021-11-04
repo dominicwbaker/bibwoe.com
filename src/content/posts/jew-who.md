@@ -36,17 +36,17 @@ In Enoch's time people from all over the world interacted much more than your hi
 
 This work force were the greatest from all over the World as Engineers and Skilled Craftsmen.
 
-Some of the impossible feats like placing the huge blocks were done through a gathered human force using Hunan Bio Plasmic Energy through song to dance them into place = Parting of the Red Sea was through song not miracles!
+Some of the impossible feats like placing the huge blocks of stone in structures were done through a gathered human force using Hunan Bio Plasmic Energy through song to dance them into place = Parting of the Red Sea was through song not miracles!
 
 I mentioned in Playtime of how Great Cultures fall and it's mostly from getting stuck on themselves, living like sluts and playing around to much.
 
-Same with the Upper Kingdom of Egypt; & Rome, "China several times", and most all great cultures defeated themselves with playtime and laziness
+Same with the Upper Kingdom of Egypt; & Rome, "China several times", and most all great cultures defeated themselves with playtime and laziness.
 
 Once this started occurring the Lower Kingdom started cutting the off the Gold, good's and service's to the Upper Kingdom and called there people home. Causing the other tribes to start to leave. They could easily see that the army's were being overrun and that they would be slaves to the new rulers.
 
 While they were leaving they had to leave behind the Mixed Bloods of the Unclean. Back then if you mixed out of your religion, culture or race you were considered unclean. It happened a lot all over the World from war which is basically for three reasons, Conquest, Wealth mainly Rape. Rape was used to destabilize as well as the invading forces, like the USA did not bring there wives with them. So rape the enemy!
 
-> Got that from Moses, he was famous for that!
+> The World got that from Moses, he was famous for that!
 
 Mixing was really tabu because whom in China wants a child of mixed blood in a pure culture.
 
@@ -54,9 +54,9 @@ It's still going on in China with the Uyghur slaves.
 
 I am a mutt I have everything in my blood from around the World including Chinese 3 times. The Holman side of my family has a compiled book of family history including a lot of pictures and drawings of family member's to the 1600's. I look at mixed blood as maybe a Curse and somewhat of a Blessing. Some of the smartest and most Beautiful are of Mixed Blood. A Lot of Jewish girls are very pretty. Some I have to double or triple take.
 
-The other Two tribes of Israel were of dark and light mixes, with differing areas, political views and ways. Known as Judah and Benjamin!
+The other Two tribes of Israel were of dark and light mixes, with differing living areas, political views and ways. Known as Judah and Benjamin!
 
-The Tribes of Israel were 12. Ten that went Home and 2 stuck in Egypt, and are Egyptian of true heritage. Remember Exodus, that means they split from there homeland to somewhere else.
+The Tribes of Israel were then 12. Ten that went Home and 2 stuck in Egypt, and were Egyptian of true heritage. Remember Exodus, that means they split from there homeland to somewhere else.
 
 Egypt's economy, and army's were failing. There ability to pay the skilled workers and engineers they had left was gone, and not much food to feed there own people let a lone a huge un-needed work force.
 
@@ -72,19 +72,19 @@ For century's the Jewish people toiled with the Egyptian people and the other tr
 
 So they thought it was somewhat there's also, as I would think. The Egyptian's did not view it that way, as the Jews whom were not slaves for most of the time in Egypt, they were very well paid and cared for Engineers and Skilled Workers, we would say upper Middle class! I can somewhat see the Egyptians point also, that the Jews jobs were over, go away we cannot afford you, or feed you!
 
-Exodus to Jerusalem, major trade crossroads with a lot of different cultures was the only place they could somewhat fit in. Plus Jerusalem had work and food. The route of the four winds, meaning from Jerusalem the trade went all directions.
+Exodus to Alexandria and Jerusalem, several major trade crossroads with a lot of different cultures was the only place they could somewhat fit in. Plus Both Alexandria and Jerusalem had work and food. Jerusalem was route of the four winds, meaning from Jerusalem the trade went all directions. Alexandria was a major port with lots of work and traid.
 
 At that point God turned from his Blessed to His Cursed, forced to wonder the Earth with no place to call home.
 
 They had broken three laws, Mixing of the Blood. Self denial through usury. Sold themselves into Bondage.
 
-Some of the Jewish people scattered and moved everywhere.
+Some of the other Jewish people scattered and moved everywhere.
 
 Volumes could be written on the following of the Jewish people. So I will leave that as is.
 
 ## Hitler's Time.
 
-The Jews in Europe like the Latinos here stuck together and started owning a lot of the European's Stuff and pissing off the people of Europe. The people of Europe had gotten lazy and complacent with slutty entertainment to stupidity. Like the USA now! Instead of sticking together and competing with the Jews whom were obviously smarter than the European people. 
+The Jews in Europe like the Latinos here in the USA stuck together and started owning a lot of the European's Stuff and pissing off the people of Europe. The people of Europe had gotten lazy and complacent with slutty entertainment to stupidity. Like the USA now! Instead of sticking together and competing with the Jews whom were obviously smarter than the European people. 
 
 Europe is doing it to itself again with the mass influx of Muslims. I Guess they could not figure it out the first time. Some more slutty entertainment might help Europe to.
 
@@ -146,26 +146,39 @@ Who would talk about or brag about killing people and in this case a whole cultu
 
 ### Moses's hate for children
 
-Space permits only a small sampling of biblical commandments or threats to kill children: Which were added to some books by the Catholic Church which still defiles and murder children.
+Space permits only a small sampling of biblical commandments or threats to kill children: Which were added to some books by the Catholic Church which still defiles and murders children.
+
+## Similar Passages
 
 Numbers 31:17: Now therefore kill every male among the little ones.
+
 Deuteronomy 2:34: utterly destroyed the men and the women and the little ones.
+
 Deuteronomy 28:53: And thou shalt eat the fruit of thine own body, the flesh of thy sons and of thy daughters.
+
 I Samuel 15:3: slay both man and woman, infant and suckling.
+
 2 Kings 8:12: dash their children, and rip up their women with child.
+
 2 Kings 15:16: all the women therein that were with child he ripped up.
+
 Isaiah 13:16: as well as the context of Isaiah 13:16, describe the reality of what happens during war. During war, infants are killed and women are raped. However, Isaiah 13 does not explicitly approve or disapprove of the specific things that happen during Babylon’s punishment and overthrow.
+
 Isaiah 13:18: They shall have no pity on the fruit of the womb; their eyes shall not spare children.
+
 Lamentations 2:20: Shall the women eat their fruit, and children.
+
 Ezekiel 9:6: Slay utterly old and young, both maids and little children.
+
 Hosea 9:14: give them a miscarrying womb and dry breasts.
+
 Hosea 13:16: their infants shall be dashed in pieces, and their women with child shall be ripped up.
 
 This is why the Crusades the Inquisitions and Jihad were/are allowed. Moses opened the Door for Slaughtering other's if they were not like you. In Gods Name!
 
 We need a Christian Bible without discrimination, with out hate of others not like you in your beliefs.
 
-The Jewish part of our Holy Bible in the Old Testament needs to Go Away! Kind of a conflict of interest as Jews do not believe in Jesus, So why anything from them in a Christian Bible. Most of the Books of the Bible were not written by the Jews at all except for Moses works, Moses was an Egyptian. They were written by differing Middle Eastern cultures, that the Jews War with!
+The Jewish part of our Holy Bible in the Old Testament needs to Go Away! Kind of a conflict of interest as Jews do not believe in Jesus, So why anything from them in a Christian Bible. Most of the Books of the Bible were not written by the Jews at all except for Moses works the Torah, Moses was an Egyptian. They were written by differing Middle Eastern cultures, that the Jews Wared with!
 
 > - Moses book's and Works the Jews need to keep in there books! Get them out of Mine!
 
@@ -185,11 +198,15 @@ Enoch’s Prophetic Commission
 
 ### Moses Childhood
 
-For the sake of argument Moses as a babe was found in the river and raised by a Princess, we will leave that at that. But everyone in the ruling house knew exactingly whom he was. The adults raised him as there own. Moses growing up knew exactingly what was going on. That he could live and be with the ruling elite, but could never rule.
+For the sake of argument Moses as a babe was found in the river and raised by a Princess, we will leave that at that. But everyone in the ruling house knew exactingly whom he was.
+
+The adults raised him as there own. Moses growing up knew exactingly what was going on. That he could live and be with the ruling elite, but could never rule.
 
 The children of the rulers knew this also and treated him as a lesser being. Teased and belittled him. Moses like me in my childhood retreated in study. Moses had access to the Greatest library's in the World Alexandria, Serapeum including journey's to Pergamum and the Ancient Kemetic library's holding Enoch's engineering and sacred Holy knowledge.
 
-So he became ruler of himself and knew much more than the ruling elite about most anything including War. His jealousy raged!
+So he became ruler of himself and knew much more than the ruling elite about most anything including War. 
+
+> His jealousy raged!
 
 When he got in his late teen's, he as put in charge of Overseeing the Construction of Temples, directing a lot of work in the Valley of the Kings.
 Not all the children of the Jews had a engineering mind. Some Tribal Army's were formed with Moses in charge. The jewish work force and the Army he ruled with and iron fist and was not very kind.
@@ -226,7 +243,7 @@ My Son went to the Cross so his Angel Companion Mary could build Her church. Cou
 
 The Compilers of the Holy Bible discounted and have thrown away anything that could have been scripture by a women, even discounting Mary and her Angelic Virgin Birth.
 
-> - Can't be having a Women knowing about God!
+> Can't be having a Women knowing about God!
 
 Wine is a iniquitous substance, with little or no medical healing property's because of the added and natural sulfates. Jesus would have not participated by doing Miracles in giving Our Children Poisons. Traditions or no!
 
@@ -234,7 +251,7 @@ Any smart person back then; with any means, would choose wine over water because
 
 > Cannot be just getting sloshed! Can We?
 
-> - Why Not! Wish I could still be a wino, gives me a headache, darn it!
+> Why Not! Wish I could still be a wino, gives me a headache, darn it!
 
 > Moderation Kid's!
 
@@ -248,7 +265,7 @@ Unless what you consider what is already inside of you a miracle, and it is, "Yo
 
 > Each and every one of you are My Miracle!
 
-> - Just Be the Miracle that You All Already Are!
+> Just Be the Miracle that You All Already Are!
 
 I explained in Works of Flesh that I have 5 terminal illnesses, no way I should breathe. But through faith and belief that I can look inside myself and change whatever. But to a much lesser extent the external flesh, it's illusionary. That's one reason for my Trinity Of Angels. Changing the illusion!
 

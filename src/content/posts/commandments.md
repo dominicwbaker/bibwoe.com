@@ -10,9 +10,9 @@ description: These laws were set way before Moses and were a World standard way 
 
 ## The Law
 
-Something the USA has forgotten about!
+Something the USA and World has forgotten about!
 
-The Catholic Church doesn’t see the Ten Commandments as arbitrary rules and regulations from God but as commandments for protection.
+The Catholic Church doesn’t see the Ten Commandments as arbitrary rules and regulations from God but as commandments for protection. That you need now as Judgement is soon.
 
 > Catholic Nonsense gives you an out on obeying them.
 
@@ -32,9 +32,9 @@ Below is what the consequences will be now for violating My Laws.
 
 This commandment forbids idolatry, the worship of false gods and goddesses, and it excludes polytheism, the belief in many gods, insisting instead on monotheism, the belief in one God. This commandment forbids making golden calves, building temples to Isis, and worshipping statues of Caesar, for example.
 
-> * No Crosses or Rosery or Depictions of the Trinity, for, "We Are All"!
+> No Crosses or Rosery or Depictions of the Trinity, for, "We Are All"!
 
-> * No Worshiping the Flesh!
+> No Worshiping the Flesh!
 
 ### Second
 
@@ -75,7 +75,7 @@ The sixth and ninth commandments honor human sexuality. This commandment forbids
 The seventh and tenth commandments focus on respecting and honoring the possessions of others. 
 This commandment forbids the act of taking someone elses property. 
 The Catholic Church believes that this commandment also denounces cheating people of their money or property, depriving workers of their just wage, or not giving employers a full day’s work for a full day’s pay. 
-Embezzlement, fraud, tax evasion, and vandalism are all considered extensions of violations of the Seventh Commandment.
+Embezzlement, fraud, tax evasion, immigration and vandalism are all considered extensions of violations of the Seventh Commandment.
 
 ### Eighth
 
@@ -87,15 +87,18 @@ The Eighth Commandment condemns lying. Because God is regarded as the author of 
 
 > “Thou shalt not covet thy neighbor’s wife.”
 
-The Ninth Commandment forbids the intentional desire and longing for immoral sexuality. To sin in the heart, Jesus says, is to lust after a woman or a man in your heart with the desire and will to have immoral sex with them. Just as human life is a gift from God and needs to be respected, defended, and protected, so, too, is human sexuality. Catholicism regards human sexuality as a divine gift, so it’s considered sacred in the proper context — marriage.
+The Ninth Commandment forbids the intentional desire and longing for immoral sexuality. To sin in the heart, Jesus says, is to lust after a woman or a man in your heart with the desire and will to have immoral sex with them. Just as human life is a gift from God and needs to be respected, defended, and protected, so, too, is human sexuality. 
+
+Catholicism regards human sexuality as a divine gift, so it’s considered sacred in the proper context — marriage.
 
 ### Tenth
 
 > “Thou shalt not covet thy neighbor’s goods.”
 
 The Tenth Commandment forbids the wanting to or taking someone else’s property. 
-Along with the Seventh Commandment, this commandment condemns theft and the feelings of envy, greed, and jealousy in reaction to what other people have. 
-All Immigrants violate this and many other of Gods Laws and mankind's laws.
+Along with the Seventh Commandment, this commandment condemns theft and the feelings of envy, greed, and jealousy in reaction to what other people have.
+
+All Immigrants violate this and many other of Mine and mankind's laws.
 
 
 

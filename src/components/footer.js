@@ -16,7 +16,7 @@ const Footer = () => (
         <span className="icon -love">
           <RiHeart2Line />
         </span>{" "}
-        by <Link to="/">Basic Instructions Books While On Earth</Link>
+        <Link to="/">Basic Instructions Books While On Earth</Link>
       </p>
     </div>
   </footer>
