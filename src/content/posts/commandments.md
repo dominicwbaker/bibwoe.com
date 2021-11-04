@@ -12,7 +12,9 @@ description: These laws were set way before Moses and were a World standard way 
 
 Something the USA and World has forgotten about!
 
-The Catholic Church doesn’t see the Ten Commandments as arbitrary rules and regulations from God but as commandments for protection. That you need now as Judgement is soon.
+The Catholic Church doesn’t see the Ten Commandments as arbitrary rules and regulations from God but as commandments for protection. 
+
+> That you need now as Judgement is soon.
 
 > Catholic Nonsense gives you an out on obeying them.
 
@@ -24,9 +26,11 @@ Below is what the consequences will be now for violating My Laws.
 
 > Disobey them and suffer the consequences within the burning flesh!
 
-## The Ten Commandments
+## The Twelve Commandments
 
 ### First
+
+#### Exodus 20:3 and Deuteronomy 5:6
 
 > “I am the Lord thy God, thou shalt not have any other gods before Me.”
 
@@ -66,7 +70,9 @@ The better translation from the Hebrew would be “Thou shalt not murder” — 
 
 > “Thou shalt not commit adultery.”
 
-The sixth and ninth commandments honor human sexuality. This commandment forbids the actual, physical act of having immoral sexual activity, specifically adultery, which is sex with someone else’s spouse or a spouse cheating on their partner. This commandment also includes fornication, which is sex between unmarried people, prostitution, pornography, homosexual activity, group sex, rape, incest, pedophilia, bestiality, and necrophilia.
+The sixth and ninth commandments honor human sexuality. This commandment forbids the actual, physical act of having immoral sexual activity, specifically adultery, which is sex with someone else’s spouse or a spouse cheating on their partner. 
+
+This commandment also includes fornication, which is sex between unmarried people, prostitution, pornography, homosexual activity, group sex, rape, incest, pedophilia, bestiality, and necrophilia.
 
 ### Seventh
 
@@ -100,5 +106,29 @@ Along with the Seventh Commandment, this commandment condemns theft and the feel
 
 All Immigrants violate this and many other of Mine and mankind's laws.
 
+## Eleventh
 
+### John 15:12
 
+From My Son's Love!
+
+12 This is my commandment, that ye love one another, even as I have loved you.
+Little children, yet a little while I am with you. Ye shall seek me: and as I said unto the Jews, Whither I go, ye cannot come; so now I say to you. 
+
+17 These things I command you, that ye may love one another.
+
+### John 13
+
+34 A new commandment I give unto you, That ye love one another; as I have loved you, that ye also love one another. 
+
+35 By this shall all men know that ye are my disciples, if ye have love one to another. 
+
+—John 13:33–35 (KJV; emphasis added)
+
+## Twelve
+
+### Works of Flesh
+
+Ye shall be responsible for all thing's in your life and interrelated through your acts, for what you do is of you.
+
+Your judgement before Father God will be only of you!

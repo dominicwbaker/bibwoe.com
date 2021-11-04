@@ -20,7 +20,8 @@ Mankind needs to understand the constant tests by the trinity to see if you are 
 
 The Book of Job was the last book of the Old Testament for a reason, as it filled in a some of the blanks from the previous books.
 
-The Book of Job tells you of these tests, and how the Devil works for God and about Self Denial.
+The Book of Job tells you of these tests, and how the Devil works for God, as all things in life work for Father and about Self Denial.
+
 And explained clearly in Job. Her Job is to test you to see if you will deny God or Self. Not so much within your works or, "words", but what is in your heart; which she seeks to pollute.
 
 The one's the Devil see's having the ability to be righteous and have the heart to ascend to Jesus, his part of heaven, or beyond are fully tested; "Even me and Jesus have our tests", but from Father God.

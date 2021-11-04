@@ -10,7 +10,7 @@ description: Creation in its essence is to extend, to know, or to affirm.
 
 ## Tests of Substance
 
-Creation in its essence is to extend, to know, or to affirm
+Creation in its essence is to extend, to know, or to affirm.
 
 When Father God Consumed the lesser Gods he could have just left them as a cancer inside of himself. He saw this as a opportunity to find himself and to know of the Lesser God's.
 
@@ -66,7 +66,7 @@ So how do we study Us, as in the Trinity? It's the study of mankind, then we are
 
 Knowing what is inside of the We, will tell us what is beyond!
 
-Mankind's cultures and races were seperated, as so there would each be in a different petri dish, within one medium, as the races of Mankind on Earth.
+Mankind's cultures and races were separated, as so there would each be in a different petri dish, within one medium, as the races of Mankind on Earth.
 
 Here on Earth, "We Had", a bunch of differing cultures and races, with differing thought processes, looks, size and geographical locations, "Multiple Experiments and Variables".
 
@@ -84,7 +84,7 @@ I could take your women or anything I wanted from any of you!
 
 Or I could plow a field in no time or build a 5 story building with little effort.
 
-> - Love or Hate! Help or Take?
+> Love or Hate! Help or Take?
 
 Most that have superior knowledge or abilities mostly take and think that's cool. Devilish pursuits! And only using your small little minds for your own worth!
 
@@ -114,9 +114,9 @@ Lets say you can get past Jesus and his tests, then by Me.
 
 > You stand Before Father God. Awaiting acceptance to be a God Within Yourself hand in hand with Father.
 
-> - The First question or test would he ask you is "Who Are You"!
+> > The First question or test would he ask you is "Who Are You"!
 
-> - Yes who are you?
+> Yes who are you?
 
 > The simplest but most complicated of all questions. Better be sure of your answer.
 
@@ -139,11 +139,11 @@ Enoch's visions were not detoured by the so called Rulers of the era's, he used 
 
 Looking to the new day, Pyramid Complex representations at Giza, of the Trinity and our Trinity's.
 
-> - Khufu at the left hand of God or the Holy Spirit with My Trinity of Angels, My Trinity of Queens up front as they shall Act for me on Earth. My Fenerary is inaccessible! My Gates for access have been taken down! To the New and Old Day lie the unsure!
+> Khufu at the left hand of God or the Holy Spirit with My Trinity of Angels, My Trinity of Queens up front as they shall Act for me on Earth. My Fenerary is inaccessible! My Gates for access have been taken down! To the New and Old Day lie the unsure!
 
-> - Khafre the center as Father God with a ascending protected two way, pathway, guarded by two. Spiritual Sentinel Sphinx Guard the Gates at the Valley Temple. Jesus the Cup, the well, for to be Judged, for no one Gets to the Father but through Me, the middle Fenerary, standing before Father God!
+> Khafre the center as Father God with a ascending protected two way, pathway, guarded by two. Spiritual Sentinel Sphinx Guard the Gates at the Valley Temple. Jesus the Cup, the well, for to be Judged, for no one Gets to the Father but through Me, the middle Fenerary, standing before Father God!
 
-> - Menkaure the Right hand of Father God, My son Jesus with long but an easy pathway to his Fenerary, after judgement at his Valley Temple Gates. With his Trinity of Angles by his right side, as not to stand between, as his three Mary, "Queens", for they, "Work with and beside my Son".
+> Menkaure the Right hand of Father God, My son Jesus with long but an easy pathway to his Fenerary, after judgement at his Valley Temple Gates. With his Trinity of Angles by his right side, as not to stand between, as his three Mary, "Queens", for they, "Work with and beside my Son".
 
 Enoch was the first to be, hand in HAND", with Father God; Übermensch/Uberman in truth, heart and works!
 
