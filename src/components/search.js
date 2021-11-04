@@ -195,7 +195,7 @@ const searchStyle = {
           },
           ul: {
             display: "block",
-            bg: "#222",
+            bg: "#111",
             pl: '10px',
             m: '6px',
           },

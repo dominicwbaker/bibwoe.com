@@ -1,8 +1,12 @@
-> **Update** Bibwoe is now built with Gatsby V3 "3.14.3", this include many performance updates such as React 17.0.2; Gatsby Plugin Image proper usage
+> **Update** Bibwoe is now built with Gatsby V3 "3.14.5", this include many performance updates such as React 17.0.2; Gatsby Plugin Image proper usage.
 
 * * *
 
-# Bibwoe is Based on Foundation
+# Bibwoe is Based on Starter Foundation
+
+[Foundation on Github](https://github.com/stackrole/gatsby-starter-foundation)
+
+[Foundation Demo](https://stackrole.com/demos/foundation)
 
 A starter to launch your blazing fast personal website and a blog, Built with [Gatsby][gatsby] and [Netlify CMS][netlifycms].
 
@@ -11,6 +15,7 @@ A starter to launch your blazing fast personal website and a blog, Built with [G
 - A Blog and Personal website with Netlify CMS.
 - Responsive Web Design
 - Dark / Light Mode
+- Blog Posts Tags
 - Customize theme color from CMS
 - Search bar
 - Customize content of Homepage, About and Contact page.
@@ -21,6 +26,7 @@ A starter to launch your blazing fast personal website and a blog, Built with [G
 - OpenGraph structured data
 - Twitter Cards meta
 - Beautiful XML Sitemaps
+- Robots.txt
 - Netlify Contact Form, Works right out of the box after deployment.
 - Invite collaborators into Netlify CMS, without giving access to your Github account via Git Gateway
 - Gatsby Incremental Builds with Netlify.
@@ -29,7 +35,6 @@ A starter to launch your blazing fast personal website and a blog, Built with [G
 ## 🚀 Quick Deploy
 
 Just click on the **Deploy to Netlify** button.
-
 
 This would fork `gatsby-starter-foundation` to your Github account and start building your website on [Netlify](https://netlify.com). Once the deployment is done. Your website will be live and website address would look like **site-name.netlify.app**
 
@@ -55,9 +60,9 @@ This would fork `gatsby-starter-foundation` to your Github account and start bui
 
 ## ⛭ Installation of CMS
 
-> gatsby-plugin-netlify-cms V 5.14.0
+> gatsby-plugin-netlify-cms Version 5.14.0
 
-> netlify-cms-app V @latest
+> netlify-cms-app Version @latest
 
 ```bash
 yarn add gatsby-plugin-netlify-cms netlify-cms-app
@@ -88,7 +93,9 @@ export default {
 
 ### The Configuration file
 
-Change /static/admin/config.yml file to your site needs. Otherwise its tailored for this Configuration!
+Change /static/admin/config.yml file to your site needs. 
+
+> Otherwise its tailored for this Configuration!
 
 * * *
 
@@ -142,6 +149,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     .
     ├── node_modules
     ├── src
+    ├── static
     ├── .gitignore
     ├── .prettierrc
     ├── gatsby-browser.js
@@ -168,7 +176,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 8.  **`LICENSE`**: Gatsby is licensed under the MIT license.
 
-9.  **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+9.  **`yarn-lock`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
 10. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
@@ -189,8 +197,6 @@ We really appreciate you taking time to build your website with our `gatsby-star
 I would love to get your feedback and contributions.
 
 Feel free to ping [@stackrole](stackrole) for help regarding your JAMstack website, our DM's are open. And do not forget to share you website with me 😊
-
-
 
 [gatsby]: https://gatsbyjs.org
 [netlifycms]: https://www.netlifycms.org
