@@ -1,7 +1,8 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import { useStaticQuery, graphql } from "gatsby"
-
+import Scroll from './Scroll'
+import ScrollDown from './ScrollDown'
 import Header from "./header"
 import Logo from "./logo"
 import Navigation from "./navigation"
@@ -38,6 +39,15 @@ const Layout = ({ children, className, props }) => {
         </div>
       </Header>
       <main className={"container " + className}>{children}</main>
+      <ScrollDown
+        direction='down' to={25}
+        showAbove={1500}
+        css='position: fixed; right: 1em; top: 4.5em;'
+      />
+      <Scroll
+        showBelow={1500}
+        css='position: fixed; right: 1em; bottom: 2em;'
+      />
       <Footer />
     </div>
   )
