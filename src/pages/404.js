@@ -31,7 +31,11 @@ const NotFound = () => (
         <RiArrowLeftSLine className="icon -left" />
         Back to Homepage
       </Link>
-      <Link to="/contact" className="button -outline">
+      <Link to="/contact" className="button -outline"
+        sx={{  
+          variant: "variants.button",      
+        }}
+      >
         Report this <RiBugLine className="icon -right" />
       </Link>
     </div>
