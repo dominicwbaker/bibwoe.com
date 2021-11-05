@@ -35,10 +35,6 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        tableOfContents: {
-          heading: null,
-          maxDepth: 6,
-        },
         gfm: true,
         plugins: [
           netlifyCmsPaths,
