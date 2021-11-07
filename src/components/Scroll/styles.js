@@ -8,7 +8,7 @@ export const Arrow = styled(Up)`
   border-radius: 50%;
   transition: 0.3s;
   position: fixed;
-  bottom: 10vh;
+  bottom: 14vh;
   :hover {
     transition: 0.3s;
     background: transparent;
