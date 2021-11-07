@@ -1,3 +1,5 @@
+import "prismjs/themes/prism.css"
+
 export const onServiceWorkerUpdateReady = () => {
   const answer = window.confirm(
     `This application has been updated. ` +

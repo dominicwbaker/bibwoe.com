@@ -183,6 +183,18 @@ input:-webkit-autofill
   font-size: 1rem;
   text-align: left;
 }
+.link-icon.before {
+  position: absolute;
+  top: 0;
+  left: -1.4em;
+  padding-right: 4px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+  transition: opacity 250ms ease 0s;
+}
 body {
   margin: 0;
   padding: 0;

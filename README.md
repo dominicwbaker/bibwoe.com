@@ -1,4 +1,7 @@
-> **Update** Bibwoe is now built with Gatsby V3 "3.14.5", this include many performance updates such as React 17.0.2; Gatsby Plugin Image proper usage.
+> **Update** Bibwoe is now built with Gatsby V3 "3.14.5", this include many performance updates such as React 17.0.2; Gatsby Soon 
+- GatsbyJS - [![npm version](https://badge.fury.io/js/gatsby.svg)](https://badge.fury.io/js/gatsby) 
+Plugin Image proper usage.
+
 
 * * *
 

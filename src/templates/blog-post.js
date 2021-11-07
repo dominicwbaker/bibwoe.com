@@ -2,7 +2,7 @@
 import { jsx } from "theme-ui"
 import { Link, graphql } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
-import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
+import { RiArrowRightLine, RiArrowLeftLine, RiTimerLine } from "react-icons/ri"
 import { FaTags } from "react-icons/fa";
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -70,7 +70,7 @@ const Pagination = props => (
 const Post = ({ data, pageContext }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark
-
+  const postNode = data.markdownRemark
   const Image = frontmatter.featuredImage
     ? frontmatter.featuredImage.childImageSharp.gatsbyImageData
     : ""
@@ -101,7 +101,20 @@ const Post = ({ data, pageContext }) => {
         <header className="featured-banner">
           <section className="article-header">
             <h1>{frontmatter.title}</h1>
-            <time sx={{color: "muted"}}>{frontmatter.date}</time>
+            <div>
+              <time sx={{color: "muted"}}>{frontmatter.date}</time>
+              &ensp;
+              <span
+                sx={{
+                  color: "muted",
+                }}
+              >
+                <span className="icon -timer">
+                  <RiTimerLine size="0.8em" />                
+                </span>{" "}  
+                <small>{postNode.timeToRead} min read</small>
+              </span>
+            </div>
             {tags.length > 0 && 
               <div
                 sx={{
