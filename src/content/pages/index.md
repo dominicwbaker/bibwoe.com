@@ -9,4 +9,4 @@ cta:
   ctaLink: /posts/creation-of-all
 ---
 
-Left Hand of God, first In Creation with Responsibilities for all in Creation.
+Left Hand of God, first In Creation with Responsibilities for All.
