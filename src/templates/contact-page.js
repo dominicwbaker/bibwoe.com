@@ -2,7 +2,7 @@
 import { jsx } from "theme-ui"
 import { graphql } from "gatsby"
 import { RiSendPlane2Line } from "react-icons/ri"
-
+import {Helmet} from "react-helmet";
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -24,6 +24,10 @@ export const pageQuery = graphql`
   }
 `
 
+function onSubmit(token) {
+    document.getElementById("contact").submit();
+}
+
 const Contact = ({ data }) => {
   const { markdownRemark, site } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
@@ -34,6 +38,10 @@ const Contact = ({ data }) => {
         title={frontmatter.title}
         description={frontmatter.title + " " + site.siteMetadata.title}
       />
+      <Helmet>
+        <script src="https://www.google.com/recaptcha/api.js"></script>
+        <script src="https://embed.small.chat/T8PMJ5ZNYGDRA9BJEA.js" async></script>
+      </Helmet>
       <div className="wrapper">
         <h1>{frontmatter.title}</h1>
         <div
@@ -47,7 +55,6 @@ const Contact = ({ data }) => {
           method="POST"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
-          data-netlify-recaptcha="true"
         >
           <input type="hidden" name="form-name" value="contact" />
           <p>
@@ -73,12 +80,13 @@ const Contact = ({ data }) => {
               Message<textarea name="message" required></textarea>
             </label>
           </p>
-          <div>
-            <div data-netlify-recaptcha="true"></div>
-          </div>
           <p className="text-align-right">
             <button
-              className="button"
+              class="button g-recaptcha" 
+              data-sitekey="6LcE-hwdAAAAAAu3XbPI_IMHXDiQeUy3_eyXdxqx" 
+              data-callback={onSubmit}
+              data-action='submit'
+              className="button g-recaptcha"
               sx={{
                 variant: "variants.button",
               }}
@@ -104,12 +112,14 @@ const contactStyles = {
       border: "6px solid",
       borderColor: "inputBorder",
       bg: "inputBackground",
+      color: "#777",
       outline: "none",
     },
     textarea: {
       border: "6px solid",
       borderColor: "inputBorder",
       bg: "inputBackground",
+      color: "#777",
       outline: "none",
     },
   },
