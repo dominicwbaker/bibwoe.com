@@ -188,20 +188,18 @@ input:-webkit-autofill
   top: 0;
   left: -1.4em;
   padding-right: 4px;
-  -webkit-transform: rotate(135deg);
-  -moz-transform: rotate(135deg);
-  -o-transform: rotate(135deg);
-  -ms-transform: rotate(135deg);
-  transform: rotate(135deg);
+  -webkit-transform: rotate(160deg);
+  -moz-transform: rotate(160deg);
+  -o-transform: rotate(160deg);
+  -ms-transform: rotate(160deg);
+  transform: rotate(160deg);
   transition: opacity 250ms ease 0s;
-}
-body {
-  margin: 0;
-  padding: 0;
 }
 body {
   font-family: var(--font-family);
   font-size: 18px;
+  margin: 0;
+  padding: 0;
 }
 code {
   font-family: var(--font-family-mono);

@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import React from "react"
+import { Transition } from "react-spring/renderprops"
 import { useStaticQuery, graphql } from "gatsby"
 import Scroll from './Scroll'
 import ScrollDown from './ScrollDown'
@@ -64,8 +65,16 @@ const Layout = ({ location, children, className, props }) => {
         <div
           sx={{
             gridArea: 'main'
-          }}>
-          <main className={"container " + className}>{children}</main>
+          }}
+        >
+          <Transition
+            config={{ duration: 500, delay: 200 }}
+            from={{ opacity: 0 }}
+            enter={{ opacity: 1 }}
+            leave={{ opacity: 0 }}
+          >
+            {() => style => <main className={"container " + className}>{children}</main>}
+          </Transition>
           <ScrollDown
             direction='down' to={25}
             showAbove={1500}
@@ -88,7 +97,7 @@ const Layout = ({ location, children, className, props }) => {
           sx={{
             gridArea: 'ads',
             marginTop: '200px',
-            marginLeft: '20px'
+            marginRight: '20px'
           }}>
           Ads some adds would be ok
         </div>
