@@ -20,9 +20,6 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
-  "browserslist": [
-    "Edge 15"
-  ],
   "dependencies": {
     "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^3.0.2",
     "@theme-ui/color": "^0.11.3",
@@ -52,16 +49,30 @@
     "node-sass": "^4.14.1",
     "prismjs": "^1.25.0",
     "react": "^17.0.2",
+    "react-audio-player": "^0.17.0",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.3.1",
     "react-spring": "^9.3.0",
+    "rehype-react": "^7.0.3",
     "theme-ui": "^0.11.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.0",
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-proposal-decorators": "7.16.0",
+    "@types/node": "16.11.6",
+    "@types/react": "17.0.34",
+    "@types/react-dom": "17.0.11",
+    "@types/react-helmet": "6.1.4",
+    "@typescript-eslint/eslint-plugin": "^5.3.0",
+    "@typescript-eslint/parser": "^5.3.0",
+    "babel-preset-gatsby": "^1.14.0",
     "caniuse-lite": "1.0.30001271",
-    "postcss-preset-env": "^6.7.0"
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "2.4.1",
+    "typescript": "^4.4.4"
   }
 }

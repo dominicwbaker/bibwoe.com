@@ -55,17 +55,16 @@ pre::-webkit-scrollbar-thumb {
 pre::-webkit-scrollbar-track {
   background: linear-gradient(90deg, #201c29, #201c29 1px, #17141d 0, #17141d);
 }
+
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
 input:-webkit-autofill:focus, 
-input:-webkit-autofill:active
-{
- -webkit-box-shadow: 0 0 0 30px #8e0b30 inset !important;
- box-shadow: 0 0 0 30px #8e0b30 inset !important;
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #1d1d1d inset !important;
+  box-shadow: 0 0 0 30px #1d1d1d inset !important;
 }
-input:-webkit-autofill
-{
- -webkit-text-fill-color: #fe7299 !important;
+input:-webkit-autofill {
+  -webkit-text-fill-color: #1d1d1d !important;
 }
 .nav-scroll {
   overflow-y: auto;

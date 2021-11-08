@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import React from "react"
-import { Transition } from "react-spring/renderprops"
 import { useStaticQuery, graphql } from "gatsby"
 import Scroll from './Scroll'
 import ScrollDown from './ScrollDown'
@@ -22,9 +21,9 @@ const query = graphql`
   }
 `
 
-const Layout = ({ location, children, className, props }) => {
+const Layout = ({ data, children, className, props }) => {
   const { siteSearchIndex } = useStaticQuery(query)
-
+  const tableOfContents = data
   return (
     <>
       <div
@@ -67,14 +66,7 @@ const Layout = ({ location, children, className, props }) => {
             gridArea: 'main'
           }}
         >
-          <Transition
-            config={{ duration: 500, delay: 200 }}
-            from={{ opacity: 0 }}
-            enter={{ opacity: 1 }}
-            leave={{ opacity: 0 }}
-          >
-            {() => style => <main className={"container " + className}>{children}</main>}
-          </Transition>
+          <main className={"container " + className}>{children}</main>
           <ScrollDown
             direction='down' to={25}
             showAbove={1500}
@@ -89,17 +81,23 @@ const Layout = ({ location, children, className, props }) => {
           sx={{
             gridArea: 'nav',
             marginTop: '200px',
-            marginLeft: '20px'
+            marginLeft: '20px',
           }}>
-            <Toc headings={headings} />
+            Add something
         </div>
         <div
           sx={{
             gridArea: 'ads',
-            marginTop: '200px',
-            marginRight: '20px'
           }}>
-          Ads some adds would be ok
+            <div
+              {...props}
+              sx={{
+                position: "-webkit-sticky",
+                position: "sticky",
+              }}
+            >
+              <Toc />
+            </div>
         </div>
         <div
           sx={{

@@ -1,7 +1,6 @@
 import defaultColors from "../util/default-colors.json"
 import darkColors from "../util/dark-theme-colors.json"
 import { lightness } from "@theme-ui/color"
-import spring from "react-spring"
 
 const theme = {
   colors: {

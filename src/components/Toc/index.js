@@ -1,9 +1,10 @@
+/** @jsx jsx */
+import { jsx } from "theme-ui"
 import { throttle } from 'lodash'
 import { Link } from 'gatsby'
-import React, { useEffect, useRef, useState, useLayoutEffect } from 'react'
+import React, { useEffect, useState, useLayoutEffect } from 'react'
 import { RiPagesLine } from "react-icons/ri";
 import { useEventListener } from '../../hooks/useEventListener'
-import { useOnClickOutside } from '../../hooks/useOnClickOutside'
 
 function useLockBodyScroll () {
   useLayoutEffect(() => {
@@ -24,17 +25,14 @@ const accumulateOffsetTop = (el, totalOffset = 0) => {
   return totalOffset
 }
 
-export default function Toc ({ headingSelector, getTitle, getDepth, ...rest }) {
+export default function Toc ({ headingSelector, getTitle, getDepth, props, ...rest }) {
   const { throttleTime = 200, tocTitle = `Contents` } = rest
   const [headings, setHeadings] = useState({
     titles: [],
     nodes: [],
     minDepth: 0,
   })
-  const [open, setOpen] = useState(false)
   const [active, setActive] = useState()
-  const ref = useRef()
-  useOnClickOutside(ref, () => setOpen(false))
   useLockBodyScroll()
   useEffect(() => {
     // Fallback to sensible defaults for headingSelector, getTitle and getDepth
@@ -69,6 +67,7 @@ export default function Toc ({ headingSelector, getTitle, getDepth, ...rest }) {
   return (
     <>      
       <div
+        {...props}
         sx={{
           gridColumnStart: "nav-start",
           gridColumnEnd: "nav-end",
@@ -78,10 +77,21 @@ export default function Toc ({ headingSelector, getTitle, getDepth, ...rest }) {
           <RiPagesLine />
           {tocTitle}          
         </heading>
-        <div>
+        <div onScroll={e => e.preventDefault()}
+          {...props}
+          sx={{
+            display: "block",
+            marginLeft: "3em",        
+          }}
+        >
           <nav className='nav-scroll'>
             {headings.titles.map(({ title, depth }, index) => (
               <Link
+                {...props}
+                sx={{
+                  display: "block",
+                  marginLeft: "0em",
+                }}
                 key={title}
                 className='a'
                 active={active === index}

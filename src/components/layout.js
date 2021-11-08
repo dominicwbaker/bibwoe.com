@@ -40,13 +40,13 @@ const Layout = ({ children, className, props }) => {
       </Header>
       <main className={"container " + className}>{children}</main>
       <ScrollDown
-        direction='down' to={25}
+        direction='down' to={205}
         showAbove={1500}
         css='position: fixed; right: 1em; top: 4.5em;'
       />
       <Scroll
         showBelow={1500}
-        css='position: fixed; right: 1em; bottom: 2em;'
+        css='position: fixed; right: 1em; bottom: 4em;'
       />
       <Footer />
     </div>
