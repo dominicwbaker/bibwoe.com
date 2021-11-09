@@ -12,7 +12,7 @@ title: About Bibwoe
 
 God's works should be read in a ascending order as they set precedence for the next.
 
-Been waiting around to prompted for 63 years to start this. Kind of got complacent. Then next thing I know the Trinity was together and I was on my way! 
+Been waiting around for the prompt to start this. Kind of got complacent. Then next thing I know the Trinity was together and I was on my way! 
 
 > So here we go to a new day!
 

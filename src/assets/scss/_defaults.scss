@@ -62,9 +62,11 @@ input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   -webkit-box-shadow: 0 0 0 30px #1d1d1d inset !important;
   box-shadow: 0 0 0 30px #1d1d1d inset !important;
+  color: #777 !important;
 }
 input:-webkit-autofill {
-  -webkit-text-fill-color: #1d1d1d !important;
+  -webkit-text-fill-color: #777 !important;
+  color: #777;
 }
 .nav-scroll {
   overflow-y: auto;
@@ -91,9 +93,17 @@ input:-webkit-autofill {
 .cover {
   margin-bottom: 1em;
   border-radius: 12px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: thin black;  
   width: 100%;
   object-fit: cover;
+}
+.cover-text{
+  position: absolute;
 }
 .taglist {
   list-style: none;

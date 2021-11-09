@@ -2,6 +2,7 @@
 import { jsx, Flex, Box, Heading } from "theme-ui"
 import PropTypes from "prop-types"
 import { FaTags } from "react-icons/fa";
+
 // Components
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
@@ -23,7 +24,7 @@ const Tags = ({ pageContext, data }) => {
           <Box p={4} bg="primary">
             <Heading as='h2'>{tagHeader}</Heading>
             <div>
-              <ul className='ul'>
+              <ul className="taglist">
                 {edges.map(({ node }) => {
                   const { slug } = node.fields
                   const { title } = node.frontmatter
