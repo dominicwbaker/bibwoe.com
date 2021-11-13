@@ -2,7 +2,8 @@
 import { jsx } from "theme-ui"
 import React from "react"
 import { Link, graphql } from "gatsby"
-import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
+import { RiArrowLeftLine } from "@react-icons/all-files/ri/RiArrowLeftLine"
+import { RiArrowRightLine } from "@react-icons/all-files/ri/RiArrowRightLine"
 import Layout from "../components/layout"
 import PostCard from "../components/post-card"
 import Seo from "../components/seo"
@@ -36,7 +37,7 @@ export const blogListQuery = graphql`
           timeToRead
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
-            slug
+            path
             tags
             title
             featuredImage {

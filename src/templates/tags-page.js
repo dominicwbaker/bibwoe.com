@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx, Flex, Box, Heading } from "theme-ui"
 import PropTypes from "prop-types"
-import { FaTags } from "react-icons/fa";
+import { FaTags } from "@react-icons/all-files/fa/FaTags";
 
 // Components
 import { Link, graphql } from "gatsby"
@@ -14,6 +14,7 @@ const Tags = ({ pageContext, data }) => {
   const tagHeader = `${totalCount} post${
     totalCount === 1 ? "" : "s"
   } tagged with "${tag}"`
+
   return (
     <Layout className="not-found-page">
       <Seo />
@@ -48,6 +49,7 @@ const Tags = ({ pageContext, data }) => {
     </Layout>
   )
 }
+
 Tags.propTypes = {
   pageContext: PropTypes.shape({
     tag: PropTypes.string.isRequired,
@@ -71,6 +73,7 @@ Tags.propTypes = {
   }),
 }
 export default Tags
+
 export const pageQuery = graphql`
   query($tag: String) {
     allMarkdownRemark(
@@ -86,6 +89,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            path
           }
         }
       }

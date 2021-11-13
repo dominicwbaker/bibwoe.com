@@ -1,12 +1,11 @@
-/** @jsx jsx */
-import { jsx } from "theme-ui"
+    /** @jsx jsx */
+import { jsx } from 'theme-ui'
 import { useStaticQuery, graphql } from "gatsby"
 import Scroll from './Scroll'
 import ScrollDown from './ScrollDown'
 import Header from "./header"
 import Logo from "./logo"
 import Navigation from "./navigation"
-
 import "../assets/scss/style.scss"
 import Footer from "./footer"
 import Theme from "./theme"
@@ -20,11 +19,31 @@ const query = graphql`
   }
 `
 
-const Layout = ({ children, className, props }) => {
+const Layout = ({ location, className, props, children }) => {
   const { siteSearchIndex } = useStaticQuery(query)
 
   return (
-    <div className="primary-container">
+    <div
+      sx={{
+        display: 'grid',
+        minHeight: '100vh',
+        gridTemplateAreas: [
+        '"header" "nav" "main" "ads" "footer"',
+        '"header header header" "nav main ads" "footer footer footer"'
+      ],
+      gridTemplateColumns: [
+        '1fr',
+        '64px 1fr 64px'
+      ],
+      gridTemplateRows: [
+        'min-content min-content 1fr min-content min-content',
+        'min-content 1fr min-content'
+      ]
+    }}>
+    <div
+      sx={{
+        gridArea: 'header'
+      }}>
       <Header>
         <Logo />
         <div sx={layoutStyle.nav}>
@@ -38,6 +57,11 @@ const Layout = ({ children, className, props }) => {
           <Theme />
         </div>
       </Header>
+    </div>
+    <div
+      sx={{
+        gridArea: 'main'
+      }}>
       <main className={"container " + className}>{children}</main>
       <ScrollDown
         direction='down' to={205}
@@ -48,8 +72,24 @@ const Layout = ({ children, className, props }) => {
         showBelow={1500}
         css='position: fixed; right: 1em; bottom: 4em;'
       />
+    </div>
+    <div
+      sx={{
+        gridArea: 'nav'
+      }}>
+    </div>
+    <div
+      sx={{
+        gridArea: 'ads'
+      }}>
+    </div>
+    <div
+      sx={{
+        gridArea: 'footer'
+      }}>
       <Footer />
     </div>
+  </div>
   )
 }
 

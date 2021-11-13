@@ -1,10 +1,10 @@
 ---
 template: blog-post
 title: Works Of Flesh
-slug: /posts/works-of-flesh
+path: /posts/works-of-flesh
 tags: [Responsibility, Works]
 date: 2021-04-13 08:40
-featuredImage: /assets/works.jpg
+featuredImage: ../../images/works.jpg
 description: If you are irresponsible in life, then that directly affects your abilities to be one within yourself or with Father God
 ---
 

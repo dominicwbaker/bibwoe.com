@@ -1,11 +1,11 @@
 ---
 template: blog-post
 title: Immorality Abortion
-slug: /posts/immorality-abortion
+path: /posts/immorality-abortion
 tags: [Immorality, Abortion]
 description: Human Immorality leads to Abortion, Keep your children pure or you and your children will be cleansed from this Earth
 date: 2021-09-10 08:40
-featuredImage: /assets/abortion-immorality.jpg
+featuredImage: ../../images/abortion-immorality.jpg
 ---
 
 ## Prelude
@@ -32,9 +32,9 @@ The moment the sperm penetrates the egg is conception and life!
 
 You made the decision of creation, weather intentional or haphazardly. 
 
-> And if conceived out of Wed Lock! Your are just fleshly Devil worshiping Animals, ask any Hollywood Actress they will tell you there just Animals with No Humanity, condoning worshiping the flesh.
+> And if conceived out of Wed Lock! Your are just fleshly Devil worshiping Animals, ask any Hollywood Actress they will tell you there just Animals with No Humanity, condoning worshiping the flesh, lacking a clean soul and a lost spiritual connection with Father God.
 
-You should be sterilized and separated from the rest of, "US", that seek Father Gods truth's in purity and marriage.
+You should be sterilized and separated from the rest of, "US", that seek Father Gods truth's in spirit, truth, purity and marriage.
 
 ## Immorality
 
@@ -46,9 +46,11 @@ Universal truths that are sill employed in many society's on Earth despite the C
 
 If you are immoral the church gives you forgiveness for financial means. If you are pure and true of heart you do not need the church as you already follow Gods Laws and your own truths within the Holy Spirit. 
 
+> Rumi Quote: I am not this hair, I am not this skin, I am the soul that lives within.
+
 Living in purity is the only way you can be one with the Holy Spirit and be 100% in Spirit and Flesh, with love and truth in your hearts, with nothing in your minds of immortality. Not even the knowledge of fleshly desire and how others participate in there desires. These thing's of love and oneness are between Man and his Wife, and are, "Only", to be experienced by two of purity after they are bound together in Gods Name.
 
-> Only knowing of each other, "Man and Wife", and your oneness of love in Gods Name.
+> Only knowing of each other, "Man and Wife", and your oneness within love in Gods Name.
 
 ### Qur'an prophetic traditions (hadith)
 
@@ -57,7 +59,6 @@ For readers today, the Qur'an bears the stamp of its time and place, yet for man
 An English version of the first ten verses of the ninety-first chapter, 
 
 ### Qur'an The Sun
-
 
 Consider the sun and its radiance, and the moon reflecting the sun.
 

@@ -1,8 +1,8 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import { graphql } from "gatsby"
-import { RiSendPlane2Line } from "react-icons/ri"
-import {Helmet} from "react-helmet";
+import { RiSendPlane2Line } from "@react-icons/all-files/ri/RiSendPlane2Line"
+import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -14,6 +14,7 @@ export const pageQuery = graphql`
       excerpt(pruneLength: 140)
       frontmatter {
         title
+        path
       }
     }
     site {

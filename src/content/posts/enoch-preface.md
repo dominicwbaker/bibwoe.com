@@ -2,9 +2,9 @@
 template: blog-post
 title: "Enoch Preface"
 date: 2018-07-15 10:11
-slug: /posts/enoch-preface
+path: /posts/enoch-preface
 tags: [Enoch, Enoch Preface]
-featuredImage: /assets/enoch-preface.jpg
+featuredImage: ../../images/enoch-preface.jpg
 description: The book of Enoch consists of multiple parts that were put together as one book by a later editor
 ---
 
@@ -12,8 +12,8 @@ description: The book of Enoch consists of multiple parts that were put together
 
 The book of Enoch consists of multiple parts that were put together as one book by a later editor.
 
-![Enoch](/assets/enoch-1-60.png "Enoch Papyrus Fragment")
-_[`Enoch Papyrus Fragment`](https://bibwoe.com/assets/enoch-1-60.png)_
+![Enoch](../../images/enoch-1-60.png "Enoch Papyrus Fragment")
+_[`Enoch Papyrus Fragment`](../../images/enoch-1-60.png)_
 
 The book consists of the following parts:
 
@@ -35,16 +35,16 @@ Appendix added l
 
 The _first parable_ (xxxviii.-xliv.) is a prophecy of coming judgement upon the wicked, and especially the kings and mighty ones on the earth. This is enochs books in Greek and Ethopian, The Egyptian versions of Enoch are his design in stone as Ceops, "The Great Pyramid at Giza"! An interesting occurrence of gematria also helps pinpoint the Great Pyramid as God's special revelation. Here is the Hebrew of the Pyramid text, Isaiah 19:19, 20.
 
-![Enoch](/assets/enoch-w.png)
+![Enoch](../../images/enoch-w.png)
 
-![Hebrew Text](/assets/hebrew-text.jpg)
+![Hebrew Text](../../images/hebrew-text.jpg)
 
 The Hebrew of Isaiah 19:19,20
 
 Gematria is the science of finding meaning in the numerical value of words. In the Hebrew language each individual letter has a numerical value. Thus every word has the numerical value of the sum of the value of its letters. If one adds up the numerical value of all the Hebrew characters in the Great Pyramid text the value is 5449\. This is the height in inches of the Great Pyramid!  
 One person ("of many"),  who measured and studied the Great Pyramid say it is a structural bible.
 
-![Enoch Circle](/assets/chrono-trans.png)
+![Enoch Circle](../../images/chrono-trans.png)
 
 ## EDITORS PREFACE
 
@@ -58,7 +58,7 @@ W. O. E. OESTERLEY.
 
 G. H. Box.
 
-![Enoch Calendar](/assets/enoch-preface-intro.jpg)
+![Enoch Calendar](../../images/enoch-preface-intro.jpg)
 
 ## INTRODUCTION
 

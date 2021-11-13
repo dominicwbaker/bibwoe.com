@@ -2,7 +2,8 @@
 import { jsx } from "theme-ui"
 import React from "react"
 import { Link } from "gatsby"
-import { RiMenu3Line, RiCloseLine } from "react-icons/ri"
+import { RiMenu3Line } from "@react-icons/all-files/ri/RiMenu3Line"
+import { RiCloseLine } from "@react-icons/all-files/ri/RiCloseLine"
 import Theme from "./theme"
 
 const MenuItems = [
@@ -80,7 +81,17 @@ const navStyle = {
   menu: {
     ul: {
       bg: "siteColor",
+      listStyle: "none",
+      listStyleType: "none",
+      margin: "0",
+      padding: "0",
     },
+    li: {
+      display: "inline-block",
+      marginLeft: "20px",
+      listStyle: "none",
+      listStyleType: "none",
+    }
   },
   theme: {
     display: ["block", "block", "block", "none"],

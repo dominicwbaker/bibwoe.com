@@ -1,10 +1,10 @@
 ---
 template: blog-post
 title: Song
-slug: /posts/song
+path: /posts/song
 date: 2021-04-17 08:40
 tags: [Lost Song, Our Song]
-featuredImage: /assets/song.jpg
+featuredImage: ../../images/song.jpg
 description: The Devil will do anything to keep me from talking! Especially singing
 ---
 

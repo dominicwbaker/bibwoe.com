@@ -2,8 +2,10 @@
 import { jsx } from "theme-ui"
 import { Link, graphql } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
-import { RiArrowRightLine, RiArrowLeftLine, RiTimerLine } from "react-icons/ri"
-import { FaTags } from "react-icons/fa";
+import { RiTimerLine } from "@react-icons/all-files/ri/RiTimerLine"
+import { RiArrowLeftLine } from "@react-icons/all-files/ri/RiArrowLeftLine"
+import { RiArrowRightLine } from "@react-icons/all-files/ri/RiArrowRightLine"
+import { FaTags } from "@react-icons/all-files/fa/FaTags"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -29,7 +31,7 @@ const Pagination = props => (
     <ul>
       {props.previous && props.previous.frontmatter.template === "blog-post" && (
         <li>
-          <Link to={props.previous.frontmatter.slug} rel="prev">
+          <Link to={props.previous.frontmatter.path} rel="prev">
             <p
               sx={{
                 color: "muted",
@@ -48,7 +50,7 @@ const Pagination = props => (
       )}
       {props.next && props.next.frontmatter.template === "blog-post" && (
         <li>
-          <Link to={props.next.frontmatter.slug} rel="next">
+          <Link to={props.next.frontmatter.path} rel="next">
             <p
               sx={{
                 color: "muted",
@@ -67,12 +69,12 @@ const Pagination = props => (
   </div>
 )
 
-const Post = ({ data, pageContext }) => {
+const BlogPostTemplate = ({ data, pageContext }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark
   const postNode = data.markdownRemark
   const Image = frontmatter.featuredImage
-    ? frontmatter.featuredImage.childImageSharp.gatsbyImageData
+    ? postNode.frontmatter.featuredImage.childImageSharp.gatsbyImageData
     : ""
   const { previous, next } = pageContext
 
@@ -86,6 +88,7 @@ const Post = ({ data, pageContext }) => {
     if (tags.length > 0) {
         taglist += tags.join(', ');
     }
+
 
   return (
     <Layout className="page">
@@ -151,7 +154,7 @@ const Post = ({ data, pageContext }) => {
   )
 }
 
-export default Post
+export default BlogPostTemplate
 
 export const pageQuery = graphql`
   query BlogPostQuery($id: String!) {
@@ -162,7 +165,7 @@ export const pageQuery = graphql`
       timeToRead
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
-        slug
+        path
         tags
         title
         description
@@ -175,3 +178,4 @@ export const pageQuery = graphql`
     }
   }
 `
+

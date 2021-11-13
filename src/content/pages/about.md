@@ -1,10 +1,10 @@
 ---
 template: about-page
-slug: /about
+path: /about
 title: About Bibwoe
 ---
 
-![Banner](/assets/creation-header.jpg)
+![Banner](..../../images/creation-header.jpg)
 
 ## This New Word Describes All, "Bibwoe".
 

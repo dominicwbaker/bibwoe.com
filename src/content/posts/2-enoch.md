@@ -1,10 +1,10 @@
 ﻿---
 template: blog-post
 title: 2 Enoch
-slug: /posts/2-enoch
+path: /posts/2-enoch
 tags: [Enoch, 2 Enoch]
 date: 2018-07-12 10:11
-featuredImage: /assets/enoch-spaceship.jpg
+featuredImage: ../../images/enoch-spaceship.jpg
 description: Greek Version, Also referred to as "Slavonic Enoch" or "2 Enoch". Secrets of Enoch.
 ---
 

@@ -1,10 +1,10 @@
 ---
 template: blog-post
 title: Jew Who
-slug: /posts/jew-who
+path: /posts/jew-who
 tags: [Moses, Jews]
 date: 2021-04-11 10:30
-featuredImage: /assets/jew-who.jpg
+featuredImage: ../../images/jew-who.jpg
 description: The Jewish people really do not know there own history, here I will clarify that. The Old Testament books in the Holy Bible are Holy
 ---
 

@@ -1,4 +1,5 @@
-import React from "react"
+/** @jsx jsx */
+import { jsx } from "theme-ui"
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
@@ -12,6 +13,7 @@ export const pageQuery = graphql`
       excerpt(pruneLength: 140)
       frontmatter {
         title
+        path
       }
     }
   }

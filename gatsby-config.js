@@ -1,20 +1,27 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-const netlifyCmsPaths = {
-  resolve: `gatsby-plugin-netlify-cms-paths`,
-  options: {
-    cmsConfig: `/static/admin/config.yml`,
-  },
-}
-
 const settings = require("./src/util/site.json")
 
 module.exports = {
-  siteMetadata: settings.meta,
+  siteMetadata: {
+    title: `Bibwoe`,
+    author: {
+      name: `Donald Boulton`,
+      summary: `Basic Instructions Books While On Earth.`,
+    },
+    description: `Basic Instructions Books While On Earth.`,
+    siteUrl: `https://bibwoe.com/`,
+    social: {
+      twitter: `donboulton`,
+    },
+  },
   plugins: [
+    `gatsby-plugin-theme-ui`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/content/`,
+        name: `content`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -25,20 +32,14 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/content/`,
-        name: `content`,
+        name: `images`,
+        path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-plugin-image`,
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        footnotes: true,
-        gfm: true,
         plugins: [
-          netlifyCmsPaths,
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -52,6 +53,12 @@ module.exports = {
             },
           },
           {
+            resolve: `gatsby-remark-responsive-iframe`,
+            options: {
+              wrapperStyle: `margin-bottom: 1.0725rem`,
+            },
+          },
+          {
             resolve: `gatsby-remark-autolink-headers`,
             options: {
               offsetY: `100`,
@@ -61,7 +68,6 @@ module.exports = {
               removeAccents: true,
             },
           },
-          `gatsby-remark-responsive-iframe`,
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
@@ -76,47 +82,83 @@ module.exports = {
               escapeEntities: {},
             },
           },
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-smartypants`,
         ],
       },
     },
     {
-      resolve: `@gatsby-contrib/gatsby-plugin-elasticlunr-search`,
+      resolve: `gatsby-plugin-sharp`,
       options: {
-        // Fields to index
-        fields: [`title`, `description`, `content`, `path`, `date`, `featuredImage`],
-        // How to resolve each field`s value for a supported node type
-        resolvers: {
-          BlogPost : {
-            title         : node => node.title,
-            description   : node => node.description,
-            content       : node => node.rawMarkdownBody,
-            path          : node => node.slug,
-            date          : node => node.date,
-            featuredImage : (node, getNode) => getNode(node.featuredImage___NODE)
-          },
-          MarkdownRemark: {
-            title: node => node.frontmatter.title,
-            description: node => node.frontmatter.description,
-            content: node => node.rawMarkdownBody,
-            path: node => node.frontmatter.slug,
-            date: node => node.frontmatter.date
-          },
+        defaults: {
+          formats: [`auto`, `webp`],
+          placeholder: `dominantColor`,
+          quality: 80,
+          breakpoints: [750, 1080, 1366, 1920],
+          backgroundColor: `transparent`,
         },
       },
     },
-    'gatsby-plugin-sass',   
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-theme-ui`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-image`,
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: `ADD YOUR TRACKING ID HERE`,
+    //   },
+    // },
     {
-      resolve: `gatsby-plugin-netlify-cms`,
+      resolve: `gatsby-plugin-feed`,
       options: {
-        modulePath: `${__dirname}/src/cms/cms.js`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: settings.ga,
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.nodes.map(node => {
+                return Object.assign({}, node.frontmatter, {
+                  description: node.excerpt,
+                  date: node.frontmatter.date,
+                  url: site.siteMetadata.siteUrl + node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + node.fields.slug,
+                  custom_elements: [{ "content:encoded": node.html }],
+                })
+              })
+            },
+            query: `
+              {
+                allMarkdownRemark(
+                  sort: { order: DESC, fields: [frontmatter___date] },
+                ) {
+                  nodes {
+                    excerpt
+                    html
+                    fields {
+                      slug
+                    }
+                    frontmatter {
+                      title
+                      date
+                    }
+                  }
+                }
+              }
+            `,
+            output: "/rss.xml",
+            title: "Gatsby Starter Blog RSS Feed",
+          },
+        ],
       },
     },
     `gatsby-plugin-sitemap`,
@@ -133,6 +175,33 @@ module.exports = {
       },
     },
     {
+      resolve: `@gatsby-contrib/gatsby-plugin-elasticlunr-search`,
+      options: {
+        // Fields to index
+        fields: [`title`, `description`, `content`, `path`, `date`],
+        // How to resolve each field`s value for a supported node type
+        resolvers: {
+          BlogPost : {
+            title         : node => node.title,
+            description   : node => node.description,
+            content       : node => node.rawMarkdownBody,
+            path          : node => node.slug,
+            date          : node => node.date,
+            featuredImage : (node, getNode) => getNode(node.featuredImage___NODE)
+          },
+          MarkdownRemark: {
+            title: node => node.frontmatter.title,
+            description: node => node.frontmatter.description,
+            content: node => node.rawMarkdownBody,
+            path: node => node.frontmatter.path,
+            date: node => node.frontmatter.date
+          },
+        },
+      },
+    },
+    'gatsby-plugin-sass', 
+    `gatsby-plugin-react-helmet`,
+    {
       resolve: "gatsby-plugin-anchor-links",
       options: {
         offset: -100,
@@ -143,7 +212,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-offline`,
       options: {
-        precachePages: [`/`, `/about`, `/contact`, `/posts/*`],
+        precachePages: [`/`, `/contact`, `/posts/*`],
         workboxConfig: {
           importWorkboxFrom: `cdn`,
         },

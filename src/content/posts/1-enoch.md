@@ -2,9 +2,9 @@
 template: blog-post
 title: 1 Enoch
 date: 2018-07-13 10:11
-slug: /posts/1-enoch
+path: /posts/1-enoch
 tags: [Enoch, 1 Enoch]
-featuredImage: /assets/enoch.jpg
+featuredImage: ../../images/enoch.jpg
 description: Ethiopian Enoch or 1 Enoch, Chapters 1-108, The Original Bible before Jewish, Christian, Muslim Plagiarism
 ---
 
@@ -16,8 +16,8 @@ From-The Apocrypha and Pseudepigrapha of the Old Testament
 
 R.H. Charles, Oxford: The Clarendon Press
 
-![Ethiopian Enoch](/assets/enoch-1-60.png "Enoch Papyrus Fragment")
-_[`Enoch Papyrus Fragment`](https://bibwoe.com/assets/enoch-1-60.png)_
+![Ethiopian Enoch](../../images/enoch-1-60.png "Enoch Papyrus Fragment")
+_[`Enoch Papyrus Fragment`](../../images/enoch-1-60.png)_
 
 > Section I. Chapters I-LX
 

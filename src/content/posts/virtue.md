@@ -1,10 +1,10 @@
 ---
 template: blog-post
 title: Virtue
-slug: /posts/virtue
+path: /posts/virtue
 tags: [Spirit, Wed Lock, Virtue]
 date: 2021-04-07 01:30
-featuredImage: /assets/virtue.jpg
+featuredImage: ../../images/virtue.jpg
 description: Reflecting on what The Christian Bible, Sufism as Tasawwuf a science of the soul the study of virtue
 ---
 

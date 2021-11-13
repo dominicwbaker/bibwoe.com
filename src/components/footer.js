@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import { Link } from "gatsby"
-import { RiHeart2Line } from "react-icons/ri"
+import { RiHeart2Line } from "@react-icons/all-files/ri/RiHeart2Line"
 
 const Footer = () => (
   <footer
@@ -10,7 +10,7 @@ const Footer = () => (
       bg: "siteColor",
     }}
   >
-    <div className="container">
+    <div>
       <p>
       © {new Date().getFullYear()} Bibwoe.com{" "}
         <span className="icon -love">

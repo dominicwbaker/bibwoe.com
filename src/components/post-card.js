@@ -11,7 +11,7 @@ const PostCard = ({ data }) => (
     }}
   >
     {data.frontmatter.featuredImage ? (
-      <Link to={data.frontmatter.slug}>
+      <Link to={data.frontmatter.path}>
         <GatsbyImage
           image={data.frontmatter.featuredImage.childImageSharp.gatsbyImageData}
           alt={data.frontmatter.title + " - Featured image"}
@@ -24,7 +24,7 @@ const PostCard = ({ data }) => (
     <div className="post-content">
       <h2 className="title">
         <Link
-          to={data.frontmatter.slug}
+          to={data.frontmatter.path}
           sx={{
             variant: "links.postLink",
           }}

@@ -1,10 +1,10 @@
 ---
 template: blog-post
 title: Commandments
-slug: /posts/commandments
+path: /posts/commandments
 tags: [Law, Commandments]
 date: 2021-04-30 01:25
-featuredImage: /assets/commandments.png
+featuredImage: ../../images/commandments.png
 description: These laws were set way before Moses and were a World standard way of belief in all cultures!
 ---
 

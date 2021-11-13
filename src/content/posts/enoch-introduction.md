@@ -2,9 +2,9 @@
 template: blog-post
 title: Enoch Introduction
 date: 2018-07-16 10:11
-slug: /posts/enoch-introduction
+path: /posts/enoch-introduction
 tags: [Enoch, Enoch Introduction]
-featuredImage: /assets/enoch-god.jpg
+featuredImage: ../../images/enoch-god.jpg
 description: The Original Bible before Jewish - Christian - Muslim Plagiarism
 ---
 

@@ -1,6 +1,6 @@
 ---
 template: contact-page
-slug: /contact
+path: /contact
 title: Get in touch
 ---
 

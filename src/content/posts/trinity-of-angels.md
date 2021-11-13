@@ -1,10 +1,10 @@
 ---
 template: blog-post
 title: Trinity of Angels
-slug: /posts/trinity-of-angels
+path: /posts/trinity-of-angels
 tags: [Trinity, Angels]
 date: 2021-04-16 09:30
-featuredImage: /assets/angel.png
+featuredImage: ../../images/angel.png
 description: The perfection of Heart, Beauty and Song, God had given me in my Trinity of loves is beyond explanation
 ---
 
@@ -84,7 +84,7 @@ Who needs God when you got all of that, plus who would have time to think about,
 
 Here is a bad old pic of me at 21 with my sister and first daughter, I was to pretty; lost a lot of rich chicks over that, they do not like being upstaged! Several told me that, bummer man! So how about Handsome?
 
-![Pretty boy!](/assets/me-bk-brooke.jpg "pretty boy")
+![Pretty boy!](../../images/me-bk-brooke.jpg "pretty boy")
 _[`me` with dawn and my sister](/assets/me-bk-brooke.jpg)_
 
 In my mid to late 20's I was single and I ran a unwitting slut puppy stud service, have sperm will travel, for women all over, Okc, Dallas, Hollywood, Tahoe, Vegas, Jamaica, Mexico... I got kids everywhere!

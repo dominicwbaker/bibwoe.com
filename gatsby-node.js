@@ -26,7 +26,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
               value
             } 
             frontmatter {
-              slug
+              path
               template
               tags
               title
@@ -60,7 +60,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     const next = index === 0 ? null : posts[index - 1].node
 
     createPage({
-      path: post.node.frontmatter.slug,
+      path: post.node.frontmatter.path,
       component: path.resolve(
         `src/templates/${String(post.node.frontmatter.template)}.js`
       ),
@@ -112,11 +112,54 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
-    const slug = createFilePath({ node, getNode, basePath: `pages` })
+    const value = createFilePath({ node, getNode, basePath: `pages` })
     createNodeField({
       node,
       name: `slug`,
-      value: slug,
+      value,
     })
   }
+}
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+
+  // Explicitly define the siteMetadata {} object
+  // This way those will always be defined even if removed from gatsby-config.js
+
+  // Also explicitly define the Markdown frontmatter
+  // This way the "MarkdownRemark" queries will return `null` even when no
+  // blog posts are stored inside "content/blog" instead of returning an error
+  createTypes(`
+    type SiteSiteMetadata {
+      author: Author
+      siteUrl: String
+      social: Social
+    }
+
+    type Author {
+      name: String
+      summary: String
+    }
+
+    type Social {
+      twitter: String
+    }
+
+    type MarkdownRemark implements Node {
+      frontmatter: Frontmatter
+      fields: Fields
+    }
+
+    type Frontmatter {
+      title: String
+      description: String
+      date: Date @dateformat
+      featuredImage: File @fileByRelativePath
+    }
+
+    type Fields {
+      slug: String
+    }
+  `)
 }

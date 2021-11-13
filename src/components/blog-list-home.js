@@ -1,7 +1,8 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import { Link } from "gatsby"
-import { RiArrowDownLine, RiArrowRightSLine } from "react-icons/ri"
+import { RiArrowDownLine } from "@react-icons/all-files/ri/RiArrowDownLine"
+import { RiArrowRightSLine } from "@react-icons/all-files/ri/RiArrowRightSLine"
 
 import PostCard from "./post-card"
 
