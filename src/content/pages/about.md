@@ -4,7 +4,7 @@ path: /about
 title: About Bibwoe
 ---
 
-![Banner](..../../images/creation-header.jpg)
+![Banner](../../images/creation-header.jpg)
 
 ## This New Word Describes All, "Bibwoe".
 
