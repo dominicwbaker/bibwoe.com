@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import { graphql } from "gatsby"
+import { GatsbyImage } from "gatsby-plugin-image"
 import { RiSendPlane2Line } from "@react-icons/all-files/ri/RiSendPlane2Line"
 import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
@@ -15,6 +16,11 @@ export const pageQuery = graphql`
       frontmatter {
         title
         path
+        featuredImage {
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH)
+          }
+        }
       }
     }
     site {
@@ -32,6 +38,10 @@ function onSubmit(token) {
 const Contact = ({ data }) => {
   const { markdownRemark, site } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
+  const postNode = data.markdownRemark
+  const Image = frontmatter.featuredImage
+    ? postNode.frontmatter.featuredImage.childImageSharp.gatsbyImageData
+    : ""
 
   return (
     <Layout className="contact-page" sx={contactStyles.contactPage}>
@@ -44,7 +54,20 @@ const Contact = ({ data }) => {
         <script src="https://embed.small.chat/T8PMJ5ZNYGDRA9BJEA.js" async></script>
       </Helmet>
       <div className="wrapper">
-        <h1>{frontmatter.title}</h1>
+        <header className="featured-banner">
+          <section className="article-header">
+            <h1>{frontmatter.title}</h1>
+          </section> 
+            {Image ? (
+            <GatsbyImage
+              image={Image}
+              alt={frontmatter.title + " - Featured image"}
+              className="cover"
+            />
+            ) : (
+              ""
+            )}      
+          </header>
         <div
           className="description"
           dangerouslySetInnerHTML={{ __html: html }}

@@ -2,6 +2,7 @@
 template: contact-page
 path: /contact
 title: Get in touch
+featuredImage: ../../images/contact.jpg
 ---
 
 Got a burning question regarding **The Trinity**, Need a new **Connection To Us**, or just anything in general. We are happy to talk.

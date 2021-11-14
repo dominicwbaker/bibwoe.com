@@ -2,9 +2,8 @@
 template: about-page
 path: /about
 title: About Bibwoe
+featuredImage: ../../images/about.jpg
 ---
-
-![Banner](../../images/creation-header.jpg)
 
 ## This New Word Describes All, "Bibwoe".
 

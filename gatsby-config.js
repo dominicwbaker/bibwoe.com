@@ -4,8 +4,8 @@ module.exports = {
   siteMetadata: {
     title: `Bibwoe`,
     author: {
-      name: `Donald Boulton`,
-      summary: `Basic Instructions Books While On Earth.`,
+      name: `Don Boulton`,
+      summary: `Resides in OKC.`,
     },
     description: `Basic Instructions Books While On Earth.`,
     siteUrl: `https://bibwoe.com/`,

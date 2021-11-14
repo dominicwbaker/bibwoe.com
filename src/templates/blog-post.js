@@ -143,7 +143,6 @@ const BlogPostTemplate = ({ data, pageContext }) => {
             ""
           )}
         </header>
-
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
