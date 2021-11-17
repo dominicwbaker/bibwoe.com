@@ -1,4 +1,4 @@
-> **Update** Bibwoe is now built with Gatsby V4 "4.1.4", this includes many performance updates such as React 17.0.2; And the Latest Gatsby!
+> **Update** Bibwoe is now built with Gatsby V4 "4.2.0", this includes many performance updates such as React 17.0.2; And the Latest Gatsby!
 
 - GatsbyJS - [![npm version](https://badge.fury.io/js/gatsby.svg)](https://badge.fury.io/js/gatsby) 
 

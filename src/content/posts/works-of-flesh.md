@@ -14,6 +14,18 @@ A lot of this is written; like all my works here on Earth; for my Trinity of Lov
 
 ## Works Old Testament
 
+Since the beginning of Mankind Father God has watched over his love as man, and spoke to all in there dream sleep, "REM", look at it a your nightly upgrade. Through Fathers direction and love.
+
+Here is where we get knowledge of the Trinity and needed knowledge. If your good some healing or the knowledge of how to heal yourselves, physically or mentally.
+
+This occurred until My Son Jesus time and then he was responsible for the dream prayers, healing and knowledge.
+
+Now since 2000 its the Holy Spirits time to finalize your knowledge base and to heal all.
+
+In knowing this I had to live accordingly with some time spent living/studing the antithesis.
+
+So....
+
 In my Human sometimes iniquitous life, and of a virgin soul, I have always like to do all things and learn about all things, had to in order to be able to Write, Sing and Speak to you of the Trinity.
 
 My works of Father God are done with sureness and brevity! 66 Books in the Bible, well writers like to write in volumes, to convince themselves of there own story. I am quite sure of mine.
