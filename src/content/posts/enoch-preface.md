@@ -4,6 +4,7 @@ title: "Enoch Preface"
 date: 2018-07-15 10:11
 path: /posts/enoch-preface
 tags: [Enoch, Enoch Preface]
+category: Enoch
 featuredImage: ../../images/enoch-preface.jpg
 description: The book of Enoch consists of multiple parts that were put together as one book by a later editor
 ---

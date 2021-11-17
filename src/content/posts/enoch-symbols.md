@@ -4,6 +4,7 @@ title: "Enoch Symbols"
 date: 2018-07-14 10:11
 path: /posts/enoch-symbols
 tags: [Enoch, Enoch Symbols]
+category: Enoch
 featuredImage: ../../images/enoch-floating.jpg
 description: The Symbols use in Enoch Books 1 and 2, Denotes the fragments of the Greek Version preserved In Syncellus in the case of 8b-9b there are two forms of the text, Gs1 Gs2.
 ---

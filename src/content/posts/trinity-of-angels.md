@@ -3,6 +3,7 @@ template: blog-post
 title: Trinity of Angels
 path: /posts/trinity-of-angels
 tags: [Trinity, Angels]
+category: Trinity
 date: 2021-04-16 09:30
 featuredImage: ../../images/angel.png
 description: The perfection of Heart, Beauty and Song, God had given me in my Trinity of loves is beyond explanation

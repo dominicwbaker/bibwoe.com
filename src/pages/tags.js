@@ -33,7 +33,7 @@ const TagsPage = ({
                   <span aria-label='Tag' className='tag is-primary'>
                     {tag.fieldValue}
                   </span>
-                  <span aria-label='Tag Count' className='tag .is-dark '>                            
+                  <span aria-label='Tag Count' className='tag is-dark '>                            
                     {tag.totalCount}
                   </span>
                 </div>

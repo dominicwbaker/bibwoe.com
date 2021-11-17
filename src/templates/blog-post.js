@@ -1,13 +1,25 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
+import * as React from "react"
 import { Link, graphql } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
+import rehypeReact from "rehype-react"
+import Counter from "../components/counter"
 import { RiTimerLine } from "@react-icons/all-files/ri/RiTimerLine"
 import { RiArrowLeftLine } from "@react-icons/all-files/ri/RiArrowLeftLine"
 import { RiArrowRightLine } from "@react-icons/all-files/ri/RiArrowRightLine"
+import { MdList } from "@react-icons/all-files//md/MdList"
 import { FaTags } from "@react-icons/all-files/fa/FaTags"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+
+require('prismjs')
+require("prismjs/themes/prism-okaidia.css")
+
+const renderAst = new rehypeReact({
+  createElement: React.createElement,
+  components: { "interactive-counter": Counter },
+}).Compiler
 
 const styles = {
   "article blockquote": {
@@ -71,7 +83,7 @@ const Pagination = props => (
 
 const BlogPostTemplate = ({ data, pageContext }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
-  const { frontmatter, html, excerpt } = markdownRemark
+  const { frontmatter, htmlAst, excerpt } = markdownRemark
   const postNode = data.markdownRemark
   const Image = frontmatter.featuredImage
     ? postNode.frontmatter.featuredImage.childImageSharp.gatsbyImageData
@@ -88,7 +100,6 @@ const BlogPostTemplate = ({ data, pageContext }) => {
     if (tags.length > 0) {
         taglist += tags.join(', ');
     }
-
 
   return (
     <Layout className="page">
@@ -124,12 +135,23 @@ const BlogPostTemplate = ({ data, pageContext }) => {
                   color: "muted",
                 }}
               >
-                <Link aria-label='Tags' to='/tags/'>
-                  <span className="icon -tags">
-                    <FaTags />
-                  </span>{" "}  
-                  <small>{taglist}</small>
-                </Link>
+                <span className="icon -tags">
+                  <FaTags />
+                </span>{" "}
+                <span>
+                  <Link aria-label='Tags' to='/tags/'>  
+                    <small>{taglist}</small>
+                  </Link>
+                </span>
+                &ensp;
+                <span className="icon -category">
+                  <MdList />
+                </span>{" "} 
+                <span>
+                  <Link aria-label='Categories' to='/categories/'>
+                    <small>{frontmatter.category}</small>
+                  </Link>
+                </span>
               </div>
             }
           </section>
@@ -145,8 +167,11 @@ const BlogPostTemplate = ({ data, pageContext }) => {
         </header>
         <div
           className="blog-post-content"
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
+          >
+            {
+              renderAst(htmlAst)
+            }
+        </div>
       </article>
       {(previous || next) && <Pagination {...props} />}
     </Layout>
@@ -159,13 +184,14 @@ export const pageQuery = graphql`
   query BlogPostQuery($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
-      html
+      htmlAst
       excerpt(pruneLength: 148)
       timeToRead
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         path
         tags
+        category
         title
         description
         featuredImage {
@@ -177,4 +203,3 @@ export const pageQuery = graphql`
     }
   }
 `
-

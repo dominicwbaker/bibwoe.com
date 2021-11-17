@@ -3,6 +3,7 @@ template: blog-post
 title: Creation of All
 path: /posts/creation-of-all
 tags: [Trinity, Creation, All]
+category: Creation
 date: 2021-04-04 09:30
 featuredImage: ../../images/creation.jpg
 description: Life is comprised of 95% dark matter and 5% Matter. The Dark matter is the Holy Spirit as the binding force.

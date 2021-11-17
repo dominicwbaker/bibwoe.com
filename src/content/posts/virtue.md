@@ -3,6 +3,7 @@ template: blog-post
 title: Virtue
 path: /posts/virtue
 tags: [Spirit, Wed Lock, Virtue]
+category: God
 date: 2021-04-07 01:30
 featuredImage: ../../images/virtue.jpg
 description: Reflecting on what The Christian Bible, Sufism as Tasawwuf a science of the soul the study of virtue

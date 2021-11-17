@@ -4,6 +4,7 @@ title: 1 Enoch
 date: 2018-07-13 10:11
 path: /posts/1-enoch
 tags: [Enoch, 1 Enoch]
+category: Enoch
 featuredImage: ../../images/enoch.jpg
 description: Ethiopian Enoch or 1 Enoch, Chapters 1-108, The Original Bible before Jewish, Christian, Muslim Plagiarism
 ---

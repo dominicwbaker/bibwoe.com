@@ -4,6 +4,7 @@ title: Enoch Introduction
 date: 2018-07-16 10:11
 path: /posts/enoch-introduction
 tags: [Enoch, Enoch Introduction]
+category: Enoch
 featuredImage: ../../images/enoch-god.jpg
 description: The Original Bible before Jewish - Christian - Muslim Plagiarism
 ---
