@@ -1,7 +1,8 @@
 ---
 template: index-page
 path: /
-title: Bibwoe
+title: Home
+titleAlt: Bibwoe
 tagline: Basic Instructions Books While on Earth
 featuredImage: ../../images/the-sermon-mount.jpg
 cta:
