@@ -149,7 +149,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
                 </span>{" "} 
                 <span>
                   <Link aria-label='Categories' to='/categories/'>
-                    <small>{frontmatter.category}</small>
+                    <small>Categories: {frontmatter.category}</small>
                   </Link>
                 </span>
               </div>

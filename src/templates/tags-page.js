@@ -25,7 +25,7 @@ const Tags = ({ pageContext, data }) => {
           <Box p={4} bg="primary">
             <Heading as='h2'>{tagHeader}</Heading>
             <div>
-              <ul className="taglist">
+              <ul className="tagsPage">
                 {edges.map(({ node }) => {
                   const { slug } = node.fields
                   const { title } = node.frontmatter
