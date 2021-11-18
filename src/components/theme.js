@@ -9,6 +9,7 @@ const Theme = () => {
   return (
     <div sx={themeStyles.modeOption}>
       <button
+        area-label='Theme'
         onClick={e => {
           setColorMode(colorMode === "default" ? "dark" : "default")
         }}

@@ -5,7 +5,7 @@ path: /posts/works-of-flesh
 tags: [Responsibility, Works]
 category: God
 date: 2021-04-13 08:40
-featuredImage: ../../images/works.jpg
+featuredImage: ../../../static/assets/works.jpg
 description: If you are irresponsible in life, then that directly affects your abilities to be one within yourself or with Father God
 ---
 

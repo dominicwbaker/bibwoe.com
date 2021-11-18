@@ -5,7 +5,7 @@ path: /posts/experiments
 tags: [Holy Spirit, Experiments]
 category: Creation
 date: 2021-04-10 12:25
-featuredImage: ../../images/experiments.jpg
+featuredImage: ../../../static/assets/experiments.jpg
 description: Creation in its essence is to extend, to know, or to affirm.
 ---
 
@@ -125,14 +125,14 @@ Lets say you can get past Jesus and his tests, then by Me.
 
 Your assents to the Trinity or Heaven are depicted in the Giza Complex outside of Cairo Egypt.
 
-![Hebrew Text](../../images/hebrew-text.jpg "hebrew text")
-_[`hebrew.text` Hebrew of Enoch](../../images/hebrew-text.jpg)_
+![Hebrew Text](../../../static/assets/hebrew-text.jpg "hebrew text")
+_[`hebrew.text` Hebrew of Enoch](../../../static/assets/hebrew-text.jpg)_
 
-![Enoch Circle](../../images/enoch-w.png "Enoch Circle")
-_[`enoch.circle` Structural Enoch Circle](../../images/enoch-w.jpg)_
+![Enoch Circle](../../../static/assets/enoch-w.png "Enoch Circle")
+_[`enoch.circle` Structural Enoch Circle](../../../static/assets/enoch-w.jpg)_
 
-![Giza Description](../../images/chrono-trans.png "Structural Bible")
-_[`structural.bible` Giza Description](../../images/chrono-trans.png)_
+![Giza Description](../../../static/assets/chrono-trans.png "Structural Bible")
+_[`structural.bible` Giza Description](../../../static/assets/chrono-trans.png)_
 
 My Balancing War Angels, "Amon and Ra", gave Enoch the knowledge of We the Trinity.
 

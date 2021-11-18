@@ -5,7 +5,7 @@ path: /posts/song
 date: 2021-04-17 08:40
 tags: [Lost Song, Our Song]
 category: God
-featuredImage: ../../images/song.jpg
+featuredImage: ../../../static/assets/song.jpg
 description: The Devil will do anything to keep me from talking! Especially singing
 ---
 

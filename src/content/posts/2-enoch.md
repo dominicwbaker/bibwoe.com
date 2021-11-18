@@ -5,7 +5,7 @@ path: /posts/2-enoch
 tags: [Enoch, 2 Enoch]
 category: Enoch
 date: 2018-07-12 10:11
-featuredImage: ../../images/enoch-spaceship.jpg
+featuredImage: ../../../static/assets/enoch-spaceship.jpg
 description: Greek Version, Also referred to as "Slavonic Enoch" or "2 Enoch". Secrets of Enoch.
 ---
 

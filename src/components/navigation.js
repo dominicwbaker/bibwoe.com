@@ -54,6 +54,7 @@ class Navigation extends React.Component {
       <nav className="site-navigation" sx={navStyle.menu}>
         <button
           onClick={this.handleToggleClick}
+          area-label='Search'
           className={"menu-trigger" + (this.state.showMenu ? " is-active" : "")}
         >
           <div className="icon-menu-line">

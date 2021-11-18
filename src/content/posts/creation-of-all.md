@@ -5,7 +5,7 @@ path: /posts/creation-of-all
 tags: [Trinity, Creation, All]
 category: Creation
 date: 2021-04-04 09:30
-featuredImage: ../../images/creation.jpg
+featuredImage: ../../../static/assets/creation.jpg
 description: Life is comprised of 95% dark matter and 5% Matter. The Dark matter is the Holy Spirit as the binding force.
 ---
 
@@ -29,11 +29,11 @@ So -1 and +1 live there lives to -2 and +2 respectively; that really makes, "0 Z
 
 Even all our color's are derived from a trinity subset of 3; Blue -1, Red 0, and Yellow +1.
 
-![A Trinity Subset in All Colors](../../images/trinity-page.png "trinity subset in all colors")
-_[`trinity subset in all colors`](../../images/trinity-page.png)_
+![A Trinity Subset in All Colors](../../../static/assets/trinity-page.png "trinity subset in all colors")
+_[`trinity subset in all colors`](../../../static/assets/trinity-page.png)_
 
-![A Trinity in All Substance](../../images/trinity-math.png "trinity in all substance")
-_[`trinity in all substance`](../../images/trinity-math.png)_
+![A Trinity in All Substance](../../../static/assets/trinity-math.png "trinity in all substance")
+_[`trinity in all substance`](../../../static/assets/trinity-math.png)_
 
 ### Computers Binary is really Trinary
 

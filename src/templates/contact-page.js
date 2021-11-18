@@ -106,6 +106,7 @@ const Contact = ({ data }) => {
           </p>
           <p className="text-align-right">
             <button
+              area-label='Submit'
               class="button g-recaptcha" 
               data-sitekey="6LcE-hwdAAAAAAu3XbPI_IMHXDiQeUy3_eyXdxqx" 
               data-callback={onSubmit}
