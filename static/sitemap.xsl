@@ -77,7 +77,7 @@
             </head>
             <body>
                 <div id="content">
-                    <h1>PubliusLogic Sitemap's Index</h1>
+                    <h1>Bibwoe.com Sitemap's Index</h1>
                     <p class="desc">
                         Sitemap Index's of Pages, Posts, Tags and Categories
                         <p><a href="/">Back to Home Page</a></p>
