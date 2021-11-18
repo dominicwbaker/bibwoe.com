@@ -168,6 +168,11 @@ exports.createSchemaCustomization = ({ actions }) => {
       social: Social
     }
 
+    type Headings {
+      depth: String
+      value: String
+    }
+
     type Author {
       name: String
       summary: String
