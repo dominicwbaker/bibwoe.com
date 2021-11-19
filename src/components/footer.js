@@ -1,11 +1,12 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import { Link } from "gatsby"
 import { RiHeart2Line } from "@react-icons/all-files/ri/RiHeart2Line"
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 
 const Footer = () => (
   <footer
     className="site-footer"
+    itemScope='itemScope' itemType='https://schema.org/WPFooter'
     sx={{
       bg: "siteColor",
     }}
@@ -16,7 +17,7 @@ const Footer = () => (
         <span className="icon -love">
           <RiHeart2Line />
         </span>{" "}
-        <Link to="/">Basic Instructions Books While On Earth</Link>
+        <OutboundLink to="/">Basic Instructions Books While On Earth</OutboundLink>
       </p>
     </div>
   </footer>
