@@ -33,19 +33,20 @@ const AboutPage = ({ data }) => {
     : ""
 
   return (
-    <Layout className="page">
+    <Layout className="page" itemScope='itemScope' itemType='https://schema.org/Webpage'>
       <Seo title={frontmatter.title} description={excerpt} />
-      <div className="wrapper">
+      <div className="wrapper" itemprop="mainEntity" itemscope itemtype="https://schema.org/Book">
         <article className="blog-post">
           <header className="featured-banner">
             <section className="article-header">
-              <h1>{frontmatter.title}</h1>
+              <h1 itemprop="name">{frontmatter.title}</h1>
             </section> 
               {Image ? (
               <GatsbyImage
                 image={Image}
                 alt={frontmatter.title + " - Featured image"}
                 className="cover"
+                itemprop="image"
               />
             ) : (
               ""

@@ -102,7 +102,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
     }
 
   return (
-    <Layout className="page">
+    <Layout className="page" itemScope='itemScope' itemType='https://schema.org/Webpage'>
       <Seo
         title={frontmatter.title}
         description={
@@ -111,12 +111,12 @@ const BlogPostTemplate = ({ data, pageContext }) => {
         image={Image}
         article={true}
       />
-      <article className="blog-post">
+      <article className="blog-post" itemprop="mainEntity" itemscope itemtype="https://schema.org/Book">
         <header className="featured-banner">
           <section className="article-header">
-            <h1>{frontmatter.title}</h1>
+            <h1 itemprop="name">{frontmatter.title}</h1>
             <div>
-              <time sx={{color: "muted"}}>{frontmatter.date}</time>
+              <time sx={{color: "muted"}} itemprop="datePublished">{frontmatter.date}</time>
               &ensp;
               <span
                 sx={{
@@ -160,6 +160,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
               image={Image}
               alt={frontmatter.title + " - Featured image"}
               className="cover"
+              itemprop="image"
             />
           ) : (
             ""

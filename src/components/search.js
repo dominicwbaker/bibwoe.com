@@ -66,7 +66,7 @@ export default class Search extends Component {
           >
             <RiSearchLine />
           </button>
-          <div sx={searchStyle.search} className="search-container">
+          <div sx={searchStyle.search} className="search-container" itemScope='itemScope' itemType='https://schema.org/SearchAction'>
             <input
               type="text"
               placeholder="Search"
@@ -85,7 +85,7 @@ export default class Search extends Component {
                   background: "#111",
                 }}
               >
-                <ul sx={searchStyle.searchResults}>
+                <ul sx={searchStyle.searchResults} itemScope='itemScope' itemType='https://schema.org/SearchResults'>
                   {listSearchItems}
                 </ul>
               </div>

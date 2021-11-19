@@ -15,10 +15,11 @@ const Category = ({ pageContext, data }) => {
   } categorized with “${category}”`
 
   return (
-    <Layout className="not-found-page">
+    <Layout className="not-found-page" itemScope='itemScope' itemType='https://schema.org/Webpage'>
       <Seo />
       <div
         className="wrapper"
+        itemprop="mainEntity" itemscope itemtype="https://schema.org/Book"
       >
         <div>
           <Container p={4} bg="primary">

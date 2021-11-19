@@ -23,7 +23,7 @@ const TagsPage = ({
     <div
       className="wrapper"
     >
-      <h1>Tags</h1>
+      <h1 itemprop="name">Tags</h1>
       <Box p={4} bg="primary">
         <ul className='taglist field is-grouped is-grouped-multiline'>
           {group.map(tag => (

@@ -16,10 +16,11 @@ const Tags = ({ pageContext, data }) => {
   } tagged with "${tag}"`
 
   return (
-    <Layout className="not-found-page">
+    <Layout className="not-found-page" itemScope='itemScope' itemType='https://schema.org/Webpage'>
       <Seo />
       <div
         className="wrapper"
+        itemprop="mainEntity" itemscope itemtype="https://schema.org/Book"
       >
         <Flex>
           <Box p={4} bg="primary">

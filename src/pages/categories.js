@@ -21,7 +21,7 @@ const CategoriesPage = ({
     <div
       className="wrapper"
     >
-      <h1>Categories</h1>
+      <h1 itemprop="name">Categories</h1>
       <Box p={4} bg="primary">       
           <ul className='taglist field is-grouped is-grouped-multiline'>
             {group.map(category => (

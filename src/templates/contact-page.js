@@ -44,7 +44,7 @@ const Contact = ({ data }) => {
     : ""
 
   return (
-    <Layout className="contact-page" sx={contactStyles.contactPage}>
+    <Layout className="contact-page" sx={contactStyles.contactPage} itemScope='itemScope' itemType='https://schema.org/Webpage'>
       <Seo
         title={frontmatter.title}
         description={frontmatter.title + " " + site.siteMetadata.title}
@@ -53,16 +53,17 @@ const Contact = ({ data }) => {
         <script src="https://www.google.com/recaptcha/api.js"></script>
         <script src="https://embed.small.chat/T8PMJ5ZNYGDRA9BJEA.js" async></script>
       </Helmet>
-      <div className="wrapper">
+      <div className="wrapper" itemprop="mainEntity" itemscope itemtype="https://schema.org/Book">
         <header className="featured-banner">
           <section className="article-header">
-            <h1>{frontmatter.title}</h1>
+            <h1 itemprop="name">{frontmatter.title}</h1>
           </section> 
             {Image ? (
             <GatsbyImage
               image={Image}
               alt={frontmatter.title + " - Featured image"}
               className="cover"
+              itemprop="image"
             />
             ) : (
               ""

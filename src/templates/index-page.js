@@ -8,7 +8,7 @@ import { RiTwitterFill, } from "@react-icons/all-files/ri/RiTwitterFill"
 import { RiYoutubeFill, } from "@react-icons/all-files/ri/RiYoutubeFill"
 import { RiInstagramFill } from "@react-icons/all-files/ri/RiInstagramFill"
 import { RiGithubFill } from "@react-icons/all-files/ri/RiGithubFill"
-
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 import Layout from "../components/layout"
 import BlogListHome from "../components/blog-list-home"
 import Seo from "../components/seo"
@@ -79,37 +79,37 @@ const HomePage = ({ data }) => {
     return (
       <div key={"social icons" + index}>
         {icons.icon === "facebook" ? (
-          <Link to={icons.url} rel="noopener noreferrer" target="_blank">
+          <OutboundLink to={icons.url} rel="noopener noreferrer" target="_blank">
             <RiFacebookBoxFill alt='Facebook' />
-          </Link>
+          </OutboundLink>
         ) : (
           ""
         )}
         {icons.icon === "twitter" ? (
-          <Link to={icons.url} rel="noopener noreferrer" target="_blank">
+          <OutboundLink to={icons.url} rel="noopener noreferrer" target="_blank">
             <RiTwitterFill alt='Twitter' />
-          </Link>
+          </OutboundLink>
         ) : (
           ""
         )}
         {icons.icon === "youtube" ? (
-          <Link rel="noopener noreferrer" to={icons.url} target="_blank">
+          <OutboundLink rel="noopener noreferrer" to={icons.url} target="_blank">
             <RiYoutubeFill alt='Youtube' />
-          </Link>
+          </OutboundLink>
         ) : (
           ""
         )}
         {icons.icon === "instagram" ? (
-          <Link to={icons.url} rel="noopener noreferrer" target="_blank">
+          <OutboundLink to={icons.url} rel="noopener noreferrer" target="_blank">
             <RiInstagramFill alt='Instagram' />
-          </Link>
+          </OutboundLink>
         ) : (
           ""
         )}        
         {icons.icon === "github" ? (
-          <Link to={icons.url} rel="noopener noreferrer" target="_blank">
+          <OutboundLink to={icons.url} rel="noopener noreferrer" target="_blank">
             <RiGithubFill alt='Github' />
-          </Link>
+          </OutboundLink>
         ) : (
           ""
         )}
@@ -117,14 +117,14 @@ const HomePage = ({ data }) => {
     )
   })
   return (
-    <Layout>
+    <Layout itemScope='itemScope' itemType='https://schema.org/Webpage'>
       <Seo
         title={frontmatter.title}
         description={frontmatter.title + " " + site.siteMetadata.title}
       />
-      <div className="home-banner grids col-1 sm-2">
+      <div className="home-banner grids col-1 sm-2" itemprop="mainEntity" itemscope itemtype="https://schema.org/Book">
         <div>
-          <h1>{frontmatter.titleAlt}</h1>
+          <h1 itemprop="name">{frontmatter.titleAlt}</h1>
           <p
             className="tagline"
             sx={{
@@ -137,7 +137,7 @@ const HomePage = ({ data }) => {
             className="description"
             dangerouslySetInnerHTML={{ __html: html }}
           />
-          <Link
+          <OutboundLink
             to={frontmatter.cta.ctaLink}
             className="button"
             sx={{
@@ -148,7 +148,7 @@ const HomePage = ({ data }) => {
             <span className="icon -right">
               <RiArrowRightSLine />
             </span>
-          </Link>
+          </OutboundLink>
           <div
             className="social-icons"
             sx={{
@@ -164,6 +164,7 @@ const HomePage = ({ data }) => {
               image={Image}
               alt={frontmatter.title + " - Featured image"}
               className="cover"
+              itemprop="image"
             />
           ) : (
             ""
