@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 import { RiArrowRightSLine } from "@react-icons/all-files/ri/RiArrowRightSLine"
 import { RiFacebookBoxFill } from "@react-icons/all-files/ri/RiFacebookBoxFill"
@@ -117,12 +117,12 @@ const HomePage = ({ data }) => {
     )
   })
   return (
-    <Layout itemScope='itemScope' itemType='https://schema.org/Webpage'>
+    <Layout itemScope='itemScope' itemType='https://schema.org/WebSite'>
       <Seo
         title={frontmatter.title}
         description={frontmatter.title + " " + site.siteMetadata.title}
       />
-      <div className="home-banner grids col-1 sm-2" itemprop="mainEntity" itemscope itemtype="https://schema.org/Book">
+      <div className="home-banner grids col-1 sm-2" itemscope itemtype="https://schema.org/WebPage">
         <div>
           <h1 itemprop="name">{frontmatter.titleAlt}</h1>
           <p
@@ -135,6 +135,7 @@ const HomePage = ({ data }) => {
           </p>
           <div
             className="description"
+            itemprop="mainEntity" itemscope itemtype="https://schema.org/Book"
             dangerouslySetInnerHTML={{ __html: html }}
           />
           <OutboundLink

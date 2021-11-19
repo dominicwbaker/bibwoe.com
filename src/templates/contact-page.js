@@ -44,7 +44,7 @@ const Contact = ({ data }) => {
     : ""
 
   return (
-    <Layout className="contact-page" sx={contactStyles.contactPage} itemScope='itemScope' itemType='https://schema.org/Webpage'>
+    <Layout className="contact-page" sx={contactStyles.contactPage} itemScope='itemScope' itemType='https://schema.org/WebSite'>
       <Seo
         title={frontmatter.title}
         description={frontmatter.title + " " + site.siteMetadata.title}

@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Container, Heading } from "theme-ui"
+import { jsx, Flex, Box, Heading } from "theme-ui"
 import PropTypes from "prop-types"
 import { MdList } from "@react-icons/all-files/md/MdList";
 // Components
@@ -15,16 +15,16 @@ const Category = ({ pageContext, data }) => {
   } categorized with “${category}”`
 
   return (
-    <Layout className="not-found-page" itemScope='itemScope' itemType='https://schema.org/Webpage'>
+    <Layout className="not-found-page" itemScope='itemScope' itemType='https://schema.org/WebSite'>
       <Seo />
       <div
         className="wrapper"
-        itemprop="mainEntity" itemscope itemtype="https://schema.org/Book"
+        itemscope itemtype="https://schema.org/WebPage"
       >
-        <div>
-          <Container p={4} bg="primary">
+        <Flex>
+          <Box p={4} bg="primary">
             <Heading as='h2'>{categoryHeader}</Heading>
-            <div>
+            <div itemprop="mainEntity" itemscope itemtype="https://schema.org/Book">
               <ul className="tagsPage">
                 {edges.map(({ node }) => {
                   const { slug } = node.fields
@@ -43,8 +43,8 @@ const Category = ({ pageContext, data }) => {
               </span>{" "} 
               <Link to="/categories">All Categories</Link>
             </div>
-          </Container>
-        </div>
+          </Box>
+        </Flex>
       </div>
     </Layout>
   )

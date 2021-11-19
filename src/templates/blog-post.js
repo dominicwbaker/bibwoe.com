@@ -102,7 +102,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
     }
 
   return (
-    <Layout className="page" itemScope='itemScope' itemType='https://schema.org/Webpage'>
+    <Layout className="page" itemScope='itemScope' itemType='https://schema.org/WebSite'>
       <Seo
         title={frontmatter.title}
         description={
@@ -111,7 +111,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
         image={Image}
         article={true}
       />
-      <article className="blog-post" itemprop="mainEntity" itemscope itemtype="https://schema.org/Book">
+      <article className="blog-post" itemscope itemtype="https://schema.org/WebPage">
         <header className="featured-banner">
           <section className="article-header">
             <h1 itemprop="name">{frontmatter.title}</h1>
@@ -168,7 +168,8 @@ const BlogPostTemplate = ({ data, pageContext }) => {
         </header>
         <div
           className="blog-post-content"
-          >
+          itemprop="mainEntity" itemscope itemtype="https://schema.org/Book"
+        >
             {
               renderAst(htmlAst)
             }
