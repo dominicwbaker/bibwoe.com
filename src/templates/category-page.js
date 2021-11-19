@@ -15,16 +15,16 @@ const Category = ({ pageContext, data }) => {
   } categorized with “${category}”`
 
   return (
-    <Layout className="not-found-page" itemScope='itemScope' itemType='https://schema.org/WebSite'>
+    <Layout className="not-found-page" itemScope='itemScope' itemType='https://schema.org/Page'>
       <Seo />
       <div
         className="wrapper"
-        itemscope itemtype="https://schema.org/WebPage"
+        itemprop="mainEntity" itemscope itemtype="https://schema.org/Book"
       >
         <Flex>
           <Box p={4} bg="primary">
             <Heading as='h2'>{categoryHeader}</Heading>
-            <div itemprop="mainEntity" itemscope itemtype="https://schema.org/Book">
+            <div>
               <ul className="tagsPage">
                 {edges.map(({ node }) => {
                   const { slug } = node.fields

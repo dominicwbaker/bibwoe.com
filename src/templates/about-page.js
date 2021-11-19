@@ -33,10 +33,10 @@ const AboutPage = ({ data }) => {
     : ""
 
   return (
-    <Layout className="page" itemScope='itemScope' itemType='https://schema.org/WebSite'>
+    <Layout className="page" itemScope='itemScope' itemType='https://schema.org/WebPage'>
       <Seo title={frontmatter.title} description={excerpt} />
-      <div className="wrapper" itemscope itemtype="https://schema.org/WebPage">
-        <article className="blog-post">
+      <div className="wrapper">
+        <article className="blog-post" itemprop="mainEntity" itemscope itemtype="https://schema.org/Book">
           <header className="featured-banner">
             <section className="article-header">
               <h1 itemprop="name">{frontmatter.title}</h1>
@@ -54,7 +54,6 @@ const AboutPage = ({ data }) => {
           </header>
           <Bio />
           <div
-           itemprop="mainEntity" itemscope itemtype="https://schema.org/Book"
            dangerouslySetInnerHTML={{ __html: html }} />
         </article>
       </div>

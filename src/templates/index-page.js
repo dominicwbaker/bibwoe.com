@@ -117,12 +117,12 @@ const HomePage = ({ data }) => {
     )
   })
   return (
-    <Layout itemScope='itemScope' itemType='https://schema.org/WebSite'>
+    <Layout itemScope='itemScope' itemType='https://schema.org/WebPage'>
       <Seo
         title={frontmatter.title}
         description={frontmatter.title + " " + site.siteMetadata.title}
       />
-      <div className="home-banner grids col-1 sm-2" itemscope itemtype="https://schema.org/WebPage">
+      <div className="home-banner grids col-1 sm-2" itemprop="mainEntity" itemscope itemtype="https://schema.org/Book">
         <div>
           <h1 itemprop="name">{frontmatter.titleAlt}</h1>
           <p
@@ -134,8 +134,7 @@ const HomePage = ({ data }) => {
             {frontmatter.tagline}
           </p>
           <div
-            className="description"
-            itemprop="mainEntity" itemscope itemtype="https://schema.org/Book"
+            className="description"            
             dangerouslySetInnerHTML={{ __html: html }}
           />
           <OutboundLink

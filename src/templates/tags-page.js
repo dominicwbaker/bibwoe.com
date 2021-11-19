@@ -16,15 +16,15 @@ const Tags = ({ pageContext, data }) => {
   } tagged with "${tag}"`
 
   return (
-    <Layout className="not-found-page" itemScope='itemScope' itemType='https://schema.org/WebSite'>
+    <Layout className="not-found-page" itemScope='itemScope' itemType='https://schema.org/WebPage'>
       <Seo />
       <div
         className="wrapper"
       >
         <Flex>
-          <Box p={4} bg="primary" itemscope itemtype="https://schema.org/WebPage">
+          <Box p={4} bg="primary" itemprop="mainEntity" itemscope itemtype="https://schema.org/Book">
             <Heading as='h2'>{tagHeader}</Heading>
-            <div itemprop="mainEntity" itemscope itemtype="https://schema.org/Book">
+            <div>
               <ul className="tagsPage">
                 {edges.map(({ node }) => {
                   const { slug } = node.fields
