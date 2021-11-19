@@ -94,12 +94,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-image`,
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: `ADD YOUR TRACKING ID HERE`,
-    //   },
-    // },
+    {
+       resolve: `gatsby-plugin-google-analytics`,
+       options: {
+         trackingId: `UA-2378526-1`,
+       },
+     },
     {
       resolve: `gatsby-plugin-feed`,
       options: {
