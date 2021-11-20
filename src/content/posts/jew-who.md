@@ -1,6 +1,6 @@
 ---
 template: blog-post
-title: Jew Who
+title: Who Are the Jews
 path: /posts/jew-who
 tags: [Moses, Jews]
 category: God

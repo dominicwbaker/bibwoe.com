@@ -1,6 +1,6 @@
 ---
 template: blog-post
-title: Commandments
+title: The Law Commandments
 path: /posts/commandments
 tags: [Law, Commandments]
 category: God

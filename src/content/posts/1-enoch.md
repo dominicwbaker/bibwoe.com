@@ -1,6 +1,6 @@
 ﻿---
 template: blog-post
-title: 1 Enoch
+title: 1 Enoch Ethiopian
 date: 2018-07-13 10:11
 path: /posts/1-enoch
 tags: [Enoch, 1 Enoch]

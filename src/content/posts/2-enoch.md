@@ -1,6 +1,6 @@
 ﻿---
 template: blog-post
-title: 2 Enoch
+title: 2 Enoch Slavonic
 path: /posts/2-enoch
 tags: [Enoch, 2 Enoch]
 category: Enoch

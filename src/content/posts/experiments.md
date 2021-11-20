@@ -1,6 +1,6 @@
 ---
 template: blog-post
-title: Experiments
+title: Gods Experiments
 path: /posts/experiments
 tags: [Holy Spirit, Experiments]
 category: Creation

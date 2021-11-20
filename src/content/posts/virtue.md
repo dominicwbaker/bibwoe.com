@@ -1,6 +1,6 @@
 ---
 template: blog-post
-title: Virtue
+title: What Is Virtue
 path: /posts/virtue
 tags: [Spirit, Wed Lock, Virtue]
 category: God
