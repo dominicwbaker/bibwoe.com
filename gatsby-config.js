@@ -35,6 +35,19 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: "gatsby-remark-embed-video",
+            options: {
+              width: 800,
+              ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
+              height: 400, // Optional: Overrides optional.ratio
+              related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
+              noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
+              loadingStrategy: 'lazy', //Optional: Enable support for lazy-load offscreen iframes. Default is disabled.
+              containerClass: "embedVideo-container", //Optional: Custom CSS class for iframe container, for multiple classes separate them by space
+              iframeId: false, //Optional: if true, iframe's id will be set to what is provided after 'video:' (YouTube IFrame player API requires iframe id)
+            },
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 1024,
@@ -222,44 +235,6 @@ module.exports = {
       }
     },
     `gatsby-plugin-catch-links`,
-    {
-      resolve: `gatsby-plugin-react-social-cards`,
-      options: {
-          query: `
-              {
-                  allMarkdownRemark {
-                      nodes {
-                          fields {
-                              slug
-                          }
-                          frontmatter {
-                              title
-                              description
-                              featuredImage {
-                                childImageSharp {
-                                  gatsbyImageData(layout: FULL_WIDTH)
-                                }
-                              }
-                          }
-                      }
-                  }
-              }
-          `,
-          queryToPages: (result) => 
-              result.data.allMarkdownRemark.nodes.map(node => {
-                  const slugWithoutSlashes = node.fields.slug.node.slug.replace(/\//g, '');
-                  return {
-                      slug: `/${slugWithoutSlashes}`,
-                      pageContext: {
-                          title: node.frontmatter.title,
-                          coverImage: node.frontmatter.featuredImage,
-                      },
-                  };
-              }),
-          component: require.resolve('./src/components/social-card.js'),
-          cardLimit: 0, // Useful for debugging.
-      },
-    },
     {
       resolve: `gatsby-plugin-offline`,
       options: {

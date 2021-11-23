@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-const Seo = ({ description, lang, meta, slug, isPost, title }) => {
+const Seo = ({ description, lang, meta, title }) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -29,14 +29,6 @@ const Seo = ({ description, lang, meta, slug, isPost, title }) => {
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata.title
-  const siteUrl = 'https://bibwoe.com';
-  const slugWithoutSlashes = () => slug.replace(/\//g, '');
-
-  const socialCard = isPost
-      ? `${siteUrl}/${slugWithoutSlashes()}-social-card.png`
-      : `${siteUrl}/square-social-card.png`;
-
-  const twitterCard = isPost ? 'summary' : 'summary_large_image';
 
   return (
     <Helmet
@@ -59,17 +51,9 @@ const Seo = ({ description, lang, meta, slug, isPost, title }) => {
           content: `Basic Instructions`,
         },        
         {
-          property: 'page:image',
-          content: socialCard,
-        },
-        {
           name: `twitter:site`,
           content: site.siteMetadata?.social?.twitter || ``,
         },        
-        {
-          name: `twitter:card`,
-          content: twitterCard,
-        },
         {
           name: `twitter:creator`,
           content: site.siteMetadata?.social?.twitter || ``,
