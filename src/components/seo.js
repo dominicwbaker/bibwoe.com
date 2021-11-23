@@ -36,7 +36,7 @@ const Seo = ({ description, lang, meta, slug, isPost, title }) => {
       ? `${siteUrl}/${slugWithoutSlashes()}-social-card.png`
       : `${siteUrl}/square-social-card.png`;
 
-  const twitterCard = isPost ? 'summary_large_image' : 'summary';
+  const twitterCard = isPost ? 'summary' : 'summary_large_image';
 
   return (
     <Helmet
@@ -52,10 +52,14 @@ const Seo = ({ description, lang, meta, slug, isPost, title }) => {
         },
         {
           property: `og:type`,
-          content: `website`,
+          content: `article`,
         },
         {
-          property: 'og:image',
+          property: `og:site_name`,
+          content: `Basic Instructions`,
+        },        
+        {
+          property: 'page:image',
           content: socialCard,
         },
         {
