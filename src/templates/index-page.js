@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
+import { Helmet } from 'react-helmet'
 import { GatsbyImage } from "gatsby-plugin-image"
 import { RiArrowRightSLine } from "@react-icons/all-files/ri/RiArrowRightSLine"
 import { RiFacebookBoxFill } from "@react-icons/all-files/ri/RiFacebookBoxFill"
@@ -8,7 +9,7 @@ import { RiTwitterFill, } from "@react-icons/all-files/ri/RiTwitterFill"
 import { RiYoutubeFill, } from "@react-icons/all-files/ri/RiYoutubeFill"
 import { RiInstagramFill } from "@react-icons/all-files/ri/RiInstagramFill"
 import { RiGithubFill } from "@react-icons/all-files/ri/RiGithubFill"
-import { OutboundLink } from "gatsby-plugin-google-gtag"
+
 import Layout from "../components/layout"
 import BlogListHome from "../components/blog-list-home"
 import Seo from "../components/seo"
@@ -51,8 +52,8 @@ export const pageQuery = graphql`
               childImageSharp {
                 gatsbyImageData(
                   layout: FULL_WIDTH
-                  breakpoints: [250, 345, 576, 720]
-                  placeholder: TRACED_SVG
+                  breakpoints: [250, 345, 585]
+                  placeholder: DOMINANT_COLOR
                   quality: 90
                 )
               }
@@ -72,44 +73,45 @@ export const pageQuery = graphql`
 const HomePage = ({ data }) => {
   const { markdownRemark, posts, site } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
+  const url = typeof window !== 'undefined' ? window.location.href : '';
   const Image = frontmatter.featuredImage
     ? frontmatter.featuredImage.childImageSharp.gatsbyImageData
-    : ""
+    : ""    
   const sIcons = Icons.socialIcons.map((icons, index) => {
     return (
       <div key={"social icons" + index}>
         {icons.icon === "facebook" ? (
-          <OutboundLink to={icons.url} rel="noopener noreferrer" target="_blank">
+          <Link to={icons.url} rel="noopener noreferrer" target="_blank">
             <RiFacebookBoxFill alt='Facebook' />
-          </OutboundLink>
+          </Link>
         ) : (
           ""
         )}
         {icons.icon === "twitter" ? (
-          <OutboundLink to={icons.url} rel="noopener noreferrer" target="_blank">
+          <Link to={icons.url} rel="noopener noreferrer" target="_blank">
             <RiTwitterFill alt='Twitter' />
-          </OutboundLink>
+          </Link>
         ) : (
           ""
         )}
         {icons.icon === "youtube" ? (
-          <OutboundLink rel="noopener noreferrer" to={icons.url} target="_blank">
+          <Link to={icons.url} rel="noopener noreferrer" target="_blank">
             <RiYoutubeFill alt='Youtube' />
-          </OutboundLink>
+          </Link>
         ) : (
           ""
         )}
         {icons.icon === "instagram" ? (
-          <OutboundLink to={icons.url} rel="noopener noreferrer" target="_blank">
+          <Link to={icons.url} rel="noopener noreferrer" target="_blank">
             <RiInstagramFill alt='Instagram' />
-          </OutboundLink>
+          </Link>
         ) : (
           ""
         )}        
         {icons.icon === "github" ? (
-          <OutboundLink to={icons.url} rel="noopener noreferrer" target="_blank">
+          <Link to={icons.url} rel="noopener noreferrer" target="_blank">
             <RiGithubFill alt='Github' />
-          </OutboundLink>
+          </Link>
         ) : (
           ""
         )}
@@ -117,14 +119,23 @@ const HomePage = ({ data }) => {
     )
   })
   return (
-    <Layout itemScope='itemScope' itemType='https://schema.org/WebPage'>
+    <Layout>
       <Seo
         title={frontmatter.title}
         description={frontmatter.title + " " + site.siteMetadata.title}
+        image={Image}
+        url={url}
       />
-      <div className="home-banner grids col-1 sm-2" itemprop="mainEntity" itemscope itemtype="https://schema.org/Book">
+      <Helmet>
+        <meta property="og:url" content={url} />
+        <meta property="og:title" content={frontmatter.title} />
+        <meta property="og:description" content={frontmatter.tagLine} />
+        <meta property="twitter:title" content={frontmatter.title} />
+        <meta property="twitter:description" content={frontmatter.tagLine} />
+      </Helmet>
+      <div className="home-banner grids col-1 sm-2">
         <div>
-          <h1 itemprop="name">{frontmatter.titleAlt}</h1>
+          <h1>{frontmatter.titleAlt}</h1>
           <p
             className="tagline"
             sx={{
@@ -134,10 +145,10 @@ const HomePage = ({ data }) => {
             {frontmatter.tagline}
           </p>
           <div
-            className="description"            
+            className="description"
             dangerouslySetInnerHTML={{ __html: html }}
           />
-          <OutboundLink
+          <Link
             to={frontmatter.cta.ctaLink}
             className="button"
             sx={{
@@ -148,7 +159,7 @@ const HomePage = ({ data }) => {
             <span className="icon -right">
               <RiArrowRightSLine />
             </span>
-          </OutboundLink>
+          </Link>
           <div
             className="social-icons"
             sx={{
@@ -159,15 +170,14 @@ const HomePage = ({ data }) => {
           </div>
         </div>
         <div>
-        {Image ? (
+          {Image ? (
             <GatsbyImage
               image={Image}
               alt={frontmatter.title + " - Featured image"}
               className="cover"
-              itemprop="image"
             />
-          ) : (
-            ""
+             ) : (
+               ""
           )}
         </div>
       </div>

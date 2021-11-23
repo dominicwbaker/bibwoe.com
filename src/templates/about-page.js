@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import { graphql } from "gatsby"
+import { Helmet } from 'react-helmet'
 import { GatsbyImage } from "gatsby-plugin-image"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -15,6 +16,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         path
+        description
         featuredImage {
           childImageSharp {
             gatsbyImageData(layout: FULL_WIDTH)
@@ -24,37 +26,44 @@ export const pageQuery = graphql`
     }
   }
 `
+
 const AboutPage = ({ data }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark
   const postNode = data.markdownRemark
+  const url = typeof window !== 'undefined' ? window.location.href : '';
   const Image = frontmatter.featuredImage
     ? postNode.frontmatter.featuredImage.childImageSharp.gatsbyImageData
     : ""
 
   return (
-    <Layout className="page" itemScope='itemScope' itemType='https://schema.org/WebPage'>
+    <Layout className="page">
       <Seo title={frontmatter.title} description={excerpt} />
+      <Helmet>
+        <meta property="og:url" content={url} />
+        <meta property="og:title" content={frontmatter.title} />
+        <meta property="og:description" content={frontmatter.description} />
+        <meta property="twitter:title" content={frontmatter.title} />
+        <meta property="twitter:description" content={frontmatter.description} />
+      </Helmet>
       <div className="wrapper">
-        <article className="blog-post" itemprop="mainEntity" itemscope itemtype="https://schema.org/Book">
+        <article className="blog-post">
           <header className="featured-banner">
             <section className="article-header">
-              <h1 itemprop="name">{frontmatter.title}</h1>
+              <h1>{frontmatter.title}</h1>
             </section> 
               {Image ? (
               <GatsbyImage
                 image={Image}
                 alt={frontmatter.title + " - Featured image"}
                 className="cover"
-                itemprop="image"
               />
             ) : (
               ""
             )}      
           </header>
           <Bio />
-          <div
-           dangerouslySetInnerHTML={{ __html: html }} />
+          <div dangerouslySetInnerHTML={{ __html: html }} />
         </article>
       </div>
     </Layout>

@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import React from "react"
+import * as React from "react"
+import { Helmet } from 'react-helmet'
 import { Link, graphql } from "gatsby"
 import { RiArrowLeftLine } from "@react-icons/all-files/ri/RiArrowLeftLine"
 import { RiArrowRightLine } from "@react-icons/all-files/ri/RiArrowRightLine"
@@ -39,13 +40,15 @@ export const blogListQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             path
             tags
+            description
+            category
             title
             featuredImage {
               childImageSharp {
                 gatsbyImageData(
                   layout: FULL_WIDTH
                   breakpoints: [250, 345, 576, 720]
-                  placeholder: TRACED_SVG
+                  placeholder: DOMINANT_COLOR
                   quality: 90
                 )
               }
@@ -98,6 +101,7 @@ class BlogIndex extends React.Component {
     const { data } = this.props
     const { currentPage, numPages } = this.props.pageContext
     const blogSlug = "/posts/"
+    const url = typeof window !== 'undefined' ? window.location.href : '';
     const isFirst = currentPage === 1
     const isLast = currentPage === numPages
     const prevPage =
@@ -120,12 +124,19 @@ class BlogIndex extends React.Component {
     return (
       <Layout className="blog-page">
         <Seo
-          title={"Blog Posts List " + currentPage + " of " + numPages}
+          title={"Blog " + currentPage + " of " + numPages}
           description={
             "Bibwoe base blog page " + currentPage + " of " + numPages
           }
         />
-        <h1 itemprop="name">Blog</h1>
+        <Helmet>
+          <meta property="og:url" content={url} />
+          <meta property="og:title" content="Blog" />
+          <meta property="og:description" content="Blog Posts Lists" />
+          <meta property="twitter:title" content="Blog" />
+          <meta property="twitter:description" content="Blog Posts Lists" />
+        </Helmet>
+        <h1>Blog</h1>
         <div className="grids col-1 sm-2 lg-3">{posts}</div>
         <Pagination {...props} />
       </Layout>

@@ -23,7 +23,7 @@ const NotFound = () => (
             color: "var(--primary-color)",
           }}
         />
-        <h1 itemprop="name">Oops we did not expect that to happen</h1>
+        <h1>Oops we did not expect that to happen</h1>
         <p>
           Have you wondered into the unknown. Let us help you, Please take a look
           at below options

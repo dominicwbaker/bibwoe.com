@@ -1,9 +1,9 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import { graphql } from "gatsby"
+import { Helmet } from 'react-helmet'
 import { GatsbyImage } from "gatsby-plugin-image"
 import { RiSendPlane2Line } from "@react-icons/all-files/ri/RiSendPlane2Line"
-import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -16,6 +16,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         path
+        description
         featuredImage {
           childImageSharp {
             gatsbyImageData(layout: FULL_WIDTH)
@@ -39,31 +40,34 @@ const Contact = ({ data }) => {
   const { markdownRemark, site } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
   const postNode = data.markdownRemark
+  const url = typeof window !== 'undefined' ? window.location.href : '';
   const Image = frontmatter.featuredImage
     ? postNode.frontmatter.featuredImage.childImageSharp.gatsbyImageData
     : ""
 
   return (
-    <Layout className="contact-page" sx={contactStyles.contactPage} itemScope='itemScope' itemType='https://schema.org/WebPage'>
+    <Layout className="contact-page" sx={contactStyles.contactPage}>
       <Seo
         title={frontmatter.title}
         description={frontmatter.title + " " + site.siteMetadata.title}
       />
       <Helmet>
-        <script src="https://www.google.com/recaptcha/api.js"></script>
-        <script src="https://embed.small.chat/T8PMJ5ZNYGDRA9BJEA.js" async></script>
+        <meta property="og:url" content={url} />
+        <meta property="og:title" content={frontmatter.title} />
+        <meta property="og:description" content={frontmatter.description} />
+        <meta property="twitter:title" content={frontmatter.title} />
+        <meta property="twitter:description" content={frontmatter.description} />
       </Helmet>
-      <div className="wrapper" itemprop="mainEntity" itemscope itemtype="https://schema.org/Book">
+      <div className="wrapper">
         <header className="featured-banner">
           <section className="article-header">
-            <h1 itemprop="name">{frontmatter.title}</h1>
+            <h1>{frontmatter.title}</h1>
           </section> 
             {Image ? (
             <GatsbyImage
               image={Image}
               alt={frontmatter.title + " - Featured image"}
               className="cover"
-              itemprop="image"
             />
             ) : (
               ""
@@ -107,9 +111,9 @@ const Contact = ({ data }) => {
           </p>
           <p className="text-align-right">
             <button
-              area-label='Submit'
+              aria-label="Submit"
               class="button g-recaptcha" 
-              data-sitekey="6LcE-hwdAAAAAAu3XbPI_IMHXDiQeUy3_eyXdxqx" 
+              data-sitekey="6LcE-000000000_000000_000000" 
               data-callback={onSubmit}
               data-action='submit'
               className="button g-recaptcha"

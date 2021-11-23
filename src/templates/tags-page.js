@@ -1,8 +1,8 @@
 /** @jsx jsx */
-import { jsx, Flex, Box, Heading } from "theme-ui"
+import { jsx, Container, Heading } from "theme-ui"
 import PropTypes from "prop-types"
+import { Helmet } from 'react-helmet'
 import { FaTags } from "@react-icons/all-files/fa/FaTags";
-
 // Components
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
@@ -10,19 +10,27 @@ import Seo from "../components/seo"
 
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
+  const url = typeof window !== 'undefined' ? window.location.href : '';
   const { edges, totalCount } = data.allMarkdownRemark
   const tagHeader = `${totalCount} post${
     totalCount === 1 ? "" : "s"
   } tagged with "${tag}"`
 
   return (
-    <Layout className="not-found-page" itemScope='itemScope' itemType='https://schema.org/WebPage'>
+    <Layout className="not-found-page">
       <Seo />
+      <Helmet>
+        <meta property="og:url" content={url} />
+        <meta property="og:title" content={tagHeader} />
+        <meta property="og:description" content={tag} />
+        <meta property="twitter:title" content={tagHeader} />
+        <meta property="twitter:description" content={tag} />
+      </Helmet>
       <div
         className="wrapper"
       >
-        <Flex>
-          <Box p={4} bg="primary" itemprop="mainEntity" itemscope itemtype="https://schema.org/Book">
+        <div>
+          <Container p={4} bg="primary">
             <Heading as='h2'>{tagHeader}</Heading>
             <div>
               <ul className="tagsPage">
@@ -41,10 +49,10 @@ const Tags = ({ pageContext, data }) => {
               <span className="icon -tags">
                 <FaTags />
               </span>{" "} 
-              <Link to="/tags">All tags</Link>
+              <Link to="/tags">All Tags</Link>
             </div>
-          </Box>
-        </Flex>
+          </Container>
+        </div>
       </div>
     </Layout>
   )
@@ -72,6 +80,7 @@ Tags.propTypes = {
     }),
   }),
 }
+
 export default Tags
 
 export const pageQuery = graphql`
@@ -90,6 +99,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             path
+            description
           }
         }
       }

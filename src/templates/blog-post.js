@@ -2,6 +2,7 @@
 import { jsx } from "theme-ui"
 import * as React from "react"
 import { Link, graphql } from "gatsby"
+import { Helmet } from 'react-helmet'
 import { GatsbyImage } from "gatsby-plugin-image"
 import rehypeReact from "rehype-react"
 import Counter from "../components/counter"
@@ -12,13 +13,19 @@ import { MdList } from "@react-icons/all-files//md/MdList"
 import { FaTags } from "@react-icons/all-files/fa/FaTags"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import SiteTags from '../components/site-tags'
+import SiteCategory from "../components/site-categories"
 
 require('prismjs')
 require("prismjs/themes/prism-okaidia.css")
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
-  components: { "interactive-counter": Counter },
+  components: { 
+    "interactive-counter": Counter,
+    "tags": SiteTags,
+    "categories": SiteCategory,
+  },
 }).Compiler
 
 const styles = {
@@ -85,6 +92,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, htmlAst, excerpt } = markdownRemark
   const postNode = data.markdownRemark
+  const url = typeof window !== 'undefined' ? window.location.href : '';
   const Image = frontmatter.featuredImage
     ? postNode.frontmatter.featuredImage.childImageSharp.gatsbyImageData
     : ""
@@ -102,21 +110,29 @@ const BlogPostTemplate = ({ data, pageContext }) => {
     }
 
   return (
-    <Layout className="page" itemScope='itemScope' itemType='https://schema.org/WebPage'>
+    <Layout className="page">
       <Seo
         title={frontmatter.title}
         description={
           frontmatter.description ? frontmatter.description : excerpt
         }
         image={Image}
+        url={url}
         article={true}
       />
-      <article className="blog-post" itemprop="mainEntity" itemscope itemtype="https://schema.org/Book">
+        <Helmet>
+          <meta property="og:url" content={url} />
+          <meta property="og:title" content={frontmatter.title} />
+          <meta property="og:description" content={frontmatter.description} />
+          <meta property="twitter:title" content={frontmatter.title} />
+          <meta property="twitter:description" content={frontmatter.description} />
+        </Helmet>
+      <article className="blog-post">
         <header className="featured-banner">
           <section className="article-header">
-            <h1 itemprop="name">{frontmatter.title}</h1>
+            <h1>{frontmatter.title}</h1>
             <div>
-              <time sx={{color: "muted"}} itemprop="datePublished">{frontmatter.date}</time>
+              <time sx={{color: "muted"}}>{frontmatter.date}</time>
               &ensp;
               <span
                 sx={{
@@ -160,7 +176,6 @@ const BlogPostTemplate = ({ data, pageContext }) => {
               image={Image}
               alt={frontmatter.title + " - Featured image"}
               className="cover"
-              itemprop="image"
             />
           ) : (
             ""
@@ -168,7 +183,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
         </header>
         <div
           className="blog-post-content"
-        >
+          >
             {
               renderAst(htmlAst)
             }
@@ -188,6 +203,7 @@ export const pageQuery = graphql`
       htmlAst
       excerpt(pruneLength: 148)
       timeToRead
+      tableOfContents
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         path
@@ -204,3 +220,4 @@ export const pageQuery = graphql`
     }
   }
 `
+
