@@ -188,10 +188,10 @@ const BlogPostTemplate = ({ data, pageContext }) => {
         <Bio />
         <div
           className="blog-post-content"
-          >
-            {
-              renderAst(htmlAst)
-            }
+        >
+          {
+            renderAst(htmlAst)
+          }
         </div>
       </article>
       {(previous || next) && <Pagination {...props} />}

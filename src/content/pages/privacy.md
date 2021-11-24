@@ -46,13 +46,13 @@ If you wish to disable cookies, you may do so through your web browser options. 
 
 ❌ If you would like to restrict the use of cookies you can control this in your Internet browser. Links to advice on how to do this for the most popular Internet browsers are provided below for convenience and will be available for the Internet browser of your choice either online or via the software help (normally available via key F1).
 
-🔗 \* [Disabling cookies in Internet Explorer](https://windows.microsoft.com/en-GB/windows7/Block-enable-or-allow-cookies)
+🔗 \* [Disabling cookies in Edge](https://www.cookiesandyou.com/disable-cookies/windows/edge/s)
 
 🔗 \* [Disabling cookies in Google Chrome](https://support.google.com/chrome/bin/answer.py?hl=en-GB&answer=95647&p=cpn_cookies)
 
-🔗 \* [Disabling cookies in Mozilla Firefox](https://support.mozilla.org/en-US/kb/Blocking-cookies)
+🔗 \* [Disabling cookies in Mozilla Firefox](https://support.mozilla.org/en-US/kb/third-party-cookies-firefox-tracking-protection)
 
-🔗 \* [Disabling cookies in Apple Safari](https://docs.info.apple.com/article.html?artnum=324)
+🔗 \* [Disabling cookies in Apple Safari](https://support.apple.com/guide/safari/manage-cookies-sfri11471/mac)
 
 ### Bibwoe UI cookies
 
