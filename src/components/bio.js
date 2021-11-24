@@ -8,6 +8,7 @@
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -48,7 +49,10 @@ const Bio = () => {
           {` `}
           <p>
             <a href={`https://twitter.com/${social?.twitter || ``}`}>
-              You should follow them on Twitter
+              You should follow him on Twitter{" "}
+              <span className="icon -twitter">
+              <FaTwitter alt="twitter" rel="img" />
+              </span>
             </a>
           </p>
         </p>

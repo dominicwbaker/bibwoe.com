@@ -15,6 +15,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import SiteTags from '../components/site-tags'
 import SiteCategory from "../components/site-categories"
+import Bio from "../components/bio"
 
 require('prismjs')
 require("prismjs/themes/prism-okaidia.css")
@@ -184,6 +185,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
             ""
           )}
         </header>
+        <Bio />
         <div
           className="blog-post-content"
           >
