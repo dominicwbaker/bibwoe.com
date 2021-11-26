@@ -108,31 +108,35 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-image`,
-     {
-      resolve: `gatsby-plugin-google-gtag`,
+    {
+      resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
-        // You can add multiple tracking ids and a pageview event will be fired for all of them.
-        trackingIds: [
-          "UA-2378526-1", // Google Analytics / GA
-          "AW-CONVERSION_ID", // Google Ads / Adwords / AW
-          "DC-FLOODIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
-        ],
-        // This object gets passed directly to the gtag config command
-        // This config will be shared across all trackingIds
-        gtagConfig: {
-          optimize_id: "GTM-K57TVK",
-          anonymize_ip: true,
-          cookie_expires: 0,
+        googleAnalytics: {
+          trackingId: 'UA-2378526-1', // leave empty if you want to disable the tracker
+          cookieName: 'gatsby-gdpr-google-analytics', // default
+          anonymize: true, // default
+          allowAdFeatures: false // default
         },
-        // This object is used for configuration specific to this plugin
-        pluginConfig: {
-          // Puts tracking script in the head instead of the body
-          head: false,
-          // Setting this parameter is also optional
-          respectDNT: true,
-          // Avoids sending pageview hits from custom paths
-          exclude: ["/static/**", "/404.html/"],
+        googleTagManager: {
+          trackingId: 'GTM-K57TVK', // leave empty if you want to disable the tracker
+          cookieName: 'gatsby-gdpr-google-tagmanager', // default
+          dataLayerName: 'dataLayer', // default
         },
+        facebookPixel: {
+          pixelId: 'YOUR_FACEBOOK_PIXEL_ID', // leave empty if you want to disable the tracker
+          cookieName: 'gatsby-gdpr-facebook-pixel', // default
+        },
+        tikTokPixel: {
+          pixelId: 'YOUR_TIKTOK_PIXEL_ID', // leave empty if you want to disable the tracker
+          cookieName: 'gatsby-gdpr-tiktok-pixel', // default
+        },
+        hotjar: {
+          hjid: '2721607',
+          hjsv: '6',
+          cookieName: 'gatsby-gdpr-hotjar', // default
+        },
+        // defines the environments where the tracking should be available  - default is ["production"]
+        environments: ['production', 'development']
       },
     },
     {
@@ -235,6 +239,7 @@ module.exports = {
       }
     },
     `gatsby-plugin-catch-links`,
+    `gatsby-plugin-netlify`,
     {
       resolve: `gatsby-plugin-offline`,
       options: {

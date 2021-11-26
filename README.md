@@ -2,7 +2,7 @@
 
 GatsbyJS Version @latest with all the @latest modules from npm.
 
-[![npm version](https://badge.fury.io/js/gatsby.svg)](https://badge.fury.io/js/gatsby) 
+[![npm version](https://badge.fury.io/js/gatsby.svg)](https://badge.fury.io/js/gatsby)  [![Netlify Status](https://api.netlify.com/api/v1/badges/acf70a7a-da9a-4472-a599-1cb6fa6a301a/deploy-status)](https://app.netlify.com/sites/bibwoe/deploys)
 
 gatsby-plugin-image With the Plugins proper usage.
 
