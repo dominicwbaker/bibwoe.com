@@ -10,6 +10,7 @@ module.exports = {
     copyrightYear: `© 2021`,
     description: `Basic Instructions Books While On Earth.`,
     siteUrl: `https://bibwoe.com/`,
+    siteImage: `/assets/apple-touch-icon.png`,
     social: {
       twitter: `donboulton`,
     },

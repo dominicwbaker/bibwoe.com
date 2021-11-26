@@ -18,12 +18,12 @@ const Footer = () => (
         <span className="icon -love">
           <RiHeart2Line />
         </span>{" "}
-        <Link to="/">Basic Instructions Books While On Earth</Link>
+        <Link to="/" area-label="Facebook">Basic Instructions Books While On Earth</Link>
         {" "}
         <span className="icon -lock">
           <SiGnuprivacyguard />
         </span>{" "} 
-        <Link to="/privacy">
+        <Link to="/privacy" area-label="Privacy">
           Privacy
         </Link>
       </p>
