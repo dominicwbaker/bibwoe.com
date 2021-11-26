@@ -51,64 +51,64 @@ const Layout = ({ className, children }) => {
           'min-content 1fr min-content'
         ]
       }}>
-      <div
-        sx={{
-          gridArea: 'header'
-        }}>
-        <Header>
-          <Logo />
-          <div sx={layoutStyle.nav}>
-            <div sx={{ display: ["flex", "flex", "flex", "none"] }}>
-              <Search searchIndex={siteSearchIndex.index} />
+        <div
+          sx={{
+            gridArea: 'header'
+          }}>
+          <Header>
+            <Logo />
+            <div sx={layoutStyle.nav}>
+              <div sx={{ display: ["flex", "flex", "flex", "none"] }}>
+                <Search searchIndex={siteSearchIndex.index} />
+              </div>
+              <Navigation />
             </div>
-            <Navigation />
-          </div>
-          <div sx={layoutStyle.appearance}>
-            <Search searchIndex={siteSearchIndex.index} />
-            <Theme />
-          </div>
-        </Header>
+            <div sx={layoutStyle.appearance}>
+              <Search searchIndex={siteSearchIndex.index} />
+              <Theme />
+            </div>
+          </Header>
+        </div>
+        <div
+          sx={{
+            gridArea: 'main'
+          }}>
+          <main className={"container " + className}>{children}</main>
+          <ScrollDown
+            direction='down' to={205}
+            showAbove={1500}
+            css='position: fixed; right: 1em; top: 4.5em;'
+          />
+          <Scroll
+            showBelow={1500}
+            css='position: fixed; right: 1em; bottom: 4em;'
+          />
+        </div>
+        <div
+          sx={{
+            gridArea: 'nav'
+          }}>
+        </div>
+        <div
+          sx={{
+            gridArea: 'ads'
+          }}>
+        </div>
+        <div
+          sx={{
+            gridArea: 'footer'
+          }}>
+            <Footer />
+        </div>
+        <CookieConsent
+          location="bottom"
+          buttonText="Accept"
+          declineButtonText="Decline"
+          cookieName="gatsby-gdpr-google-analytics">
+          This site uses cookies ...
+        </CookieConsent>
       </div>
-      <div
-        sx={{
-          gridArea: 'main'
-        }}>
-        <main className={"container " + className}>{children}</main>
-        <ScrollDown
-          direction='down' to={205}
-          showAbove={1500}
-          css='position: fixed; right: 1em; top: 4.5em;'
-        />
-        <Scroll
-          showBelow={1500}
-          css='position: fixed; right: 1em; bottom: 4em;'
-        />
-      </div>
-      <div
-        sx={{
-          gridArea: 'nav'
-        }}>
-      </div>
-      <div
-        sx={{
-          gridArea: 'ads'
-        }}>
-      </div>
-      <div
-        sx={{
-          gridArea: 'footer'
-        }}>
-          <Footer />
-      </div>
-    </div>
-    <CookieConsent
-      location="bottom"
-      buttonText="Accept"
-      declineButtonText="Decline"
-      cookieName="gatsby-gdpr-google-analytics">
-      This site uses cookies ...
-    </CookieConsent>
-  </>
+    </>
   )
 }
 

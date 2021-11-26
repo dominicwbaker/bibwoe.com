@@ -47,6 +47,7 @@
   },
   "devDependencies": {
     "gatsby-plugin-netlify": "^4.0.0-next.0",
+    "netlify-plugin-lighthouse": "^0.1.2",
     "prettier": "^2.4.1"
   },
   "homepage": "https://github.com/donaldnoulton/bibwoe.com#readme",
