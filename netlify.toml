@@ -5,8 +5,7 @@
 [build.environment]
   NODE_VERSION = "14.17.1"
 [[plugins]]
-package = "netlify-plugin-lighthouse"
-
+package = "@netlify/plugin-lighthouse"
   [plugins.inputs]
   output_path = "reports/lighthouse.html"  
 [[headers]]
