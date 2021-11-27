@@ -3,6 +3,7 @@ const settings = require("./src/util/site.json")
 module.exports = {
   siteMetadata: {
     title: `Bibwoe`,
+    titleTemplate: `%s`,
     author: {
       name: `Don Boulton`,
       summary: `Resides in OKC.`,
@@ -240,7 +241,6 @@ module.exports = {
       }
     },
     `gatsby-plugin-catch-links`,
-    `gatsby-plugin-netlify`,
     {
       resolve: `gatsby-plugin-offline`,
       options: {
