@@ -7,7 +7,9 @@
 [[plugins]]
 package = "@netlify/plugin-lighthouse"
   [plugins.inputs]
-  output_path = "reports/lighthouse.html"  
+  output_path = "reports/lighthouse.html"
+[[plugins]]
+  package = "@netlify/plugin-gatsby" 
 [[headers]]
   for = "/*"
   [headers.values]
