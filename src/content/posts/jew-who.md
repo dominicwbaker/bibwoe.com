@@ -185,7 +185,7 @@ The Jewish part of our Holy Bible in the Old Testament needs to Go Away! Kind of
 
 > You can Replace all the Moses, Relief Portraits at the UPA capital and House Chamber with Our Greatest Law Giver and Founding Father and that's Thomas Paine. His works influenced our Revolution more than the Federalist Papers! Thomas Paine and George Washington were the Greatest at, "Stand Up Never Stand Down", with ball's, not just the run your mouth type's.
 
-![Thomas Paine](./paine-plaque.jpg "Thomas Paine")
+![Thomas Paine](../../../static/assets/paine-plaque.jpg "Thomas Paine")
 
 ## Moses Admits
 
@@ -195,7 +195,7 @@ Moses is speaking of Enoch; his works of writing and teaching.
 
 Enoch’s Prophetic Commission
 
-![Elijah and Enoch](./elijah-enoch.jpg "Elijah and Enoch")
+![Elijah and Enoch](../../../static/assets/elijah-enoch.jpg "Elijah and Enoch")
 
 ### Moses Childhood
 
