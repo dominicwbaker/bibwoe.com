@@ -14,7 +14,6 @@ description: The book of Enoch consists of multiple parts that were put together
 The book of Enoch consists of multiple parts that were put together as one book by a later editor.
 
 ![Enoch](../../../static/assets/enoch-1-60.png "Enoch Papyrus Fragment")
-_[`Enoch Papyrus Fragment`](../../../static/assets/enoch-1-60.png)_
 
 The book consists of the following parts:
 

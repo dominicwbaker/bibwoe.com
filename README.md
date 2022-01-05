@@ -1,4 +1,4 @@
-> **Update** [Bibwoe is Hosted on Netlify](https://bibwoe.com) is now built with Gatsby V4 "4.2.0", this includes many performance updates with Latest Gatsby!
+> **Update** [Bibwoe is Hosted on Netlify](https://bibwoe.com) is now built with Gatsby V4 "4.4.0", this includes many performance updates with Latest Gatsby!
 
 GatsbyJS Version @latest with all the @latest modules from npm.
 
